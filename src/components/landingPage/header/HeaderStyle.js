@@ -11,7 +11,7 @@ export const HeaderContainer = styled.div`
 `;
 export const LeftNav = styled.div`
   //   background: #f1f1f1;
-  margin-left: 120px;
+  margin-left: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@ export const RightNav = styled.div`
   justify-content: center;
   align-items: center;
   height: inherit;
-  margin-right: 120px;
+  margin-right: 200px;
 `;
 export const Request = styled.div`
   display: flex;
