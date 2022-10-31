@@ -1,9 +1,11 @@
 import './App.css';
+import Chams from './components/main/main'
 
 function App() {
   return (
     <div className="App">
-      <h1>Development of AccessWebsite is in progress.</h1>
+      <Chams />
+      dsjflkjaslfjd
     </div>
   );
 }
