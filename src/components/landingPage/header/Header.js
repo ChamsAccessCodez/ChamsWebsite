@@ -72,7 +72,7 @@ const Header = () => {
       </LeftNav>
       <RightNav>
         <Request>Request a callback</Request>
-        <Support>support center</Support>
+        <Support>Support Center</Support>
       </RightNav>
     </HeaderContainer>
   );

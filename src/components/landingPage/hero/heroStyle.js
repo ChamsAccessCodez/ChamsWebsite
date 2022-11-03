@@ -2,12 +2,14 @@ import styled from "styled-components";
 import heroBackground from "../../../images/hero-background.svg";
 
 export const HeroWrapper = styled.div`
-  //   background: green;
+  background: #ffffff;
   width: 100vw;
+  //   height: 742px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 80px;
 `;
 export const Hero1 = styled.div`
   background: linear-gradient(
@@ -16,20 +18,20 @@ export const Hero1 = styled.div`
     rgba(206, 228, 216, 0.25) 60.99%
   );
   width: inherit;
-  height: 742px;
+  height: 85%;
+  // height: 742px;
   display: flex;
   justify-content: center;
 `;
 export const HeroContent = styled.div`
-//   background: red;
-  width: 40%;
+  //   background: red;
+  width: 45%;
   //   width: inherit%;
   height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // align-items: center;
-  margin-left: 120px;
+  margin-left: 80px;
 `;
 export const ContentHeader = styled.div`
   width: 543px;
@@ -85,16 +87,175 @@ export const ContentButton = styled.div`
 export const HeroImage = styled.div`
   //   background: purple;
   background-image: url(${heroBackground});
-  width: 45%;
+  width: 55%;
   height: inherit;
   display: flex;
-  align-items: center;
 
-  img{
-    
+  img {
+    width: 553.99px;
+    height: 532px;
+    // width: 653.99px;
+    // height: 632px;
   }
 `;
 // export const HeroWrapper = styled.div``;
-export const Hero2 = styled.div``;
+export const Hero2 = styled.div`
+  width: 75%;
+  //   width: 1200px;
+  position: absolute;
+  height: 180px;
+  top: 632px;
+  background: #ffffff;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+    0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+  border-radius: 20px;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 99px;
+  padding-right: 99px;
+`;
+export const Impact = styled.div`
+  // background: grey;
+  width: 250px;
+  //   width: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: box-shadow, padding-left 1s;
+
+  :hover {
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+      0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    padding-left: 50px;
+  }
+`;
+export const Imp1 = styled.div`
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #08783d;
+  margin-top: 6px;
+`;
+export const Imp2 = styled.div`
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 8px;
+`;
+export const Imp3 = styled.div`
+  display: flex;
+  cursor: pointer;
+
+  p {
+    display: flex;
+    justify-content: center;
+    color: #08783d;
+  }
+
+  span {
+  }
+  img {
+    margin-left: 10px;
+    transition: margin-left 1s;
+  }
+  :hover {
+    img {
+      margin-left: 25px;
+    }
+  }
+`;
+export const Financial = styled.div`
+  // background: grey;
+  width: 250px;
+  //   width: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: box-shadow, padding-left 1s;
+
+  :hover {
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+      0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    padding-left: 50px;
+  }
+`;
+export const Sub1 = styled.div`
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #08783d;
+`;
+export const Sub2 = styled.div`
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #101828;
+  text-transform: capitalize;
+`;
+export const Sub3 = styled.div`
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #667085;
+`;
+export const Issues = styled.div`
+  // background: grey;
+  width: 250px;
+  //   width: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: box-shadow, padding-left 1s;
+
+  :hover {
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+      0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    padding-left: 50px;
+  }
+`;
+export const Transactions = styled.div`
+  // background: grey;
+  width: 250px;
+  //   width: auto;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: box-shadow, padding-left 1s;
+
+  :hover {
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+      0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    padding-left: 50px;
+  }
+`;
+// export const HeroWrapper = styled.div``;
+// export const HeroWrapper = styled.div``;
 // export const HeroWrapper = styled.div``;
 // export const HeroWrapper = styled.div``;

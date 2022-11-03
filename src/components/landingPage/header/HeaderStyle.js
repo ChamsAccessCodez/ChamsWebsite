@@ -1,17 +1,19 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-  //   background: tomato;
-  // background: #f1f1f1;
-  width: 100%;
+//   background: tomato;
+  background: #f1f1f1;
+  width: 100vw;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  //   z-index: 1000;
 `;
 export const LeftNav = styled.div`
-  //   background: #f1f1f1;
-  margin-left: 200px;
+    // background: #f1f1f1;
+  margin-left: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,12 +21,12 @@ export const LeftNav = styled.div`
   width: auto;
 `;
 export const RightNav = styled.div`
-  //   background: green;
+  // background: green;
   display: flex;
   justify-content: center;
   align-items: center;
   height: inherit;
-  margin-right: 200px;
+  margin-right: 80px;
 `;
 export const Request = styled.div`
   display: flex;
@@ -93,10 +95,10 @@ export const Navs = styled.div`
   margin-left: 40px;
 `;
 export const ItemWrapper = styled.div`
-//   background: green;
+  //   background: green;
   height: inherit;
 
-  span{
+  span {
     margin-left: 10px;
   }
 `;
