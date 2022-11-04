@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const CyberWrapper = styled.div`
-  //   background: green;
+  // background: green;
   width: 100%;
   height: inherit;
   height: 500px;
   display: flex;
 `;
 export const CyberImage = styled.div`
-  // background: blue;
+  //   background: blue;
   width: 50%;
   height: inherit;
   display: flex;
@@ -19,14 +19,14 @@ export const CyberImage = styled.div`
   }
 `;
 export const CyberContent = styled.div`
-  //   background: tomato;
+  // background: tomato;
   width: 50%;
   height: inherit;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  //   padding-top: 50px;
+  padding-left: 50px;
 `;
 export const CyberHeading = styled.div`
   font-family: "Roslindale Text";
@@ -94,7 +94,6 @@ cursor: pointer;
       margin-left: 10px;
       transition: margin-left 1s;
       margin-top: 8px;
-
       align-self: center;
     }
   }

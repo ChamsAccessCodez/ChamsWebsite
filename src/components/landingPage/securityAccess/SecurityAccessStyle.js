@@ -36,6 +36,13 @@ export const OurProduct = styled.div`
   text-align: center;
   text-transform: capitalize;
   color: #a92f34;
+  cursor: pointer;
+  transition: background, color 2s;
+
+  :hover {
+    background: #a92f34;
+    color: #f6eaeb;
+  }
 `;
 export const Think = styled.div`
   width: 846px;
@@ -61,7 +68,7 @@ export const We = styled.div`
   margin-top: 20px;
 `;
 export const AccessMiddle = styled.div`
-//   background: red;
+  //   background: red;
   width: inherit;
   height: auto;
   display: flex;
@@ -75,47 +82,47 @@ export const Item = styled.div`
   height: 50px;
   display: flex;
   flex-direction: column;
-    justify-content: center;
+  justify-content: center;
   align-items: center;
   cursor: pointer;
-  border-top: 4px solid ${({bg})=>bg ? "#08783D" : "null"};
+  border-top: 4px solid ${({ bg }) => (bg ? "#08783D" : "null")};
 
-//   :before {
-//     content: "";
-//     background: #08783d;
-//     width: 40%;
-//     height: 5px;
-//     opacity: 0;
-//     transition: all 650ms;
-//     top: 1200px;
-//   }
-//   :hover {
-//     :before {
-//       width: 100%;
-//       opacity: 1;
-//       cursor: pointer;
-//       //   margin-top: 50px;
-//     }
-//   }
+  //   :before {
+  //     content: "";
+  //     background: #08783d;
+  //     width: 40%;
+  //     height: 5px;
+  //     opacity: 0;
+  //     transition: all 650ms;
+  //     top: 1200px;
+  //   }
+  //   :hover {
+  //     :before {
+  //       width: 100%;
+  //       opacity: 1;
+  //       cursor: pointer;
+  //       //   margin-top: 50px;
+  //     }
+  //   }
 
   span {
     // margin-top: 10px;
   }
 `;
 export const Navs = styled.div`
-background: #ebf5f0;
-width: 90%;
-// width: 1250px;
-height: 50px;
-display: flex;
-align-self: center;
-margin-top: 4px;
-margin-bottom: 4px;
+  background: #ebf5f0;
+  width: 90%;
+  // width: 1250px;
+  height: 50px;
+  display: flex;
+  align-self: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
 `;
 export const Contents = styled.div`
-// background: red;
-width: 90%;
-height: 580px;
-align-self: center;
+  // background: red;
+  width: 90%;
+  height: 580px;
+  align-self: center;
 `;
 // export const AccessWrapper = styled.div``;

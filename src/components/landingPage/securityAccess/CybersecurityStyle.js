@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CyberWrapper = styled.div`
-//   background: green;
+  //   background: green;
   width: 100%;
   height: inherit;
   display: flex;
@@ -18,14 +18,14 @@ export const CyberImage = styled.div`
   }
 `;
 export const CyberContent = styled.div`
-//   background: tomato;
+  //   background: tomato;
   width: 50%;
   height: inherit;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-//   padding-top: 50px;
+  //   padding-top: 50px;
 `;
 export const CyberHeading = styled.div`
   font-family: "Roslindale Text";
@@ -47,13 +47,13 @@ export const CyberInfo = styled.div`
   margin-bottom: 20px;
 `;
 export const CyberFeatures = styled.div`
-//   background: pink;
+  //   background: pink;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 `;
 export const Items = styled.div`
-// background: purple;
+  // background: purple;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -70,7 +70,7 @@ export const ItemDesc = styled.div`
 `;
 // export const Cybersecurity = styled.div``;
 export const CyberNav = styled.div`
-    // background: green;
+  // background: green;
   cursor: pointer;
   display: flex;
 
@@ -119,7 +119,7 @@ export const CyberNav = styled.div`
       height: 20px;
       margin-left: 10px;
       transition: margin-left 1s;
-      margin-top: 22px;
+      margin-top: 4px;
 
       align-self: center;
     }
@@ -131,7 +131,8 @@ export const CyberNav = styled.div`
           margin-left: 25px;
         }
       }
-    
+    }
+  }
 `;
 // export const Cybersecurity = styled.div``;
 // export const Cybersecurity = styled.div``;
