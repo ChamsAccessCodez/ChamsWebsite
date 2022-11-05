@@ -71,8 +71,9 @@ export const AboutDesc = styled.div`
   margin-left: 80px;
 `;
 export const AboutImages = styled.div`
-background: red;
+// background: red;
 display: flex;
+flex-wrap: wrap;
 align-self: center;
 justify-content: space-between;
 align-items: flex-start;
