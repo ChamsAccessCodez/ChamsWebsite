@@ -3,6 +3,7 @@ import Header from '../landingPage/header/Header'
 import Hero from "../landingPage/hero/Hero"
 import SecurityAccess from '../landingPage/securityAccess/SecurityAccess'
 import About  from '../landingPage/about/About'
+import Footer from '../landingPage/footer/Footer'
 import {MainWrapper} from './mainStyle'
 
 
@@ -13,6 +14,7 @@ const Main = () => {
         <Hero />
         <SecurityAccess />
         <About />
+        <Footer />
     </MainWrapper>
   )
 }
