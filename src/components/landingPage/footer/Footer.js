@@ -57,7 +57,7 @@ const Footer = () => {
           <ChamsAccess>
             <img src={chamsLogo} alt="chamsLogo" />
             <p>8, Louis Solomon Close, Victoria Island, Lagos.</p>
-            <p>000 0000 0000 | 00 000 0000</p>
+            <p>081 347 99582 | 000 000 00000</p>
             <p>info@chamsaccess.com</p>
             <SocialMedia>
               <img src={twitter} alt="twitter" />

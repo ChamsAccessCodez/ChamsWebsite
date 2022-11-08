@@ -4,8 +4,8 @@ import heroBackground from "../../../images/hero-background.svg";
 export const HeroWrapper = styled.div`
   background: #ffffff;
   width: 100vw;
-  //   height: 742px;
-  height: 100vh;
+    height: 800px;
+  // height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +36,7 @@ export const HeroContent = styled.div`
 export const ContentHeader = styled.div`
   width: 543px;
   height: 174px;
-  ont-family: "Roslindale Text";
+  font-family: Roslindale Text;
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -52,7 +52,7 @@ export const ContentHeader = styled.div`
 export const ContentDescription = styled.div`
   width: 483px;
   height: 82px;
-  font-family: "Komet";
+  font-family: Komet;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -71,7 +71,7 @@ export const ContentButton = styled.div`
   height: 48px;
   background: #08783d;
   border-radius: 10px;
-  font-family: "Komet";
+  font-family: Komet;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -139,7 +139,7 @@ export const Impact = styled.div`
   }
 `;
 export const Imp1 = styled.div`
-  font-family: "Roslindale Text";
+  font-family: Roslindale Text;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -147,7 +147,7 @@ export const Imp1 = styled.div`
   margin-top: 6px;
 `;
 export const Imp2 = styled.div`
-  font-family: "Roslindale Text";
+  font-family: Roslindale Text;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -196,14 +196,14 @@ export const Financial = styled.div`
   }
 `;
 export const Sub1 = styled.div`
-  font-family: "Roslindale Text";
+  font-family: Roslindale Text;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   color: #08783d;
 `;
 export const Sub2 = styled.div`
-  font-family: "Komet";
+  font-family: Komet;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -211,7 +211,7 @@ export const Sub2 = styled.div`
   text-transform: capitalize;
 `;
 export const Sub3 = styled.div`
-  font-family: "Komet";
+  font-family: Komet;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
