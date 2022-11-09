@@ -79,6 +79,7 @@ export const AccessMiddle = styled.div`
 export const Item = styled.div`
   // background: tomato;
   width: 250px;
+  width: 100%;
   height: 50px;
   display: flex;
   flex-direction: column;
@@ -86,28 +87,19 @@ export const Item = styled.div`
   align-items: center;
   cursor: pointer;
   border-top: 4px solid ${({ bg }) => (bg ? "#08783D" : "null")};
+  color: ${({ cl }) => (cl ? "#08783d" : "#84BC9E")};
 
-  //   :before {
-  //     content: "";
-  //     background: #08783d;
-  //     width: 40%;
-  //     height: 5px;
-  //     opacity: 0;
-  //     transition: all 650ms;
-  //     top: 1200px;
-  //   }
-  //   :hover {
-  //     :before {
-  //       width: 100%;
-  //       opacity: 1;
-  //       cursor: pointer;
-  //       //   margin-top: 50px;
-  //     }
-  //   }
-
-  span {
-    // margin-top: 10px;
-  }
+  // height: 20px;
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  // color: #08783d;
+  // color: #84BC9E;
 `;
 export const Navs = styled.div`
   background: #ebf5f0;

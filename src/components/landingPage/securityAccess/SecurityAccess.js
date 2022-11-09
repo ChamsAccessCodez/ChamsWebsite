@@ -79,6 +79,7 @@ const SecurityAccess = () => {
           {biometric ? (
             <Item
               bg
+              cl
               onClick={() => {
                 showBiometric();
               }}
@@ -97,6 +98,7 @@ const SecurityAccess = () => {
           {cyberSecurity ? (
             <Item
               bg
+              cl
               onClick={() => {
                 showCyberSecurity();
               }}
@@ -115,6 +117,7 @@ const SecurityAccess = () => {
           {payments ? (
             <Item
               bg
+              cl
               onClick={() => {
                 showPayments();
               }}
@@ -133,6 +136,7 @@ const SecurityAccess = () => {
           {access ? (
             <Item
               bg
+              cl
               onClick={() => {
                 showAccess();
               }}
@@ -151,8 +155,8 @@ const SecurityAccess = () => {
           {custom ? (
             <Item
               bg
+              cl
               onClick={() => {
-                // toggleMe();
                 showCustom();
               }}
             >
@@ -161,7 +165,6 @@ const SecurityAccess = () => {
           ) : (
             <Item
               onClick={() => {
-                // toggleMe();
                 showCustom();
               }}
             >
