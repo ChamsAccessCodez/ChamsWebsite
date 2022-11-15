@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-//   background: tomato;
+  //   background: tomato;
   background: #f1f1f1;
   width: 100vw;
   height: 80px;
@@ -9,10 +9,10 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  //   z-index: 1000;
+  z-index: 999;
 `;
 export const LeftNav = styled.div`
-    // background: #f1f1f1;
+  // background: #f1f1f1;
   margin-left: 80px;
   display: flex;
   justify-content: center;
@@ -95,15 +95,44 @@ export const Navs = styled.div`
   margin-left: 40px;
 `;
 export const ItemWrapper = styled.div`
-  //   background: green;
+  // background: green;
+  display: flex;
+  flex-direction: column;
+  width: inherit;
   height: inherit;
+
+  // span {
+  //   margin-left: 10px;
+  // }
+`;
+export const ItemWrapper2 = styled.div`
+  // background: green;
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  height: inherit;
+
+  // span {
+  //   margin-left: 10px;
+  // }
+`;
+export const Text = styled.div`
+  // background: tomato;
+  display: flex;
+  height: inherit;
+  width: inherit;
 
   span {
     margin-left: 10px;
   }
 `;
+export const Drop = styled.div`
+  height: auto;
+  width: auto;
+  // visibility: ${({ hd }) => (hd ? "visible" : "hidden")};
+`;
 export const Item = styled.div`
-  //   background: green;
+  // background: green;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

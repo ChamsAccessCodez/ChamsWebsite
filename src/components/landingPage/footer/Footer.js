@@ -24,14 +24,15 @@ import {
   Head,
   Copywrite,
 } from "./FooterStyle";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-    const [currentYear, setCurrentYear] = useState('')
-    let year = new Date().getFullYear();
+  const [currentYear, setCurrentYear] = useState("");
+  let year = new Date().getFullYear();
 
-    useEffect(()=>{
-        setCurrentYear(year)
-    }, []);
+  useEffect(() => {
+    setCurrentYear(year);
+  }, []);
   return (
     <FooterWrapper>
       <FooterTop>
@@ -55,7 +56,10 @@ const Footer = () => {
       <FooterMain>
         <FooterContainer>
           <ChamsAccess>
-            <img src={chamsLogo} alt="chamsLogo" />
+            <Link to="/">
+              <img src={chamsLogo} alt="chamsLogo" />
+            </Link>
+
             <p>8, Louis Solomon Close, Victoria Island, Lagos.</p>
             <p>081 347 99582 | 000 000 00000</p>
             <p>info@chamsaccess.com</p>
@@ -68,11 +72,21 @@ const Footer = () => {
           </ChamsAccess>
           <Navs>
             <Head>Company</Head>
-            <p>About us</p>
-            <p>Careers</p>
-            <p>Impacts</p>
-            <p>FAQs</p>
-            <p>News and Insights</p>
+            <Link to="/contact" style={{ textDecoration: "none" }}>
+              <p>About us</p>
+            </Link>
+            <Link to="/contact" style={{ textDecoration: "none" }}>
+              <p>Careers</p>
+            </Link>
+            <Link to="/contact" style={{ textDecoration: "none" }}>
+              <p>Impacts</p>
+            </Link>
+            <Link to="/contact" style={{ textDecoration: "none" }}>
+              <p>FAQs</p>
+            </Link>
+            <Link to="/contact" style={{ textDecoration: "none" }}>
+              <p>News and Insights</p>
+            </Link>
           </Navs>
           <Navs>
             <Head>Our Solutions</Head>
@@ -89,7 +103,9 @@ const Footer = () => {
           </Navs>
           <Navs>
             <Head>Support</Head>
-            <p>Contact us</p>
+            <Link to="/contact" style={{ textDecoration: "none" }}>
+              <p>Contact us</p>
+            </Link>
             <p>Support center</p>
             <p>Request a callback</p>
           </Navs>

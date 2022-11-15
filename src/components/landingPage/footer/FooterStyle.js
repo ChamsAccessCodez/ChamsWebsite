@@ -7,6 +7,7 @@ export const FooterWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  overflow-x: hidden;
 `;
 export const FooterTop = styled.div`
   display: flex;

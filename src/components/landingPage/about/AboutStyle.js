@@ -33,7 +33,7 @@ export const AboutButton = styled.div`
   margin-left: 80px;
   margin-top: 80px;
   cursor: pointer;
-  transition: background, color 2s;
+  transition: background, color 1s;
 
   font-family: "Komet";
   font-style: normal;

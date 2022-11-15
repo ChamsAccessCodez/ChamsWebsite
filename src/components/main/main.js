@@ -1,24 +1,28 @@
-import React from 'react'
-import Header from '../landingPage/header/Header'
-import Hero from "../landingPage/hero/Hero"
-import SecurityAccess from '../landingPage/securityAccess/SecurityAccess'
-import About  from '../landingPage/about/About'
-import Footer from '../landingPage/footer/Footer'
-import Testimonial from '../landingPage/trustee/Trustee'
-import {MainWrapper} from './mainStyle'
-
+import React, { useEffect } from "react";
+import Hero from "../landingPage/hero/Hero";
+import SecurityAccess from "../landingPage/securityAccess/SecurityAccess";
+import About from "../landingPage/about/About";
+import Testimonial from "../landingPage/trustee/Trustee";
+// import OurSolutions from '../landingPage/navs/OurSolutions'
+import { MainWrapper } from "./mainStyle";
 
 const Main = () => {
+  useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <MainWrapper>
-        <Header />
-        <Hero />
-        <SecurityAccess />
-        <About />
-        <Testimonial />
-        <Footer />
+      {/* <OurSolutions /> */}
+      <Hero />
+      <SecurityAccess />
+      <About />
+      <Testimonial />
     </MainWrapper>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

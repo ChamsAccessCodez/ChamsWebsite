@@ -6,6 +6,7 @@ import relationship from "../../../images/Relationship.png";
 import partnership from "../../../images/Partnerships.png";
 import support from "../../../images/Support.png";
 import engineers from "../../../images/Engineers.png";
+import { Link } from "react-router-dom";
 import {
   AboutWrapper,
   AboutButton,
@@ -17,7 +18,9 @@ import {
 const About = () => {
   return (
     <AboutWrapper>
-      <AboutButton>About us</AboutButton>
+      <Link to="/contact" style={{ textDecoration: "none" }}>
+        <AboutButton>About us</AboutButton>
+      </Link>
       <Why>Why we are different</Why>
       <AboutDesc>
         Asides a proven track record of excellence in service and project

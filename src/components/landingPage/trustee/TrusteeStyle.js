@@ -47,7 +47,7 @@ export const Items = styled.div`
   display: flex;
   // justify-content: flex-start;
   align-items: center;
-  margin: 0px 20px;
+  margin: 0px 60px;
 `;
 export const TextDiv = styled.div`
   display: flex;
