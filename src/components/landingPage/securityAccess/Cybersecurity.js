@@ -1,8 +1,8 @@
 import React from "react";
 import cyberSecurityImage from "../../../images/CybersecurityImage.png";
-import cyberIcon from "../../../images/CyberIcon.png";
-import arrowRight from "../../../images/arrow-right.png";
-import cyberIcon2 from "../../../images/CyberIcon2.png";
+import cyberIcon from "../../../images/CyberIcon.svg";
+import arrowRight from "../../../images/arrow-right.svg";
+import cyberIcon2 from "../../../images/CyberIcon2.svg";
 import {
   CyberWrapper,
   CyberImage,

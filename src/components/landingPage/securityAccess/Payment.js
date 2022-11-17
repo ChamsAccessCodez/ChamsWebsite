@@ -3,11 +3,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import paymentImage from "../../../images/PaymentImage.png";
-import paymentIcon from "../../../images/PayementIcon.png";
-import paymentIcon2 from "../../../images/PaymentIcon2.png";
-import paymentIcon3 from "../../../images/PaymentIcon3.png";
-import paymentIcon4 from "../../../images/PaymentIcon4.png";
-import arrowRight from "../../../images/arrow-right.png";
+import paymentIcon from "../../../images/PayementIcon.svg";
+import paymentIcon2 from "../../../images/PaymentIcon2.svg";
+import paymentIcon3 from "../../../images/PaymentIcon3.svg";
+import paymentIcon4 from "../../../images/PaymentIcon4.svg";
+import arrowRight from "../../../images/arrow-right.svg";
 import {
   PaymentWrapper,
   PaymentContent,

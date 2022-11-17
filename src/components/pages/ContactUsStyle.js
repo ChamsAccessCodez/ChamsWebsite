@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import contactInfoBg from "../../images/Contact-Info-bg.png";
-import dotedComplete from '../../images/DotedComplete.png'
+import dotedComplete from "../../images/DotedComplete.png";
 
 export const ContactUs = styled.div`
   // background: red;
@@ -12,15 +12,16 @@ export const ContactUs = styled.div`
   overflow-x: hidden;
 `;
 export const GetInTouch = styled.div`
-flex-wrap: wrap;
+  flex-wrap: wrap;
   width: inherit;
   margin-top: 80px;
   height: 600px;
-  background: url(${dotedComplete}), linear-gradient(
-    0deg,
-    rgba(57, 147, 100, 0.25) 0%,
-    rgba(206, 228, 216, 0.25) 77.6%
-  );
+  background: url(${dotedComplete}),
+    linear-gradient(
+      0deg,
+      rgba(57, 147, 100, 0.25) 0%,
+      rgba(206, 228, 216, 0.25) 77.6%
+    );
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
@@ -367,7 +368,6 @@ export const InnerWrapper = styled.div`
   width: 1018px;
   height: 270px;
   margin: 84px 211px;
-  
 `;
 // export const AboutContainer = styled.div`
 // `;

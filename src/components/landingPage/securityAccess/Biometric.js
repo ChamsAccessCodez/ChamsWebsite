@@ -3,10 +3,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import biometricImage from "../../../images/BiometricImage.png";
-import featureIcon from "../../../images/Featured-icon.png";
-import arrowRight from "../../../images/arrow-right.png";
-import featuredIcon1 from "../../../images/Featured-icon-1.png";
-import featuredIcon2 from "../../../images/Featured-icon2.png";
+import featureIcon from "../../../images/Featured-icon.svg";
+import arrowRight from "../../../images/arrow-right.svg";
+import featuredIcon1 from "../../../images/Featured-icon-1.svg";
+import featuredIcon2 from "../../../images/Featured-icon2.svg";
 import {
   BiometricWrapper,
   BiometricContent,

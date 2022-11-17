@@ -15,7 +15,7 @@ import {
   Text,
 } from "./HeaderStyle";
 import chamsLogo from "../../../images/chamsLogo.svg";
-import arrowDownIcon from "../../../images/arrowDownIcon.png";
+import arrowDownIcon from "../../../images/arrowDownIcon.svg";
 import { RiMenu4Line, RiCloseFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import WhoAreWe from "../navs/WhoWeAre";

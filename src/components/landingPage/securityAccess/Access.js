@@ -3,11 +3,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import accessImage from "../../../images/AccessImage.png";
-import accessIcon from "../../../images/AccessIcon.png";
-import accessIcon2 from "../../../images/AccessIcon2.png";
-import accessIcon3 from "../../../images/AccessIcon3.png";
+import accessIcon from "../../../images/AccessIcon.svg";
+import accessIcon2 from "../../../images/AccessIcon1.svg";
+import accessIcon3 from "../../../images/AccessIcon2.svg";
 import accessIcon4 from "../../../images/AccessIcon4.png";
-import arrowRight from "../../../images/arrow-right.png";
+import arrowRight from "../../../images/arrow-right.svg";
 
 import {
     AccessWrapper,

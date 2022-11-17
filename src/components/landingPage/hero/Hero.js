@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // import heroImage from "../../../images/Hero-Img.png"
-import heroImageAll from "../../../images/Hero-Img-All.png";
-import arrowRight from "../../../images/arrow-right.png";
+import heroImageAll from "../../../images/Hero-Img-All-2.png";
+import arrowRight from "../../../images/arrow-right.svg";
 import {
   HeroWrapper,
   Hero1,

@@ -1,8 +1,8 @@
 import React from "react";
 import accessImage1 from "../../../images/AccessImage1.png";
-import accessIcon1 from "../../../images/AccessIcon1.png";
+import accessIcon1 from "../../../images/AccessIcon01.svg";
 import arrowRight from "../../../images/arrow-right.png";
-import arrowRightWhite from "../../../images/arrow-right-white.png";
+import arrowRightWhite from "../../../images/arrow-right-white.svg";
 import {
   CyberWrapper,
   CyberImage,

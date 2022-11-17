@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import AOS from "aos";
 import {
   AboutUsContainer,
   GetInTouch,
@@ -29,19 +30,19 @@ import {
 } from "./AboutUsStyle";
 import { Link } from "react-scroll";
 import ScrollToTop from "react-scroll-to-top";
-import ourStoryBg from "../../images/OurStoryBg.png";
+import ourStoryBg from "../../images/OurStoryBg.svg";
 import AboutUsCard from "./AboutUsCard";
-import thinkFuture from "../../images/ThinkFuture.png";
+import thinkFuture from "../../images/ThinkFuture.svg";
 import CoreCard from "./CoreCard";
-import exellenceLogo from "../../images/ExellenceImage.png";
-import passionImage from "../../images/PassionImage.png";
-import agilityImage from "../../images/AgilityImage.png";
-import customerImage from "../../images/CustomerImage.png";
-import zebra from "../../images/Zebra.png";
-import damalog from "../../images/Dermalogue.png";
-import firsAccess from "../../images/FirstAccess.png";
-import ekory from "../../images/Ekory.png";
-import zkTeko from "../../images/ZkTeko.png";
+import exellenceLogo from "../../images/ExellenceImage.svg";
+import passionImage from "../../images/PassionImage.svg";
+import agilityImage from "../../images/AgilityImage.svg";
+import customerImage from "../../images/CustomerImage.svg";
+import zebra from "../../images/Zebra.svg";
+import damalog from "../../images/Dermalogue.svg";
+import firsAccess from "../../images/FirstAccess.svg";
+import ekory from "../../images/Ekory.svg";
+import zkTeko from "../../images/ZkTeko.svg";
 
 const AboutUs = () => {
   useEffect(() => {
@@ -50,6 +51,7 @@ const AboutUs = () => {
       left: 100,
       behavior: "smooth",
     });
+    AOS.init();
   }, []);
   return (
     <AboutUsContainer>
@@ -78,7 +80,14 @@ const AboutUs = () => {
       </GetInTouch>
       <AboutProcess id="about">
         <Mission>
-          <Image></Image>
+          <Image
+            data-aos="flip-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          />
           <Content1>
             <Cover>
               <Title>Our Mission</Title>
@@ -90,13 +99,20 @@ const AboutUs = () => {
           </Content1>
         </Mission>
         <Vision>
-          <Image2></Image2>
+          <Image2
+            data-aos="flip-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          />
           <Content1>
             <Cover>
-              <Title>Our Mission</Title>
+              <Title>Our vision</Title>
               <p>
-                Providing customized solutions to make life easy and less
-                complicated.
+                To be the go-to Company for delivering Access and Technology
+                solutions in markets we serve.
               </p>
             </Cover>
           </Content1>

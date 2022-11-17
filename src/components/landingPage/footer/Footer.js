@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import mail from "../../../images/mail.png";
+import mail from "../../../images/mail.svg";
 import chamsLogo from "../../../images/chamsLogo.svg";
-import twitter from "../../../images/Twitter.png";
-import linkedIn from "../../../images/LinkedIn.png";
-import facebook from "../../../images/Facebook.png";
-import Instagram from "../../../images/Instagram.png";
+import twitter from "../../../images/Twitter.svg";
+import linkedIn from "../../../images/LinkedIn.svg";
+import facebook from "../../../images/Facebook.svg";
+import Instagram from "../../../images/Instagram.svg";
 import {
   FooterWrapper,
   FooterTop,

@@ -20,9 +20,9 @@ import {
   Button,
 } from "./ContactUsStyle";
 import ContactCard from "./ContactCard";
-import salesIcon from "../../images/SalesIcon.png";
-import supportIcon from "../../images/SupportIcon.png";
-import whereIcon from "../../images/WhereIcon.png";
+import salesIcon from "../../images/SalesIcon.svg";
+import supportIcon from "../../images/SupportIcon.svg";
+import whereIcon from "../../images/WhereIcon.svg";
 import ScrollToTop from "react-scroll-to-top";
 
 const AboutUs = () => {
