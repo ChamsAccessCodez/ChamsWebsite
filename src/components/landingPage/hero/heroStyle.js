@@ -4,7 +4,7 @@ import heroBackground from "../../../images/hero-background.svg";
 export const HeroWrapper = styled.div`
   background: #ffffff;
   width: 100vw;
-    height: 800px;
+  height: 800px;
   // height: 100vh;
   display: flex;
   flex-direction: column;
@@ -87,6 +87,10 @@ export const ContentButton = styled.div`
 export const HeroImage = styled.div`
   //   background: purple;
   background-image: url(${heroBackground});
+  // height: 500px;
+  // background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 55%;
   height: inherit;
   display: flex;

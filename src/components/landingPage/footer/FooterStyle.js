@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterWrapper = styled.div`
-  background: tomato;
+  // background: tomato;
   width: 100vw;
   height: auto;
   display: flex;
@@ -15,6 +15,7 @@ export const FooterTop = styled.div`
   align-items: center;
   padding: 50px 0px;
   width: 1440px;
+  width: inherit;
   // height: 182px;
   background: #f9fafb;
 `;
@@ -208,7 +209,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0px 32px;
-width: 1440px;
+width: inherit;
 height: 90px;
 background: #08783D;
 

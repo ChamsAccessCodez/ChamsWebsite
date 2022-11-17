@@ -4,21 +4,21 @@ import aboutBackground from "../../../images/AboutBackground.png";
 export const AboutWrapper = styled.div`
   width: 100vw;
   height: 1350px;
+  // height: auto;
   background: linear-gradient(
     0deg,
     rgba(57, 147, 100, 0.25) -74.19%,
     rgba(206, 228, 216, 0.25) 60.99%
   );
-//   background: green;
+  // background: green;
   background-image: url(${aboutBackground});
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: inherit 777.84px;
-  //   background-size: 1440px 777.84px;
-//   padding: 80px 80px;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+  background-size: 1440px 777.84px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 `;
 export const AboutButton = styled.div`
   display: flex;
@@ -71,17 +71,17 @@ export const AboutDesc = styled.div`
   margin-left: 80px;
 `;
 export const AboutImages = styled.div`
-// background: red;
-display: flex;
-flex-wrap: wrap;
-align-self: center;
-justify-content: space-between;
-align-items: flex-start;
-padding: 0px;
-width: 90%;
-// width: 1203px;
-height: 925px;
-gap: 80px;
+  // background: red;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  width: 90%;
+  // width: 1203px;
+  height: 925px;
+  gap: 80px;
 `;
 // export const AboutWrapper = styled.div``;
 // export const AboutWrapper = styled.div``;

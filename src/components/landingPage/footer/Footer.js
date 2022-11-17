@@ -72,7 +72,7 @@ const Footer = () => {
           </ChamsAccess>
           <Navs>
             <Head>Company</Head>
-            <Link to="/contact" style={{ textDecoration: "none" }}>
+            <Link to="/about" style={{ textDecoration: "none" }}>
               <p>About us</p>
             </Link>
             <Link to="/contact" style={{ textDecoration: "none" }}>

@@ -36,11 +36,11 @@ const AboutUs = () => {
   return (
     <ContactUs>
       <GetInTouch>
-        <img src={dotedLeft} alt="doted" />
+        {/* <img src={dotedLeft} alt="doted" /> */}
         <Content>
           {/* <Contact>Contact Us</Contact> */}
           <Link
-            to="about"
+            to="contact"
             spy={true}
             smooth={true}
             offset={-80}
@@ -57,9 +57,9 @@ const AboutUs = () => {
             with us.
           </p>
         </Content>
-        <img src={dotedRight} alt="" />
+        {/* <img src={dotedRight} alt="" /> */}
       </GetInTouch>
-      <FormContainer id="about">
+      <FormContainer id="contact">
         {/* <FormContainer> */}
         <FormWrapper>
           <FormHead>Send us a message</FormHead>
