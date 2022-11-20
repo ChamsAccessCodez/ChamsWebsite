@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-  //   background: tomato;
+  // background: tomato;
   background: #f1f1f1;
   width: 100vw;
   height: 80px;
@@ -13,7 +13,9 @@ export const HeaderContainer = styled.div`
 `;
 export const LeftNav = styled.div`
   // background: #f1f1f1;
-  margin-left: 80px;
+  // background: red;
+  // margin-left: 80px;
+  margin-left: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +28,8 @@ export const RightNav = styled.div`
   justify-content: center;
   align-items: center;
   height: inherit;
-  margin-right: 80px;
+  // margin-right: 80px;
+  margin-right: 120px;
 `;
 export const Request = styled.div`
   display: flex;

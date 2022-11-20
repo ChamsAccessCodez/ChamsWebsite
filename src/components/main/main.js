@@ -3,7 +3,9 @@ import Hero from "../landingPage/hero/Hero";
 import SecurityAccess from "../landingPage/securityAccess/SecurityAccess";
 import About from "../landingPage/about/About";
 import Testimonial from "../landingPage/trustee/Trustee";
-// import OurSolutions from '../landingPage/navs/OurSolutions'
+import Header from "../landingPage/header/Header";
+import Footer from "../landingPage/footer/Footer";
+// import OurSolutions from "../landingPage/navs/OurSolutions";
 import { MainWrapper } from "./mainStyle";
 
 const Main = () => {
@@ -17,10 +19,12 @@ const Main = () => {
   return (
     <MainWrapper>
       {/* <OurSolutions /> */}
+      <Header />
       <Hero />
       <SecurityAccess />
       <About />
       <Testimonial />
+      <Footer />
     </MainWrapper>
   );
 };

@@ -11,9 +11,9 @@ export const CardContainer = styled.div`
     0px 8px 8px -4px rgba(16, 24, 40, 0.03);
   border-radius: 14px;
   cursor: pointer;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 60px;
   transition: transform 1s;
 
   img {

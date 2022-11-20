@@ -268,7 +268,8 @@ export const Right = styled.div`
 
 export const CoreValue = styled.div`
   width: inherit;
-  height: 1250px;
+  // height: 1250px;
+  height: auto;
   background: #fcfcfd;
   display: flex;
   flex-direction: column;
@@ -308,14 +309,17 @@ export const HeadTitle = styled.div`
 `;
 export const Cards = styled.div`
   // background: red;
-  width: 1190px;
-  height: 918px;
+  // width: 1190px;
+  width: 90%;
+  // height: 918px;
+  height: auto;
   display: flex;
+  align-self: center;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  margin-left: 125px;
-  margin-right: 125px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

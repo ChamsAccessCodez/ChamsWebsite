@@ -24,14 +24,15 @@ export const Hero1 = styled.div`
   justify-content: center;
 `;
 export const HeroContent = styled.div`
-  //   background: red;
-  width: 45%;
+  // background: red;
+  width: 50%;
   //   width: inherit%;
-  height: inherit;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-left: 80px;
+  // margin-left: 80px;
+  margin-left: 120px;
+  // padding-left: 100px;
 `;
 export const ContentHeader = styled.div`
   width: 543px;
@@ -43,6 +44,7 @@ export const ContentHeader = styled.div`
   line-height: 90px;
   letter-spacing: -0.02em;
   color: #101828;
+  margin-top: 80px;
 
   span {
     color: #08783d;
@@ -75,7 +77,6 @@ export const ContentButton = styled.div`
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  line-height: 24px;
   color: #ffffff;
   cursor: pointer;
   transition: width 1s;
@@ -85,15 +86,18 @@ export const ContentButton = styled.div`
   }
 `;
 export const HeroImage = styled.div`
-  //   background: purple;
+  // background: purple;
   background-image: url(${heroBackground});
   // height: 500px;
-  // background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 55%;
-  height: inherit;
+  // background-size: contain;
+  width: 50%;
+  height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 120px;
 
   img {
     width: 553.99px;

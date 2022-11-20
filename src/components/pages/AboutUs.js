@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
+import Header from "../landingPage/header/Header";
+import Footer from "../landingPage/footer/Footer";
 import {
   AboutUsContainer,
   GetInTouch,
@@ -30,7 +32,7 @@ import {
 } from "./AboutUsStyle";
 import { Link } from "react-scroll";
 import ScrollToTop from "react-scroll-to-top";
-import ourStoryBg from "../../images/OurStoryBg.svg";
+import ourStoryBg from "../../images/OurStoryBg.png";
 import AboutUsCard from "./AboutUsCard";
 import thinkFuture from "../../images/ThinkFuture.svg";
 import CoreCard from "./CoreCard";
@@ -55,6 +57,7 @@ const AboutUs = () => {
   }, []);
   return (
     <AboutUsContainer>
+      <Header />
       <GetInTouch>
         <Content>
           <Link
@@ -202,6 +205,7 @@ const AboutUs = () => {
           <img src={zkTeko} alt="zebra" />
         </PartnerLogo>
       </CorePartner>
+      <Footer/>
       <ScrollToTop smooth />
     </AboutUsContainer>
   );

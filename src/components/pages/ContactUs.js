@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import dotedLeft from "../../images/DotedLeft.png";
-import dotedRight from "../../images/DotedRight.png";
 import { Link } from "react-scroll";
+import Header from "../landingPage/header/Header"
+import Footer from "../landingPage/footer/Footer"
 import {
   ContactUs,
   GetInTouch,
@@ -35,6 +35,7 @@ const AboutUs = () => {
   }, []);
   return (
     <ContactUs>
+      <Header />
       <GetInTouch>
         {/* <img src={dotedLeft} alt="doted" /> */}
         <Content>
@@ -119,6 +120,7 @@ const AboutUs = () => {
         </InnerWrapper>
       </ContactInfo>
       <ScrollToTop smooth />
+      <Footer />
     </ContactUs>
   );
 };
