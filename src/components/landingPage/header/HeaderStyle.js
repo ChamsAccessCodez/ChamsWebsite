@@ -50,8 +50,6 @@ export const Request = styled.div`
 
   :hover {
     width: 180px;
-    background: #08783d;
-    color: #ffffff;
   }
 `;
 export const Support = styled.div`
@@ -65,16 +63,15 @@ export const Support = styled.div`
   padding: 8px;
   width: 160px;
   height: 40px;
-  color: #667085;
   border-radius: 5px;
   font-weight: 500;
   font-size: 16px;
+  background: #08783d;
+  color: #ffffff;
   transition: width 1s;
 
   :hover {
     width: 180px;
-    background: #08783d;
-    color: #ffffff;
   }
 `;
 export const ImageWrapper = styled.div`

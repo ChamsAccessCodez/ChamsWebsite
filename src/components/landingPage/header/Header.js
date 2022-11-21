@@ -114,7 +114,9 @@ const Header = () => {
         </Navs>
       </LeftNav>
       <RightNav>
-        <Request>Request a callback</Request>
+        <Link to="/callback" style={{ textDecoration: "none" }}>
+          <Request>Request a callback</Request>
+        </Link>
         <Support>Support Center</Support>
       </RightNav>
     </HeaderContainer>
