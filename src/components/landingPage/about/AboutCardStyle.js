@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const CardWrapper = styled.div`
-//   background: yellow;
+  position: relative;
+  //   background: yellow;
   width: 361px;
   height: 420px;
   border: 1px solid #eaecf0;
@@ -10,17 +11,30 @@ export const CardWrapper = styled.div`
   flex-direction: column;
   justify-content: flex-end;
 
-  img{
+  img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
   }
+
+  :hover #info {
+    height: 240px;
+    opacity: 0.95;
+  }
+  :hover #para {
+    visibility: visible;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 95%;
+    margin-bottom: 20px;
+  }
 `;
 export const CardInfo = styled.div`
-position: absolute;
+  position: absolute;
   width: 361px;
-//   width: 100%;
+  //   width: 100%;
   height: 110px;
   background: linear-gradient(330.33deg, #101828 14.68%, #475467 98.42%);
   opacity: 0.6;
@@ -29,13 +43,13 @@ position: absolute;
   cursor: pointer;
   transition: height 1s;
 
-  :hover {
-    height: 240px;
-    opacity: 0.95;
-    p {
-      visibility: visible;
-    }
-  }
+  // :hover {
+  //   height: 240px;
+  //   opacity: 0.95;
+  //   p {
+  //     visibility: visible;
+  //   }
+  // }
 
   p {
     // width: 90%;
@@ -46,14 +60,22 @@ position: absolute;
     line-height: 25px;
     color: #ffffff;
     margin-top: 20px;
-    // margin-bottom: 18px;
     margin-left: 24px;
     margin-right: 24px;
     visibility: hidden;
   }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    p {
+      // margin-left: 0px;
+      // margin-right: 0px;
+
+    }
+  }
 `;
 export const CardHeading = styled.div`
-//   width: 80%;
+  //   width: 80%;
   width: 280px;
   font-family: "Roslindale Text";
   font-style: normal;
@@ -66,6 +88,10 @@ export const CardHeading = styled.div`
   margin-left: 24px;
   margin-right: 24px;
   opacity: 1;
+  z-index: 999;
+
+  @media screen and (max-width: 960px) {
+  }
 `;
 // export const CardDesc = styled.div`
 //   width: 80%;

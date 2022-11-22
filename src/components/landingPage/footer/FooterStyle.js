@@ -8,6 +8,9 @@ export const FooterWrapper = styled.div`
   flex-direction: column;
   align-items: flex-start;
   overflow-x: hidden;
+
+  @media screen and (max-width: 960px) {
+  }
 `;
 export const FooterTop = styled.div`
   display: flex;
@@ -18,18 +21,36 @@ export const FooterTop = styled.div`
   width: inherit;
   // height: 182px;
   background: #f9fafb;
+
+  @media screen and (max-width: 960px) {
+    width: inherit;
+    // background: red;
+    display: flex;
+  }
 `;
 export const Wrapper = styled.div`
   //   background: red;
   width: 90%;
   display: flex;
   justify-content: flex-start;
-  //   flex-wrap: wrap;
+
+  @media screen and (max-width: 960px) {
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `;
 export const Desc = styled.div`
   //   background: green;
   margin-left: 40px;
   width: 60%;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    // background: green;
+    margin-left: 0px;
+  }
 `;
 export const Desc1 = styled.div`
   font-family: "Roslindale Text";
@@ -39,6 +60,10 @@ export const Desc1 = styled.div`
   line-height: 38px;
   color: #101828;
   margin-bottom: 16px;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 20px;
+  }
 `;
 export const Desc2 = styled.div`
   font-family: "Komet";
@@ -47,17 +72,31 @@ export const Desc2 = styled.div`
   font-size: 18px;
   line-height: 28px;
   color: #667085;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 20px;
+  }
 `;
 export const Form = styled.form`
-  //   background: purple;
+  // background: purple;
   margin-right: 40px;
   width: 40%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  @media screen and (max-width: 960px) {
+    // background: purple;
+    margin-top: 20px;
+    margin-right: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+  }
 `;
 export const InputWrapper = styled.div`
-  background: blue;
+  // background: blue;
   width: 80%;
   display: flex;
   justify-content: flex-start;
@@ -74,6 +113,11 @@ export const InputWrapper = styled.div`
     height: 20px;
     margin-left: 14px;
   }
+
+  @media screen and (max-width: 960px) {
+    margin-right: 0px;
+    width: 90%;
+  }
 `;
 export const Input = styled.input`
   background: red;
@@ -81,11 +125,16 @@ export const Input = styled.input`
   height: 40px;
   background: #ffffff;
   border: none;
+  border-radius: 8px;
   cursor: pointer;
 
   :focus {
     margin-left: 8px;
     outline: none;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 90%;
   }
 `;
 export const Button = styled.button`
@@ -110,6 +159,12 @@ export const Button = styled.button`
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+
+  @media screen and (max-width: 960px) {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 0px;
+  }
 `;
 export const FooterMain = styled.div`
   background: #ffffff;
@@ -118,6 +173,11 @@ export const FooterMain = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    width: 100vw;
+  }
 `;
 export const FooterContainer = styled.div`
   //   background: green;
@@ -125,6 +185,14 @@ export const FooterContainer = styled.div`
   margin: 64px 80px;
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 960px) {
+    // background: green;
+    width: 100%;
+    margin: 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 `;
 export const ChamsAccess = styled.div`
   //   background: tomato;
@@ -150,6 +218,44 @@ export const ChamsAccess = styled.div`
     margin-top: 3px;
     margin-bottom: 3px;
   }
+
+  @media screen and (max-width: 960px) {
+    display: none;
+`;
+export const ChamsAccess2 = styled.div`
+  display: none;
+  // background: tomato;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+
+    img {
+      width: 120px;
+      height: 80px;
+      margin-bottom: 35px;
+      margin-left: 0px;
+      // margin-top: 20px;
+    }
+
+    p {
+      width: 100%;
+      font-family: "Komet";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #667085;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      margin-left: 0px;
+      text-align: center;
+    }
+  }
 `;
 export const SocialMedia = styled.div`
   //   background: red;
@@ -170,10 +276,21 @@ export const SocialMedia = styled.div`
       //   width: 28px;
     }
   }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+
+    img {
+      margin-left: 0px;
+    }
+  }
 `;
 export const Navs = styled.div`
   // width: 20%;
-//   background: green;
+  //   background: green;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -188,12 +305,23 @@ export const Navs = styled.div`
     margin-top: 0px;
     cursor: pointer;
 
-    :hover{
-        color: #000000;
+    :hover {
+      color: #000000;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      // margin-left: 20px;
     }
   }
 `;
-export const Head = styled.p`
+export const Head = styled.div`
   // width: 20%;
   font-family: "Komet";
   font-style: normal;
@@ -202,23 +330,35 @@ export const Head = styled.p`
   color: #101828;
   margin-top: 0px;
   margin-bottom: 16px;
+
+  @media screen and (max-width: 960px) {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
 `;
 export const Copywrite = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 32px;
-width: inherit;
-height: 90px;
-background: #08783D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 32px;
+  width: inherit;
+  height: 90px;
+  background: #08783d;
 
-font-family: 'Komet';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-color: #EBF5F0;
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ebf5f0;
+
+  @media screen and (max-width: 960px) {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+  }
 `;
 // export const FooterWrapper = styled.div``;

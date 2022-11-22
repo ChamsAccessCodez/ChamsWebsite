@@ -15,10 +15,16 @@ export const AboutWrapper = styled.div`
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: inherit 777.84px;
-  background-size: 1440px 777.84px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 export const AboutButton = styled.div`
   display: flex;
@@ -46,6 +52,10 @@ export const AboutButton = styled.div`
     background: #a92f34;
     color: #f6eaeb;
   }
+
+  @media screen and (max-width: 960px) {
+    margin-left: 0px;
+  }
 `;
 export const Why = styled.div`
   width: 846px;
@@ -58,6 +68,12 @@ export const Why = styled.div`
   color: #101828;
   margin-bottom: 20px;
   margin-left: 80px;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+  }
 `;
 export const AboutDesc = styled.div`
   width: 713px;
@@ -69,6 +85,13 @@ export const AboutDesc = styled.div`
   color: #667085;
   margin-bottom: 50px;
   margin-left: 80px;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 0px;
+    // background: yellow;
+    width: 100%;
+    text-align: center;
+  }
 `;
 export const AboutImages = styled.div`
   // background: red;
@@ -82,6 +105,12 @@ export const AboutImages = styled.div`
   // width: 1203px;
   height: 925px;
   gap: 80px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    height: auto;
+    margin-bottom: 20px;
+  }
 `;
 // export const AboutWrapper = styled.div``;
 // export const AboutWrapper = styled.div``;

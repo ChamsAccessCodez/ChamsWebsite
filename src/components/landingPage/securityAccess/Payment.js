@@ -126,10 +126,10 @@ const Payment = () => {
               data-aos-mirror="true"
               data-aos-once="false"
             >
-              <DescHead>Self-Service Interactive Kiosks</DescHead>
+              <DescHead>Instant card printers</DescHead>
               <DescBody>
-                We offer interactive kiosk machines and solutions, fully
-                customizable for different functions and industries.
+                Issue cards in an instant. Create personalized cards for any
+                purpose..
               </DescBody>
             </Desc>
           </Instant>

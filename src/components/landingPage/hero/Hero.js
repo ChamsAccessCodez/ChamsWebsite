@@ -28,6 +28,7 @@ import {
 const Hero = () => {
   useEffect(() => {
     AOS.init();
+    AOS.init({disable: 'mobile'});
   }, []);
   return (
     <HeroWrapper>

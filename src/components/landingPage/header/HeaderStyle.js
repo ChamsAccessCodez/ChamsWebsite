@@ -10,6 +10,11 @@ export const HeaderContainer = styled.div`
   align-items: center;
   position: fixed;
   z-index: 999;
+
+  @media screen and (max-width: 960px) {
+    // background: tomato;
+    width: 100vw;
+  }
 `;
 export const LeftNav = styled.div`
   // background: #f1f1f1;
@@ -21,6 +26,11 @@ export const LeftNav = styled.div`
   align-items: center;
   height: 100%;
   width: auto;
+
+  @media screen and (max-width: 960px) {
+    justify-content: flex-start;
+    margin-left: 40px;
+  }
 `;
 export const RightNav = styled.div`
   // background: green;
@@ -30,8 +40,18 @@ export const RightNav = styled.div`
   height: inherit;
   // margin-right: 80px;
   margin-right: 120px;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 `;
 export const Request = styled.div`
+  // background: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,6 +70,19 @@ export const Request = styled.div`
 
   :hover {
     width: 180px;
+  }
+
+  @media screen and (max-width: 960px) {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    width: 80vw;
+
+    :hover {
+      outline: none;
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
   }
 `;
 export const Support = styled.div`
@@ -73,6 +106,12 @@ export const Support = styled.div`
   :hover {
     width: 180px;
   }
+
+  @media screen and (max-width: 960px) {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 80vw;
+  }
 `;
 export const ImageWrapper = styled.div`
   // background: brown;
@@ -81,40 +120,87 @@ export const ImageWrapper = styled.div`
   justify-content: center;
   align-items: center;
   cursor: pointer;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+  }
 `;
 export const ImageLink = styled.img`
   width: 75px;
   height: 50px;
 `;
 export const Navs = styled.div`
-  //   background: red;
+  // background: red;
   display: flex;
   //   justify-content: center;
   //   align-items: center;
   height: inherit;
   margin-left: 40px;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: ${({ toggle }) => (toggle ? 0 : "-100%")};
+    transition: all 0.5s ease;
+    background: #ffffff;
+    z-index: 999;
+  }
+`;
+export const BurgerMenu = styled.div`
+  display: none;
+
+  @media screen and (max-width: 960px) {
+    // background: green;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
 `;
 export const ItemWrapper = styled.div`
   // background: green;
   display: flex;
   flex-direction: column;
   width: inherit;
-  height: inherit;
+  height: auto;
 
   // span {
   //   margin-left: 10px;
   // }
+
+  @media screen and (max-width: 960px) {
+    // background: green;
+    justify-content: center;
+    align-items: flex-end;
+  }
 `;
 export const ItemWrapper2 = styled.div`
   // background: green;
   display: flex;
   flex-direction: column;
   width: inherit;
-  height: inherit;
+  height: auto;
 
   // span {
   //   margin-left: 10px;
   // }
+
+  @media screen and (max-width: 960px) {
+    // background: green;
+    justify-content: center;
+    align-items: flex-end;
+  }
 `;
 export const Text = styled.div`
   // background: tomato;
@@ -124,6 +210,16 @@ export const Text = styled.div`
 
   span {
     margin-left: 10px;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      margin-top: 10px;
+    }
   }
 `;
 export const Drop = styled.div`
@@ -164,6 +260,31 @@ export const Item = styled.div`
       opacity: 1;
       cursor: pointer;
       //   margin-top: 50px;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    // background: blue;
+    height: 20%;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+    margin-left: 0px;
+
+    :after {
+      content: "";
+      background: none;
+      width: 0%;
+      height: 0px;
+      opacity: 0;
+      transition: none;
+      align-self: none;
+    }
+
+    :hover {
+      outline: none;
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     }
   }
 `;

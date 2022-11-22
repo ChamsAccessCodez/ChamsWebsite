@@ -6,9 +6,9 @@ const AboutCard = (props) => {
     <CardWrapper>
       {/* <img src={businessImage} alt='business Integrity' /> */}
       <img src={props.cardImage} alt="business Integrity" />
-      <CardInfo>
+      <CardInfo id="info">
         <CardHeading>{props.heading}</CardHeading>
-        <p>{props.description}</p>
+        <p id="para">{props.description}</p>
       </CardInfo>
     </CardWrapper>
   );

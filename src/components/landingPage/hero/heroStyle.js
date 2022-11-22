@@ -2,6 +2,7 @@ import styled from "styled-components";
 import heroBackground from "../../../images/hero-background.svg";
 
 export const HeroWrapper = styled.div`
+  position: relative;
   background: #ffffff;
   width: 100vw;
   height: 800px;
@@ -10,6 +11,14 @@ export const HeroWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 80px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    height: auto;
+    width: 100vw;
+    // overflow-x: hidden;
+}
+  }
 `;
 export const Hero1 = styled.div`
   background: linear-gradient(
@@ -22,6 +31,14 @@ export const Hero1 = styled.div`
   // height: 742px;
   display: flex;
   justify-content: center;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
 `;
 export const HeroContent = styled.div`
   // background: red;
@@ -33,6 +50,20 @@ export const HeroContent = styled.div`
   // margin-left: 80px;
   margin-left: 120px;
   // padding-left: 100px;
+
+  @media screen and (max-width: 960px) {
+    // background: blue;
+    width: 100%;
+    // height: 1200px;
+    height: 500px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+
+    // [data-aos-delay] {
+    //   transition-delay: 0s !important;
+    // }
+  }
 `;
 export const ContentHeader = styled.div`
   width: 543px;
@@ -50,6 +81,16 @@ export const ContentHeader = styled.div`
     color: #08783d;
     text-transform: capitalize;
   }
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 62px;
+    word-wrap: break-word;
+    text-align: center;
+  }
 `;
 export const ContentDescription = styled.div`
   width: 483px;
@@ -61,6 +102,15 @@ export const ContentDescription = styled.div`
   line-height: 28px;
   color: #667085;
   margin-top: 20px;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
 `;
 export const ContentButton = styled.div`
   margin-top: 20px;
@@ -84,6 +134,11 @@ export const ContentButton = styled.div`
   :hover {
     width: 210px;
   }
+
+  @media screen and (max-width: 960px) {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
 `;
 export const HeroImage = styled.div`
   // background: purple;
@@ -105,6 +160,19 @@ export const HeroImage = styled.div`
     // width: 653.99px;
     // height: 632px;
   }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    margin-right: 0px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 353.99px;
+      height: 332px;
+    }
+  }
 `;
 // export const HeroWrapper = styled.div``;
 export const Hero2 = styled.div`
@@ -112,12 +180,12 @@ export const Hero2 = styled.div`
   //   width: 1200px;
   position: absolute;
   height: 180px;
-  top: 632px;
+  top: 550px;
   background: #ffffff;
   box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
     0px 8px 8px -4px rgba(16, 24, 40, 0.03);
   border-radius: 20px;
-  z-index: 999;
+  z-index: 900;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,11 +193,28 @@ export const Hero2 = styled.div`
   padding-bottom: 30px;
   padding-left: 99px;
   padding-right: 99px;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    // display: none;
+    position: relative;
+    top: 0px;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+  }
 `;
 export const Impact = styled.div`
   // background: grey;
   width: 250px;
-  //   width: auto;
+  // width: 25%;
   height: 150px;
   display: flex;
   flex-direction: column;
@@ -145,6 +230,22 @@ export const Impact = styled.div`
     border-radius: 8px;
     padding-left: 50px;
   }
+
+  @media screen and (max-width: 960px) {
+    width: 80%;
+    margin-right: 0px;
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+      0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    transition: transform 1s;
+
+    :hover {
+      padding-left: 0px;
+      transform: scale(1.09);
+    }
+  }
 `;
 export const Imp1 = styled.div`
   font-family: Roslindale Text;
@@ -153,6 +254,10 @@ export const Imp1 = styled.div`
   font-size: 30px;
   color: #08783d;
   margin-top: 6px;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 20px;
+  }
 `;
 export const Imp2 = styled.div`
   font-family: Roslindale Text;
@@ -161,6 +266,10 @@ export const Imp2 = styled.div`
   font-size: 24px;
   color: #000000;
   margin-top: 8px;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 20px;
+  }
 `;
 export const Imp3 = styled.div`
   display: flex;
@@ -183,6 +292,10 @@ export const Imp3 = styled.div`
       margin-left: 25px;
     }
   }
+
+  @media screen and (max-width: 960px) {
+    margin-left: 20px;
+  }
 `;
 export const Financial = styled.div`
   // background: grey;
@@ -202,6 +315,22 @@ export const Financial = styled.div`
     border-radius: 8px;
     padding-left: 50px;
   }
+
+  @media screen and (max-width: 960px) {
+    width: 80%;
+    margin-right: 0px;
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+      0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    transition: transform 1s;
+
+    :hover {
+      padding-left: 0px;
+      transform: scale(1.09);
+    }
+  }
 `;
 export const Sub1 = styled.div`
   font-family: Roslindale Text;
@@ -209,6 +338,10 @@ export const Sub1 = styled.div`
   font-weight: 700;
   font-size: 30px;
   color: #08783d;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 20px;
+  }
 `;
 export const Sub2 = styled.div`
   font-family: Komet;
@@ -217,6 +350,10 @@ export const Sub2 = styled.div`
   font-size: 16px;
   color: #101828;
   text-transform: capitalize;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 20px;
+  }
 `;
 export const Sub3 = styled.div`
   font-family: Komet;
@@ -224,6 +361,10 @@ export const Sub3 = styled.div`
   font-weight: 500;
   font-size: 14px;
   color: #667085;
+
+  @media screen and (max-width: 960px) {
+    margin-left: 20px;
+  }
 `;
 export const Issues = styled.div`
   // background: grey;
@@ -243,6 +384,23 @@ export const Issues = styled.div`
     border-radius: 8px;
     padding-left: 50px;
   }
+
+  @media screen and (max-width: 960px) {
+    width: 80%;
+    margin-right: 0px;
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+      0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+
+    transition: transform 1s;
+
+    :hover {
+      padding-left: 0px;
+      transform: scale(1.09);
+    }
+  }
 `;
 export const Transactions = styled.div`
   // background: grey;
@@ -261,6 +419,22 @@ export const Transactions = styled.div`
       0px 8px 8px -4px rgba(16, 24, 40, 0.03);
     border-radius: 8px;
     padding-left: 50px;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 80%;
+    margin-right: 0px;
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+      0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    padding-left: 0px;
+
+    transition: transform 1s;
+
+    :hover {
+      padding-left: 0px;
+      transform: scale(1.09);
+    }
   }
 `;
 // export const HeroWrapper = styled.div``;

@@ -1,13 +1,23 @@
 import styled from "styled-components";
 
 export const AccessWrapper = styled.div`
-  //   background: green;
+  // background: green;
   width: 100%;
   height: inherit;
   display: flex;
+  justify-content: flex-row;
+
+  @media screen and (max-width: 960px) {
+    // width: 100vw;
+    height: auto;
+    // background: yellow;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 export const AccessContent = styled.div`
-    // background: tomato;
+  // background: tomato;
   width: 50%;
   height: inherit;
   height: 680px;
@@ -16,6 +26,14 @@ export const AccessContent = styled.div`
   align-items: flex-start;
   //   align-items: space-around;
   padding-left: 50px;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    width: 100%;
+    height: 1000px;
+    padding-left: 0px;
+    align-items: flex-start;
+  }
 `;
 export const Solutions = styled.div`
   display: flex;
@@ -27,6 +45,15 @@ export const Solutions = styled.div`
     margin-top: 50px;
     margin-bottom: 20px;
   }
+
+  @media screen and (max-width: 960px) {
+    // background: blue;
+    width: 100%;
+
+    img {
+      margin-left: 20px;
+    }
+  }
 `;
 export const Two = styled.div`
   font-family: "Roslindale Text";
@@ -36,6 +63,12 @@ export const Two = styled.div`
   line-height: 38px;
   color: #101828;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const Three = styled.div`
   font-family: "Komet";
@@ -46,6 +79,12 @@ export const Three = styled.div`
   color: #667085;
   width: 578px;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const Four = styled.div`
   //   background: green;
@@ -86,11 +125,23 @@ export const Four = styled.div`
       }
     }
   }
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const Options = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;  
+  }
 `;
 export const Secure = styled.div`
   //   background: green;
@@ -164,6 +215,17 @@ export const AccessImage = styled.div`
   align-items: center;
 
   img {
+  }
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 100%;
+    height: auto;
+
+    img{
+      width: 350px;
+      height: 350px;
+    }
   }
 `;
 

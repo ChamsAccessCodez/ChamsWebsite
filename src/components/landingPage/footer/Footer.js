@@ -19,6 +19,7 @@ import {
   InputWrapper,
   FooterContainer,
   ChamsAccess,
+  ChamsAccess2,
   Navs,
   SocialMedia,
   Head,
@@ -109,6 +110,21 @@ const Footer = () => {
             <p>Support center</p>
             <p>Request a callback</p>
           </Navs>
+          <ChamsAccess2>
+            <Link to="/">
+              <img src={chamsLogo} alt="chamsLogo" />
+            </Link>
+
+            <p>8, Louis Solomon Close, Victoria Island, Lagos.</p>
+            <p>081 347 99582 | 000 000 00000</p>
+            <p>info@chamsaccess.com</p>
+            <SocialMedia>
+              <img src={twitter} alt="twitter" />
+              <img src={linkedIn} alt="linkedin" />
+              <img src={facebook} alt="facebook" />
+              <img src={Instagram} alt="instagram" />
+            </SocialMedia>
+          </ChamsAccess2>
         </FooterContainer>
       </FooterMain>
       <Copywrite>© Copyright {currentYear} ChamsAccess Limited.</Copywrite>

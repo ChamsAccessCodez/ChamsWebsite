@@ -5,9 +5,18 @@ export const PaymentWrapper = styled.div`
   width: 100%;
   height: inherit;
   display: flex;
+
+  @media screen and (max-width: 960px) {
+    // width: 100vw;
+    height: auto;
+    // background: yellow;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 export const PaymentContent = styled.div`
-    // background: tomato;
+  // background: tomato;
   width: 50%;
   height: inherit;
   height: 680px;
@@ -16,6 +25,20 @@ export const PaymentContent = styled.div`
   align-items: flex-start;
   //   align-items: space-around;
   padding-left: 50px;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    align-items: flex-start;
+
+
+    img {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  }
 `;
 export const Solutions = styled.div`
   display: flex;
@@ -36,6 +59,12 @@ export const Two = styled.div`
   line-height: 38px;
   color: #101828;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const Three = styled.div`
   font-family: "Komet";
@@ -46,6 +75,12 @@ export const Three = styled.div`
   color: #667085;
   width: 578px;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const Four = styled.div`
   //   background: green;
@@ -86,11 +121,24 @@ export const Four = styled.div`
       }
     }
   }
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const Options = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+    height: auto;
+  }
 `;
 export const Financial = styled.div`
   //   background: green;
@@ -164,6 +212,19 @@ export const PaymentImage = styled.div`
   align-items: center;
 
   img {
+    width: 500px;
+    height: 500px;
+  }
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 100%;
+    height: auto;
+
+    img {
+      width: 350px;
+      height: 350px;
+    }
   }
 `;
 

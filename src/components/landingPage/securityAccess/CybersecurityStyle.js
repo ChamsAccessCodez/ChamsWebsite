@@ -5,6 +5,15 @@ export const CyberWrapper = styled.div`
   width: 100%;
   height: inherit;
   display: flex;
+
+  @media screen and (max-width: 960px) {
+    // width: 100vw;
+    height: auto;
+    // background: yellow;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 export const CyberImage = styled.div`
   // background: blue;
@@ -15,6 +24,19 @@ export const CyberImage = styled.div`
   align-items: center;
 
   img {
+    width: 500px;
+    height: 500px;
+  }
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 100%;
+    height: auto;
+
+    img {
+      width: 350px;
+      height: 350px;
+    }
   }
 `;
 export const CyberContent = styled.div`
@@ -26,6 +48,18 @@ export const CyberContent = styled.div`
   align-items: flex-start;
   justify-content: center;
   //   padding-top: 50px;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    width: 100%;
+    padding-left: 0px;
+    align-items: flex-start;
+
+    img {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  }
 `;
 export const CyberHeading = styled.div`
   font-family: "Roslindale Text";
@@ -36,6 +70,12 @@ export const CyberHeading = styled.div`
   color: #101828;
   margin-top: 20px;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const CyberInfo = styled.div`
   font-family: "Komet";
@@ -45,12 +85,24 @@ export const CyberInfo = styled.div`
   line-height: 24px;
   color: #667085;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const CyberFeatures = styled.div`
-  //   background: pink;
+  // background: pink;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const Items = styled.div`
   // background: purple;
@@ -58,6 +110,19 @@ export const Items = styled.div`
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 17px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+
+    img {
+      // background: red;
+      position: relative;
+      margin-bottom: 20px;
+    }
+  }
 `;
 export const ItemDesc = styled.div`
   margin-left: 10px;
@@ -67,6 +132,10 @@ export const ItemDesc = styled.div`
   font-size: 16px;
   line-height: 24px;
   color: #667085;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+  }
 `;
 // export const Cybersecurity = styled.div``;
 export const CyberNav = styled.div`
@@ -132,6 +201,12 @@ export const CyberNav = styled.div`
         }
       }
     }
+  }
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
   }
 `;
 // export const Cybersecurity = styled.div``;

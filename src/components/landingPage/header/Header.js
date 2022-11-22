@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import {
   HeaderContainer,
@@ -13,6 +14,7 @@ import {
   Support,
   Drop,
   Text,
+  BurgerMenu,
 } from "./HeaderStyle";
 import chamsLogo from "../../../images/chamsLogo.svg";
 import arrowDownIcon from "../../../images/arrowDownIcon.svg";
@@ -22,17 +24,15 @@ import WhoAreWe from "../navs/WhoWeAre";
 import OurSolutions from "../navs/WhoWeAre";
 
 const Header = () => {
-  // change bugger menu
+  const [toggle, setToggle] = useState(false);
+
   const changeBuggerMenu = () => {
     setToggle(!toggle);
   };
 
-  // close bugger menu
   const closeBuggerMenu = () => {
     setToggle(false);
   };
-
-  const [toggle, setToggle] = useState(false);
 
   return (
     <HeaderContainer>
@@ -42,20 +42,28 @@ const Header = () => {
             <ImageLink src={chamsLogo} alt="chamsLogo" />
           </Link>
         </ImageWrapper>
-        <Navs>
-          <Item>
-            <ItemWrapper
-              onClick={() => {
-                setToggle(!toggle);
-              }}
-            >
-              <Text>
-                Who are we
-                <span>
-                  <img src={arrowDownIcon} alt="arrowDown" />
-                </span>
-              </Text>
-              {toggle ? (
+      </LeftNav>
+      <BurgerMenu onClick={changeBuggerMenu}>
+        {toggle ? (
+          <RiCloseFill size={40} style={{ fill: "red" }} />
+        ) : (
+          <RiMenu4Line size={40} style={{ fill: "#002644" }} />
+        )}
+      </BurgerMenu>
+      <Navs onclick={changeBuggerMenu} toggle={toggle}>
+        <Item onclick={changeBuggerMenu}>
+          <ItemWrapper  onClick={closeBuggerMenu}
+          // onClick={() => {
+          //   setToggle(!toggle);
+          // }}
+          >
+            <Text>
+              Who are we
+              <span>
+                <img src={arrowDownIcon} alt="arrowDown" />
+              </span>
+            </Text>
+            {/* {toggle ? (
                 <Drop
                   // hd
                   onMouseLeave={() => {
@@ -64,22 +72,22 @@ const Header = () => {
                 >
                   <WhoAreWe />
                 </Drop>
-              ) : null}
-            </ItemWrapper>
-          </Item>
-          <Item>
-            <ItemWrapper2
-              onClick={() => {
-                setToggle(!toggle);
-              }}
-            >
-              <Text>
-                Our solutions
-                <span>
-                  <img src={arrowDownIcon} alt="arrowDown" />
-                </span>
-              </Text>
-              {toggle ? (
+              ) : null} */}
+          </ItemWrapper>
+        </Item>
+        <Item>
+          <ItemWrapper2  onClick={closeBuggerMenu}
+          // onClick={() => {
+          //   setToggle(!toggle);
+          // }}
+          >
+            <Text>
+              Our solutions
+              <span>
+                <img src={arrowDownIcon} alt="arrowDown" />
+              </span>
+            </Text>
+            {/* {toggle ? (
                 <Drop
                   // hd
                   onMouseLeave={() => {
@@ -88,37 +96,36 @@ const Header = () => {
                 >
                   <OurSolutions />
                 </Drop>
-              ) : null}
-            </ItemWrapper2>
-          </Item>
-          <Item>
-            <ItemWrapper>
-              <Text>
-                Our subsidiaries
-                <span>
-                  <img src={arrowDownIcon} alt="arrowDown" />
-                </span>
-              </Text>
-            </ItemWrapper>
-          </Item>
-          <Item>
-            <ItemWrapper>
-              <Text>
-                News and insights
-                <span>
-                  <img src={arrowDownIcon} alt="arrowDown" />
-                </span>
-              </Text>
-            </ItemWrapper>
-          </Item>
-        </Navs>
-      </LeftNav>
-      <RightNav>
-        <Link to="/callback" style={{ textDecoration: "none" }}>
-          <Request>Request a callback</Request>
-        </Link>
-        <Support>Support Center</Support>
-      </RightNav>
+              ) : null} */}
+          </ItemWrapper2>
+        </Item>
+        <Item>
+          <ItemWrapper  onClick={closeBuggerMenu}>
+            <Text>
+              Our subsidiaries
+              <span>
+                <img src={arrowDownIcon} alt="arrowDown" />
+              </span>
+            </Text>
+          </ItemWrapper>
+        </Item>
+        <Item>
+          <ItemWrapper  onClick={closeBuggerMenu}>
+            <Text>
+              News and insights
+              <span>
+                <img src={arrowDownIcon} alt="arrowDown" />
+              </span>
+            </Text>
+          </ItemWrapper>
+        </Item>
+        <RightNav>
+          <Link to="/callback" style={{ textDecoration: "none" }}>
+            <Request  onClick={closeBuggerMenu}>Request a callback</Request>
+          </Link>
+          <Support  onClick={closeBuggerMenu}>Support Center</Support>
+        </RightNav>
+      </Navs>
     </HeaderContainer>
   );
 };

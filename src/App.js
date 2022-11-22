@@ -6,8 +6,8 @@ import Chams from "./components/main/main";
 import Contact from "./components/pages/ContactUs";
 import About from "./components/pages/AboutUs";
 import PC from "./components/subPages/PensionCentral";
-import RequestCallback from "./components/subPages/RequestCallback";
-import Careers from "./components/subPages/Careers";
+import RequestCallback from "./components/subPages/RequestCallbackForm";
+import Careers from "./components/subPages/CareersForm";
 
 function App() {
   return (

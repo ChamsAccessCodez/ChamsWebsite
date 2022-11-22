@@ -5,9 +5,18 @@ export const BiometricWrapper = styled.div`
   width: 100%;
   height: inherit;
   display: flex;
+
+  @media screen and (max-width: 960px) {
+    // width: 100vw;
+    height: auto;
+    // background: red;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 export const BiometricContent = styled.div`
-  //   background: tomato;
+    // background: tomato;
   width: 50%;
   height: inherit;
   display: flex;
@@ -15,6 +24,18 @@ export const BiometricContent = styled.div`
   align-items: flex-start;
   //   align-items: space-around;
   padding-left: 50px;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    width: 100%;
+    padding-left: 0px;
+    align-items: flex-start;
+
+    img {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  }
 `;
 export const Solutions = styled.div`
   display: flex;
@@ -23,8 +44,14 @@ export const Solutions = styled.div`
   align-items: flex-start;
 
   img {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
   }
 `;
 export const Two = styled.div`
@@ -45,6 +72,11 @@ export const Three = styled.div`
   color: #667085;
   width: 578px;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+  }
 `;
 export const Four = styled.div`
   //   background: green;
@@ -108,6 +140,11 @@ export const Desc = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 70%;
+  }
 `;
 export const DescHead = styled.div`
   font-family: "Komet";
@@ -118,6 +155,11 @@ export const DescHead = styled.div`
   display: flex;
   align-items: center;
   color: #1d2939;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 80%;
+  }
 `;
 export const DescBody = styled.div`
   font-family: "Komet";
@@ -126,6 +168,12 @@ export const DescBody = styled.div`
   font-size: 14px;
   line-height: 20px;
   color: #475467;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-top 5px;
+  }
 `;
 export const Biometrics = styled.div`
   //   background: red;
@@ -141,14 +189,15 @@ export const Biometrics = styled.div`
   }
 `;
 export const BiometricImage = styled.div`
-  // background: blue;
-  width: 50%;
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 100%;
+    height: auto;
 
-  img {
+    img {
+      width: 350px;
+      height: 350px;
+    }
   }
 `;
 

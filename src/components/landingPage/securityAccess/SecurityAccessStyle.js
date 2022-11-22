@@ -6,6 +6,11 @@ export const AccessWrapper = styled.div`
   width: inherit;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    width: 100vw;
+  }
 `;
 export const AccessTop = styled.div`
   // background: tomato;
@@ -16,6 +21,10 @@ export const AccessTop = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 960px) {
+    width: inherit;
+  }
 `;
 export const OurProduct = styled.div`
   display: flex;
@@ -43,6 +52,9 @@ export const OurProduct = styled.div`
     background: #a92f34;
     color: #f6eaeb;
   }
+
+  @media screen and (max-width: 960px) {
+  }
 `;
 export const Think = styled.div`
   width: 846px;
@@ -55,6 +67,10 @@ export const Think = styled.div`
   letter-spacing: -0.02em;
   color: #101828;
   margin-top: 20px;
+
+  @media screen and (max-width: 960px) {
+    width: inherit;
+  }
 `;
 export const We = styled.div`
   width: 520px;
@@ -66,6 +82,10 @@ export const We = styled.div`
   text-align: center;
   color: #667085;
   margin-top: 20px;
+
+  @media screen and (max-width: 960px) {
+    width: inherit;
+  }
 `;
 export const AccessMiddle = styled.div`
   //   background: red;
@@ -75,6 +95,11 @@ export const AccessMiddle = styled.div`
   flex-direction: column;
   justify-content: center;
   align-self: center;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: inherit;
+  }
 `;
 export const Item = styled.div`
   // background: tomato;
@@ -100,6 +125,13 @@ export const Item = styled.div`
   text-align: center;
   // color: #08783d;
   // color: #84BC9E;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: inherit;
+    border-top: 0px solid ${({ bg }) => (bg ? "#08783D" : "null")};
+    border-left: 6px solid ${({ bg }) => (bg ? "#08783D" : "null")};
+  }
 `;
 export const Navs = styled.div`
   background: #ebf5f0;
@@ -110,11 +142,25 @@ export const Navs = styled.div`
   align-self: center;
   margin-top: 4px;
   margin-bottom: 4px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: inherit;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
 `;
 export const Contents = styled.div`
   // background: red;
   width: 90%;
-  height: 580px;
+  height: 680px;
   align-self: center;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 100vw;
+    height: auto;
+  }
 `;
 // export const AccessWrapper = styled.div``;

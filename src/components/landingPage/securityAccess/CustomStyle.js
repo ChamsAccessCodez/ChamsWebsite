@@ -6,6 +6,15 @@ export const CyberWrapper = styled.div`
   height: inherit;
   height: 500px;
   display: flex;
+
+  @media screen and (max-width: 960px) {
+    // width: 100vw;
+    height: auto;
+    // background: yellow;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 export const CyberImage = styled.div`
   //   background: blue;
@@ -16,6 +25,19 @@ export const CyberImage = styled.div`
   align-items: center;
 
   img {
+    width: 500px;
+    height: 500px;
+  }
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 100%;
+    height: auto;
+
+    img {
+      width: 350px;
+      height: 350px;
+    }
   }
 `;
 export const CyberContent = styled.div`
@@ -27,6 +49,18 @@ export const CyberContent = styled.div`
   align-items: flex-start;
   justify-content: center;
   padding-left: 50px;
+
+  @media screen and (max-width: 960px) {
+    // background: red;
+    width: 100%;
+    padding-left: 0px;
+    align-items: flex-start;
+
+    img {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  }
 `;
 export const CyberHeading = styled.div`
   font-family: "Roslindale Text";
@@ -37,6 +71,12 @@ export const CyberHeading = styled.div`
   color: #101828;
   margin-top: 20px;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const CyberInfo = styled.div`
   font-family: "Komet";
@@ -47,6 +87,12 @@ export const CyberInfo = styled.div`
   color: #667085;
   margin-bottom: 20px;
   width: 594px;
+
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 90%;
+    margin-left: 20px;
+  }
 `;
 export const CyberFeatures = styled.div`
   //   background: pink;
@@ -56,16 +102,16 @@ export const CyberFeatures = styled.div`
 `;
 
 export const CyberNav = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 8px 16px;
-width: auto;
-height: 45px;
-background: #F79009;
-box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-border-radius: 10px;
-cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  width: auto;
+  height: 45px;
+  background: #f79009;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 10px;
+  cursor: pointer;
 
   p {
     // background: gold;
@@ -104,7 +150,14 @@ cursor: pointer;
           margin-left: 25px;
         }
       }
-
+    }
+  }
+  @media screen and (max-width: 960px) {
+    // background: yellow;
+    width: 80vw;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
 `;
 // export const Cybersecurity = styled.div``;
 // export const Cybersecurity = styled.div``;

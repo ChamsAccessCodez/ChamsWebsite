@@ -8,6 +8,10 @@ export const TestContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  @media screen and (max-width: 960px) {
+    width: 100vw;
+  }
 `;
 export const TrusteeLogos = styled.div`
   width: inherit;
@@ -16,6 +20,10 @@ export const TrusteeLogos = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 960px) {
+    width: 100vw;
+  }
 `;
 export const Text = styled.div`
   margin-top: 66px;
@@ -31,6 +39,10 @@ export const Text = styled.div`
   line-height: 32px;
   text-align: center;
   color: #667085;
+
+  @media screen and (max-width: 960px) {
+    width: 90vw;
+  }
 `;
 export const ImageWrapper = styled.div`
   // background: tomato;
@@ -39,6 +51,10 @@ export const ImageWrapper = styled.div`
   display: flex;
   // justify-content: space-around;
   // align-items: center;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
 `;
 export const Items = styled.div`
   // background: green;
@@ -74,6 +90,16 @@ export const TextDiv = styled.div`
     text-align: center;
     color: #667085;
   }
+
+  @media screen and (max-width: 960px) {
+    width: 100vw;
+
+    p{
+      width: 90vw;
+      height: auto;
+      margin-bottom: 30px;
+    }
+  }
 `;
 export const Ready = styled.div`
   width: 1000px;
@@ -89,6 +115,13 @@ export const Ready = styled.div`
   // margin-top: 60px;
   // margin-bottom: 10px;
   margin: 60px 0px 10px;
+
+  @media screen and (max-width: 960px) {
+    width: 95vw;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 30px 0px 40px;
+  }
 `;
 export const RequestButton = styled.div`
   display: flex;

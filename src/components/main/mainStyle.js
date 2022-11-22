@@ -7,4 +7,5 @@ height: auto;
 background: #ffffff;
 display: flex;
 flex-direction: column;
+overflow-x: hidden;
 `;

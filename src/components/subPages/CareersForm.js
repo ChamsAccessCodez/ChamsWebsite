@@ -16,7 +16,7 @@ import {
   DownloadIcon,
   RealInput,
   InputRow,
-} from "./CareersStyle.js";
+} from "./CareersFormStyle.js";
 import careerImage from "../../images/CareerImage.png";
 import cancelIcon from "../../images/CancelIcon.png";
 import uploadIcon from "../../images/uploadIcon.svg";

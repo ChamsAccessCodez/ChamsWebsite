@@ -45,7 +45,7 @@ const Access = () => {
       </AccessImage>
       <AccessContent>
         <Solutions>
-          <img src={accessIcon} alt="" />
+          <img src={accessIcon} alt="solutions" />
           <Two>Access Management Solutions</Two>
           <Three>
             Every day, our security and access control solutions help millions

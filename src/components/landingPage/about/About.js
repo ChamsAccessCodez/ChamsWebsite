@@ -18,7 +18,7 @@ import {
 const About = () => {
   return (
     <AboutWrapper>
-      <Link to="/contact" style={{ textDecoration: "none" }}>
+      <Link to="/about" style={{ textDecoration: "none" }}>
         <AboutButton>About us</AboutButton>
       </Link>
       <Why>Why we are different</Why>
