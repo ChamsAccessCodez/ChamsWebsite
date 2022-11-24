@@ -16,7 +16,7 @@ export const BiometricWrapper = styled.div`
   }
 `;
 export const BiometricContent = styled.div`
-    // background: tomato;
+  // background: tomato;
   width: 50%;
   height: inherit;
   display: flex;
@@ -32,7 +32,7 @@ export const BiometricContent = styled.div`
     align-items: flex-start;
 
     img {
-      margin-left: 20px;
+      margin-left: 0px;
       margin-top: 20px;
     }
   }

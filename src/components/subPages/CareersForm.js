@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {
   CareerContainer,
   Left,
@@ -23,6 +23,13 @@ import uploadIcon from "../../images/uploadIcon.svg";
 import { Link } from "react-router-dom";
 
 const Career = () => {
+  useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 100,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <CareerContainer>
       <Left>
@@ -56,7 +63,7 @@ const Career = () => {
         </Link>
         <FormContainer>
           <FormContent>
-            <Heading>Request a callback</Heading>
+            <Heading>Your dream job</Heading>
             <p>
               Thanks for your interest in our services. Let us know how we can
               reach out to discuss your project in more detail.
@@ -65,30 +72,36 @@ const Career = () => {
           <FormWrapper>
             <Form>
               <Name>
-                <label>
+                <label style={{ marginRight: "2%" }}>
                   First name
                   <input type="text" />
                 </label>
-                <label>
+                <label style={{ marginLeft: "2%" }}>
                   Last name
                   <input type="text" />
                 </label>
               </Name>
               <Contact1>
-                <label style={{ marginRight: "10px" }}>
+                <label style={{ marginRight: "2%" }}>
                   Current location
                   <input type="text" />
                 </label>
-                <label style={{ marginLeft: "10px" }}>
+                <label style={{ marginLeft: "2%" }}>
                   Email address
                   <input type="text" />
                 </label>
               </Contact1>
               <Contact2>
-                <div style={{ width: "47%" }}>
+                <div
+                  style={{
+                    width: "48%",
+                    marginRight: "2.5%"
+                  }}
+                >
                   <p
                     style={{
                       marginTop: "0px",
+                      marginBottom: "6px",
                       fontFamily: "Komet",
                       fontStyle: "normal",
                       fontWeight: "500",
@@ -113,12 +126,14 @@ const Career = () => {
                 </div>
                 <div
                   style={{
-                    width: "47%",
+                    width: "48%",
+                    marginLeft: "2.5%"
                   }}
                 >
                   <p
                     style={{
                       marginTop: "0px",
+                      marginBottom: "6px",
                       fontFamily: "Komet",
                       fontStyle: "normal",
                       fontWeight: "500",
@@ -145,7 +160,9 @@ const Career = () => {
               <Message>
                 <label>
                   Dream job description
-                  <textarea type="text" placeholder="Enter a description..." />
+                  <textarea 
+                  type="text" 
+                  placeholder="Enter a description..." />
                 </label>
               </Message>
               <Button>Submit</Button>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {
   RequestContainer,
   Left,
@@ -19,6 +19,13 @@ import cancelIcon from "../../images/CancelIcon.png";
 import { Link } from "react-router-dom";
 
 const RequestCallback = () => {
+  useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 100,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <RequestContainer>
       <Left>

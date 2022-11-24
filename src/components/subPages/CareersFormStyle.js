@@ -119,7 +119,7 @@ export const Name = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 48%;
+    width: 50%;
     height: 24px;
     font-family: "Komet";
     font-style: normal;
@@ -134,7 +134,7 @@ export const Name = styled.div`
       flex-direction: row;
       align-items: center;
       // width: 600px;
-      width: 99%;
+      width: 100%;
       height: 40px;
       background: #ffffff;
       border: 1px solid #d0d5dd;
@@ -154,7 +154,7 @@ export const Contact1 = styled.div`
   align-items: flex-start;
   padding: 0px;
   width: 100%;
-  height: 70px;
+  height: auto;
   margin-top: 32px;
   display: flex;
   flex-direction: row;
@@ -165,7 +165,7 @@ export const Contact1 = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 48%;
+    width: 100%;
     height: 24px;
     font-family: "Komet";
     font-style: normal;
@@ -180,7 +180,7 @@ export const Contact1 = styled.div`
       flex-direction: row;
       align-items: center;
       // width: 280px;
-      width: 98%;
+      width: 100%;
       height: 40px;
       background: #ffffff;
       border: 1px solid #d0d5dd;
@@ -212,7 +212,7 @@ export const Contact2 = styled.div`
 `;
 
 export const InputRow = styled.label`
-//   background: red;
+  //   background: red;
   width: 100%;
   // testing some styling
   text-align: center;
@@ -264,7 +264,7 @@ export const Message = styled.div`
     align-items: flex-start;
     margin-bottom: 6px;
 
-    width: inherit;
+    width: 100%;
     height: inherit;
     font-family: "Komet";
     font-style: normal;
@@ -278,7 +278,7 @@ export const Message = styled.div`
       flex-direction: row;
       align-items: center;
       padding: 10px 14px;
-      width: 95%;
+      width: 98%;
       height: 190px;
       background: #ffffff;
       border: 1px solid #d0d5dd;

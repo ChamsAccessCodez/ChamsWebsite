@@ -8,6 +8,7 @@ import About from "./components/pages/AboutUs";
 import PC from "./components/subPages/PensionCentral";
 import RequestCallback from "./components/subPages/RequestCallbackForm";
 import Careers from "./components/subPages/CareersForm";
+import CareersPage from "./components/subPages/CareersPage";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/pc" element={<PC />} />
         <Route exact path="/callback" element={<RequestCallback />} />
-        <Route exact path="/career" element={<Careers />} />
+        <Route exact path="/career-form" element={<Careers />} />
+        <Route exact path="/career-page" element={<CareersPage />} />
       </Routes>
       {/* <Footer /> */}
     </div>

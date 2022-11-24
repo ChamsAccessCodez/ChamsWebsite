@@ -76,7 +76,7 @@ const Footer = () => {
             <Link to="/about" style={{ textDecoration: "none" }}>
               <p>About us</p>
             </Link>
-            <Link to="/contact" style={{ textDecoration: "none" }}>
+            <Link to="/career-page" style={{ textDecoration: "none" }}>
               <p>Careers</p>
             </Link>
             <Link to="/contact" style={{ textDecoration: "none" }}>
@@ -107,8 +107,12 @@ const Footer = () => {
             <Link to="/contact" style={{ textDecoration: "none" }}>
               <p>Contact us</p>
             </Link>
-            <p>Support center</p>
-            <p>Request a callback</p>
+            <Link to="/contact" style={{ textDecoration: "none" }}>
+              <p>Support center</p>
+            </Link>
+            <Link to="/callback" style={{ textDecoration: "none" }}>
+              <p>Request a callback</p>
+            </Link>
           </Navs>
           <ChamsAccess2>
             <Link to="/">
