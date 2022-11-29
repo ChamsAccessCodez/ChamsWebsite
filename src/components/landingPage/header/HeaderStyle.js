@@ -38,7 +38,7 @@ export const RightNav = styled.div`
   justify-content: center;
   align-items: center;
   height: inherit;
-  // margin-right: 80px;
+  // margin-left: 80px;
   margin-right: 120px;
 
   @media screen and (max-width: 960px) {
@@ -70,6 +70,7 @@ export const Request = styled.div`
 
   :hover {
     width: 180px;
+    color: #000000;
   }
 
   @media screen and (max-width: 960px) {
@@ -135,7 +136,8 @@ export const Navs = styled.div`
   //   justify-content: center;
   //   align-items: center;
   height: inherit;
-  margin-left: 40px;
+  width: auto;
+  margin-left: 0px;
 
   @media screen and (max-width: 960px) {
     // background: red;
@@ -156,6 +158,7 @@ export const Navs = styled.div`
 `;
 export const BurgerMenu = styled.div`
   display: none;
+  // display: flex;
 
   @media screen and (max-width: 960px) {
     // background: green;

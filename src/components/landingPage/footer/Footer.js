@@ -91,8 +91,12 @@ const Footer = () => {
           </Navs>
           <Navs>
             <Head>Our Solutions</Head>
+            <Link to="/biometric" style={{ textDecoration: "none" }}>
             <p>Biometrics Solutions</p>
+            </Link>
+            <Link to="/cybersecurity" style={{ textDecoration: "none" }}>
             <p>Cybersecurity Solutions</p>
+            </Link>
             <p>Payments Solutions</p>
             <p>Access Management Solutions</p>
             <p>Custom Solutions</p>

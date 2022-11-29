@@ -41,13 +41,15 @@ const CarouselContainer = styled.div`
   align-items: center;
 `;
 const CareerDescriptions = styled.div`
-  //   background: yellow;
+  // background: yellow;
   width: 820px;
   //   width: 65%;
   height: 380px;
+  display: flex;
+  flex-direction: column;
 `;
 const CareerImage = styled.div`
-  //   background: green;
+  // background: green;
   width: 380px;
   //   width: 35%;
   height: 380px;
@@ -66,18 +68,19 @@ const CareerImage = styled.div`
 const Div1 = styled.div`
   width: 100px;
   height: 76px;
-  background: #cb8285;
   margin-top: 40px;
-  margin-left: 30px;
+  margin-left: 40px;
   margin-bottom: 14px;
 
   img {
+    width: 100px;
+    height: 76px;
   }
 `;
 const Div2 = styled.div`
+  position: relative;
   margin-bottom: 18px;
   margin-right: 132px;
-
   width: 614px;
   height: 97px;
   font-family: "Komet";
@@ -86,7 +89,8 @@ const Div2 = styled.div`
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
-  margin-left: 132px;
+  margin-left: 142px;
+  top: -60px;
 `;
 const Div3 = styled.div`
   width: 614px;
@@ -97,10 +101,11 @@ const Div3 = styled.div`
   font-size: 30px;
   line-height: 38px;
   color: #ffffff;
-  margin-left: 130px;
+  margin-left: 142px;
+  margin-bottom: 5px;
 `;
 const Div4 = styled.div`
-  width: 37px;
+  width: 47px;
   height: 28px;
   font-family: "Komet";
   font-style: normal;
@@ -108,7 +113,7 @@ const Div4 = styled.div`
   font-size: 18px;
   line-height: 28px;
   color: #ffffff;
-  margin-left: 130px;
+  margin-left: 142px;
 `;
 // const CarouselContainer = styled.div``;
 // const CarouselContainer = styled.div``;

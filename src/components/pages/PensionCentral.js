@@ -36,6 +36,11 @@ import Footer from "../landingPage/footer/Footer";
 
 const PensionCentral = () => {
   useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 100,
+      behavior: "smooth",
+    });
     AOS.init();
   }, []);
 
@@ -114,10 +119,7 @@ const PensionCentral = () => {
                 data-aos-mirror="true"
                 data-aos-once="false"
               />
-              <OptionDesc
-              >
-                Generate reports for anything at ease
-              </OptionDesc>
+              <OptionDesc>Generate reports for anything at ease</OptionDesc>
             </OptionContainer>
             <OptionContainer>
               <img
@@ -131,10 +133,7 @@ const PensionCentral = () => {
                 data-aos-mirror="true"
                 data-aos-once="false"
               />
-              <OptionDesc
-              >
-                Unmatched technical and business support.
-              </OptionDesc>
+              <OptionDesc>Unmatched technical and business support.</OptionDesc>
             </OptionContainer>
             <OptionContainer>
               <img
@@ -148,8 +147,7 @@ const PensionCentral = () => {
                 data-aos-mirror="true"
                 data-aos-once="false"
               />
-              <OptionDesc
-              >
+              <OptionDesc>
                 API Integration with HR and Payment platforms.
               </OptionDesc>
             </OptionContainer>
@@ -165,8 +163,7 @@ const PensionCentral = () => {
                 data-aos-mirror="true"
                 data-aos-once="false"
               />
-              <OptionDesc
-              >
+              <OptionDesc>
                 Multiple Period, Single Schedule, Single Payment.
               </OptionDesc>
             </OptionContainer>
@@ -182,8 +179,7 @@ const PensionCentral = () => {
                 data-aos-mirror="true"
                 data-aos-once="false"
               />
-              <OptionDesc
-              >
+              <OptionDesc>
                 Electronic payment, and instant delivery of schedules
               </OptionDesc>
             </OptionContainer>
@@ -201,7 +197,7 @@ const PensionCentral = () => {
         </p>
         <RequestButton>Learn more</RequestButton>
       </TextDiv>
-      <Footer/>
+      <Footer />
     </PenContainer>
   );
 };

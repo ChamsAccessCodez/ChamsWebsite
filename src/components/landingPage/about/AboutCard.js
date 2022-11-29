@@ -4,7 +4,6 @@ import { CardWrapper, CardInfo, CardHeading } from "./AboutCardStyle";
 const AboutCard = (props) => {
   return (
     <CardWrapper>
-      {/* <img src={businessImage} alt='business Integrity' /> */}
       <img src={props.cardImage} alt="business Integrity" />
       <CardInfo id="info">
         <CardHeading>{props.heading}</CardHeading>

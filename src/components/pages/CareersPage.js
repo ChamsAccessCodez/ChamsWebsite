@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import { Link } from "react-scroll";
-import {Link as NavLink} from "react-router-dom";
+import { Link as NavLink } from "react-router-dom";
 import {
   CareerPageContainer,
   GetInTouch,
@@ -187,11 +187,11 @@ const CareersPage = () => {
       <CarouselWrapper>
         <CarouselCard
           carouselImage={apostrophe}
-          carouselBody="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit. Exercitation
-        veniam consequat sunt nostrud amet."
-          carouselName="Jane Dupe"
-          carouselRole="Role"
+          carouselBody="Joined ChamsAccess 2 years ago as a fresh graduate, confused and knowing the company is technology-based, my work experience has been fantastic and awesome
+          Chamsaccess indeed is a company that enhances growth and development and they are always there to support
+          "
+          carouselName="Thelma"
+          CarouselRole="HR/Procurements"
         />
       </CarouselWrapper>
       <TextDiv>
@@ -201,8 +201,8 @@ const CareersPage = () => {
           submit your details and we will be in touch if you meet the criteria
           for any positions that become available.
         </p>
-        <NavLink to="/career-form" style={{textDecoration: "none"}}>
-        <RequestButton>Tell us about your dream job</RequestButton>
+        <NavLink to="/career-form" style={{ textDecoration: "none" }}>
+          <RequestButton>Tell us about your dream job</RequestButton>
         </NavLink>
       </TextDiv>
       <Footer />

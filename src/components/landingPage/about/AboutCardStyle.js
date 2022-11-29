@@ -24,6 +24,7 @@ export const CardWrapper = styled.div`
   }
   :hover #para {
     visibility: visible;
+    // overflow-y: hidden;
   }
 
   @media screen and (max-width: 960px) {
@@ -41,6 +42,7 @@ export const CardInfo = styled.div`
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   cursor: pointer;
+  overflow: hidden;
   transition: height 1s;
 
   // :hover {
@@ -70,7 +72,6 @@ export const CardInfo = styled.div`
     p {
       // margin-left: 0px;
       // margin-right: 0px;
-
     }
   }
 `;

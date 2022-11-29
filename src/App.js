@@ -5,10 +5,12 @@ import { Routes, Route } from "react-router-dom";
 import Chams from "./components/main/main";
 import Contact from "./components/pages/ContactUs";
 import About from "./components/pages/AboutUs";
-import PC from "./components/subPages/PensionCentral";
-import RequestCallback from "./components/subPages/RequestCallbackForm";
-import Careers from "./components/subPages/CareersForm";
-import CareersPage from "./components/subPages/CareersPage";
+import PC from "./components/pages/PensionCentral";
+import RequestCallback from "./components/pages/RequestCallbackForm";
+import Careers from "./components/pages/CareersForm";
+import CareersPage from "./components/pages/CareersPage";
+import Biometric from "./components/pages/Biometric";
+import CyberSecurity from "./components/pages/CyberSecurity";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route exact path="/callback" element={<RequestCallback />} />
         <Route exact path="/career-form" element={<Careers />} />
         <Route exact path="/career-page" element={<CareersPage />} />
+        <Route exact path="/biometric" element={<Biometric />} />
+        <Route exact path="/cybersecurity" element={<CyberSecurity />} />
       </Routes>
       {/* <Footer /> */}
     </div>

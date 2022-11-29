@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import {
   HeaderContainer,
@@ -52,10 +51,11 @@ const Header = () => {
       </BurgerMenu>
       <Navs onclick={changeBuggerMenu} toggle={toggle}>
         <Item onclick={changeBuggerMenu}>
-          <ItemWrapper  onClick={closeBuggerMenu}
-          // onClick={() => {
-          //   setToggle(!toggle);
-          // }}
+          <ItemWrapper
+            onClick={closeBuggerMenu}
+            // onClick={() => {
+            //   setToggle(!toggle);
+            // }}
           >
             <Text>
               Who are we
@@ -76,10 +76,11 @@ const Header = () => {
           </ItemWrapper>
         </Item>
         <Item>
-          <ItemWrapper2  onClick={closeBuggerMenu}
-          // onClick={() => {
-          //   setToggle(!toggle);
-          // }}
+          <ItemWrapper2
+            onClick={closeBuggerMenu}
+            // onClick={() => {
+            //   setToggle(!toggle);
+            // }}
           >
             <Text>
               Our solutions
@@ -100,7 +101,7 @@ const Header = () => {
           </ItemWrapper2>
         </Item>
         <Item>
-          <ItemWrapper  onClick={closeBuggerMenu}>
+          <ItemWrapper onClick={closeBuggerMenu}>
             <Text>
               Our subsidiaries
               <span>
@@ -110,7 +111,10 @@ const Header = () => {
           </ItemWrapper>
         </Item>
         <Item>
-          <ItemWrapper  onClick={closeBuggerMenu}>
+          <ItemWrapper
+            style={{ marginRight: "40px" }}
+            onClick={closeBuggerMenu}
+          >
             <Text>
               News and insights
               <span>
@@ -121,9 +125,9 @@ const Header = () => {
         </Item>
         <RightNav>
           <Link to="/callback" style={{ textDecoration: "none" }}>
-            <Request  onClick={closeBuggerMenu}>Request a callback</Request>
+            <Request onClick={closeBuggerMenu}>Request a callback</Request>
           </Link>
-          <Support  onClick={closeBuggerMenu}>Support Center</Support>
+          <Support onClick={closeBuggerMenu}>Support Center</Support>
         </RightNav>
       </Navs>
     </HeaderContainer>

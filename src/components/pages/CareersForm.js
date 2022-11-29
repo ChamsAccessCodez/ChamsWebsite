@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import {
   CareerContainer,
   Left,
@@ -95,7 +95,7 @@ const Career = () => {
                 <div
                   style={{
                     width: "48%",
-                    marginRight: "2.5%"
+                    marginRight: "2.5%",
                   }}
                 >
                   <p
@@ -127,7 +127,7 @@ const Career = () => {
                 <div
                   style={{
                     width: "48%",
-                    marginLeft: "2.5%"
+                    marginLeft: "2.5%",
                   }}
                 >
                   <p
@@ -160,9 +160,7 @@ const Career = () => {
               <Message>
                 <label>
                   Dream job description
-                  <textarea 
-                  type="text" 
-                  placeholder="Enter a description..." />
+                  <textarea type="text" placeholder="Enter a description..." />
                 </label>
               </Message>
               <Button>Submit</Button>
