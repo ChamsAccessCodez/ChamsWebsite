@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
   // background: tomato;
-  background: #f1f1f1;
+  background: #ffffff;
   width: 100vw;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  border-bottom: 1px solid #F2F4F7;
   z-index: 999;
 
   @media screen and (max-width: 960px) {

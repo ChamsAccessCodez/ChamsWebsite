@@ -272,6 +272,7 @@ export const Imp2 = styled.div`
   }
 `;
 export const Imp3 = styled.div`
+  // background-color: red;
   display: flex;
   cursor: pointer;
 
@@ -282,9 +283,11 @@ export const Imp3 = styled.div`
   }
 
   span {
+    display: flex;
   }
   img {
     margin-left: 10px;
+    margin-top: 1.5px;
     transition: margin-left 1s;
   }
   :hover {

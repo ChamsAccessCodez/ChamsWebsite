@@ -13,6 +13,7 @@ import Biometric from "./components/pages/Biometric";
 import CyberSecurity from "./components/pages/CyberSecurity";
 import PaymentSolution from "./components/pages/PaymentSolution";
 import CustomSolution from "./components/pages/CustomSolutions";
+import SecureKids from "./components/pages/SecureKids";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route exact path="/cybersecurity" element={<CyberSecurity />} />
         <Route exact path="/payment-solution" element={<PaymentSolution />} />
         <Route exact path="/custom-solution" element={<CustomSolution />} />
+        <Route exact path="/secure-kids" element={<SecureKids />} />
       </Routes>
       {/* <Footer /> */}
     </div>

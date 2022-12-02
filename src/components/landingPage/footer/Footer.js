@@ -107,7 +107,9 @@ const Footer = () => {
               <p>Payments Solutions</p>
             </Link>
             <p>Access Management Solutions</p>
-            <p>Custom Solutions</p>
+            <Link to="/custom-solution" style={{ textDecoration: "none" }}>
+              <p>Custom Solutions</p>
+            </Link>
           </Navs>
           <Navs>
             <Head>Our Subsidiaries</Head>

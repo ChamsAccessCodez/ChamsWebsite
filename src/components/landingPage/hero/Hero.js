@@ -28,7 +28,7 @@ import {
 const Hero = () => {
   useEffect(() => {
     AOS.init();
-    AOS.init({disable: 'mobile'});
+    AOS.init({ disable: "mobile" });
   }, []);
   return (
     <HeroWrapper>
@@ -92,9 +92,9 @@ const Hero = () => {
           <Sub3>Through instant issuance solution for commercial banks</Sub3>
         </Issues>
         <Transactions>
-          <Sub1>9m+</Sub1>
-          <Sub2>Issued Financial Cards</Sub2>
-          <Sub3>Through instant issuance solution for commercial banks</Sub3>
+          <Sub1>$6m+</Sub1>
+          <Sub2>Transactions processed</Sub2>
+          <Sub3>Pensions remittances routed through our gateway</Sub3>
         </Transactions>
       </Hero2>
     </HeroWrapper>
