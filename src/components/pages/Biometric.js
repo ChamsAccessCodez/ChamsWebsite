@@ -41,6 +41,9 @@ import story2Image from "../../images/Story2Background.png";
 import fingerPrintImage from "../../images/FingerPrintImage.png";
 import scannerSFI from "../../images/ScannerZFI.png";
 import IndustrailCard from "./IndustrailCard";
+import govt from "../../images/GovtIcon.png";
+import enterprise from "../../images/EnterpriseIcon.png";
+import bank from "../../images/BankImage.png";
 
 const Biometric = () => {
   useEffect(() => {
@@ -179,11 +182,9 @@ const Biometric = () => {
       <IndustrialApplication>
         <p>Multi-Industrial Applications</p>
         <IndustrialCardWrapper>
-          <IndustrailCard />
-          <IndustrailCard />
-          <IndustrailCard />
-          <IndustrailCard />
-          <IndustrailCard />
+          <IndustrailCard sourceImage={bank} />
+          <IndustrailCard sourceImage={enterprise} />
+          <IndustrailCard sourceImage={govt} />
         </IndustrialCardWrapper>
       </IndustrialApplication>
       <Footer />

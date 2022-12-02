@@ -11,6 +11,8 @@ import Careers from "./components/pages/CareersForm";
 import CareersPage from "./components/pages/CareersPage";
 import Biometric from "./components/pages/Biometric";
 import CyberSecurity from "./components/pages/CyberSecurity";
+import PaymentSolution from "./components/pages/PaymentSolution";
+import CustomSolution from "./components/pages/CustomSolutions";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route exact path="/career-page" element={<CareersPage />} />
         <Route exact path="/biometric" element={<Biometric />} />
         <Route exact path="/cybersecurity" element={<CyberSecurity />} />
+        <Route exact path="/payment-solution" element={<PaymentSolution />} />
+        <Route exact path="/custom-solution" element={<CustomSolution />} />
       </Routes>
       {/* <Footer /> */}
     </div>

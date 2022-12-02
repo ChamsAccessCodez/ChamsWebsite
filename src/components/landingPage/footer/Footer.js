@@ -32,8 +32,14 @@ const Footer = () => {
   let year = new Date().getFullYear();
 
   useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 100,
+      behavior: "smooth",
+    });
     setCurrentYear(year);
   }, []);
+
   return (
     <FooterWrapper>
       <FooterTop>
@@ -92,18 +98,22 @@ const Footer = () => {
           <Navs>
             <Head>Our Solutions</Head>
             <Link to="/biometric" style={{ textDecoration: "none" }}>
-            <p>Biometrics Solutions</p>
+              <p>Biometrics Solutions</p>
             </Link>
             <Link to="/cybersecurity" style={{ textDecoration: "none" }}>
-            <p>Cybersecurity Solutions</p>
+              <p>Cybersecurity Solutions</p>
             </Link>
-            <p>Payments Solutions</p>
+            <Link to="/payment-solution" style={{ textDecoration: "none" }}>
+              <p>Payments Solutions</p>
+            </Link>
             <p>Access Management Solutions</p>
             <p>Custom Solutions</p>
           </Navs>
           <Navs>
             <Head>Our Subsidiaries</Head>
-            <p>Pension Central</p>
+            <Link to="/pc" style={{ textDecoration: "none" }}>
+              <p>Pension Central</p>
+            </Link>
             <p>Argone World</p>
           </Navs>
           <Navs>

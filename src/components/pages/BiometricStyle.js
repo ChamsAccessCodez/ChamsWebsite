@@ -120,13 +120,13 @@ export const StoryDescription = styled.div`
 `;
 export const ImageAndText = styled.div`
   //   background: pink;
-  width: 90%;
+  width: 80%;
   height: 510px;
   height: 90%;
   display: flex;
 `;
 export const Left = styled.div`
-  background: red;
+  // background: red;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -148,6 +148,7 @@ export const Right = styled.div`
 
   p {
     width: 539px;
+    width: 500px;
     height: 247px;
     font-family: "Komet";
     font-style: normal;
@@ -176,7 +177,7 @@ export const Right2 = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
 
   p {
@@ -192,7 +193,7 @@ export const Right2 = styled.div`
   }
 `;
 export const Story2 = styled.div`
-  //   background: green;
+  // background: green;
   width: 100vw;
   height: 800px;
   // background: red;
@@ -215,6 +216,7 @@ export const Right2Navs = styled.div`
   display: flex;
   width: 100%;
   margin-bottom: 23px;
+  margin-top: 70px;
 `;
 export const Right2Button = styled.div`
   display: flex;
@@ -317,7 +319,7 @@ export const Right3Button = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 4px 20px;
+  padding: 4px 15px;
   //   width: 99px;
   height: 28px;
   background: #f6eaeb;
@@ -418,6 +420,7 @@ export const Right4 = styled.div`
 
   p {
     width: 539px;
+    width: 500px;
     height: 247px;
     font-family: "Komet";
     font-style: normal;
