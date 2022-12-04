@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-const SecureKidCard = ({ sourceImage, TitleHead }) => {
+const SecureKidCard = ({ sourceImage, TitleHead, TitleHead2 }) => {
   return (
     <CardContainer>
       <img src={sourceImage} alt="source" />
       <p>{TitleHead}</p>
+      <P2>{TitleHead2}</P2>
     </CardContainer>
   );
 };
@@ -16,6 +17,7 @@ const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
   padding: 0px 0px 30px;
   width: 350px;
   height: 396px;
@@ -33,10 +35,10 @@ const CardContainer = styled.div`
   }
 
   p {
-    // background: blue;
+    background: blue;
     margin-top: 34px;
-    width: 200px;
-    height: auto;
+    width: 95%;
+    height: 120px;
     font-family: "Roslindale Text";
     font-style: normal;
     font-weight: 700;
@@ -46,9 +48,23 @@ const CardContainer = styled.div`
     margin-left: 30px;
     text-align: left;
     overflow-wrap: break-word;
+    display: flex;
   }
 `;
-// const CardContainer = styled.div``;
+const P2 = styled.p`
+  background: red;
+  width: 200px;
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #101828;
+  margin-left: 30px;
+  margin-top: 0px;
+  text-align: left;
+  // overflow-wrap: break-word;
+`;
 // const CardContainer = styled.div``;
 // const CardContainer = styled.div``;
 // const CardContainer = styled.div``;

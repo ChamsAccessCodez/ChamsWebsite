@@ -94,7 +94,7 @@ export const TextDiv = styled.div`
   @media screen and (max-width: 960px) {
     width: 100vw;
 
-    p{
+    p {
       width: 90vw;
       height: auto;
       margin-bottom: 30px;
@@ -132,9 +132,8 @@ export const RequestButton = styled.div`
   height: 48px;
   background: #08783d;
   border-radius: 10px;
+  transition: width 0.5s;
 
-  width: 141px;
-  height: 24px;
   font-family: "Komet";
   font-style: normal;
   font-weight: 500;
@@ -142,6 +141,10 @@ export const RequestButton = styled.div`
   line-height: 24px;
   color: #ffffff;
   cursor: pointer;
+
+  :hover {
+    width: 220px;
+  }
 `;
 // export const TestContainer = styled.div`
 // export const TestContainer = styled.div`

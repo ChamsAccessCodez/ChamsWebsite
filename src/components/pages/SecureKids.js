@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import SecureKidCard from "./SecureKidCard";
 import {
@@ -33,6 +33,13 @@ import kidPractice from "../../images/KidPractice.svg";
 import kidSecured from "../../images/KidSecured.svg";
 
 const SecureKids = () => {
+  useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 100,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <SecureKidsContainer>
       <Header />
@@ -104,23 +111,24 @@ const SecureKids = () => {
         <SecureCardWrapper>
           <SecureKidCard
             sourceImage={kidScalable}
-            TitleHead="Highly Scalable"
+            TitleHead="Highly"
+            TitleHead2="Scalable"
           />
           <SecureKidCard
             sourceImage={kidPractice}
-            TitleHead="Best Price
-            In The Market"
+            TitleHead="Best Price"
+            TitleHead2="in The Market"
           />
           <SecureKidCard
             sourceImage={kidSecured}
-            TitleHead="Customizable
-            Highly Secured"
+            TitleHead="Customizable"
+            TitleHead2="Highly Secured"
           />
         </SecureCardWrapper>
       </SecureCard>
       <TextDiv>
         <Ready>Ready to Gain complete control with SecureKid?</Ready>
-        <NavLink to="/career-form" style={{ textDecoration: "none" }}>
+        <NavLink to="/callback" style={{ textDecoration: "none" }}>
           <RequestButton>Request a callback</RequestButton>
         </NavLink>
       </TextDiv>

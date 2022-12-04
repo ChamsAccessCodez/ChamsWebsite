@@ -207,14 +207,14 @@ export const SecureCard = styled.div`
   }
 `;
 export const SecureCardWrapper = styled.div`
-  // background: red;
+  background: red;
   width: 85%;
   height: auto;
   display: flex;
   justify-content: space-between;
   //   justify-content: center;
   flex-wrap: wrap;
-  overflow-x: hidden;
+  padding: 20px;
 `;
 // export const SecureKidsContainer = styled.div``;
 // export const SecureKidsContainer = styled.div``;
