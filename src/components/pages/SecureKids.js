@@ -27,7 +27,7 @@ import Header from "../landingPage/header/Header";
 import Footer from "../landingPage/footer/Footer";
 import secureKids1 from "../../images/SecureKidsImage1.png";
 import kid1 from "../../images/Kid1.png";
-import kidsOptionIcon from "../../images/FinancialInsurancIcon.png";
+import kidsOptionIcon from "../../images/FinancialInsurranceIcon.svg";
 import kidScalable from "../../images/KidScalable.svg";
 import kidPractice from "../../images/KidPractice.svg";
 import kidSecured from "../../images/KidSecured.svg";

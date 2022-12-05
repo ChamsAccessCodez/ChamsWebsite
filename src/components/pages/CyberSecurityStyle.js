@@ -104,10 +104,7 @@ export const HeroImage = styled.div`
   margin-right: 120px;
 
   img {
-    // width: 600px;
-    // height: 600px;
-    width: 650px;
-    height: 575.95px;
+    width: 750px;
   }
 `;
 export const AdvanceThreats = styled.div`

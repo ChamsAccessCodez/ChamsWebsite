@@ -16,6 +16,8 @@ import CustomSolution from "./components/pages/CustomSolutions";
 import SecureKids from "./components/pages/SecureKids";
 import VisitorManage from "./components/pages/VisitorManage";
 import Surveilance from "./components/pages/Surveilance";
+import AccessControl from "./components/pages/AccessControl";
+import AccessManagement from "./components/pages/AccessManagement";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
         <Route exact path="/secure-kids" element={<SecureKids />} />
         <Route exact path="/visitor" element={<VisitorManage />} />
         <Route exact path="/surveillance" element={<Surveilance />} />
+        <Route exact path="/access-control" element={<AccessControl />} />
+        <Route exact path="/access-management" element={<AccessManagement />} />
       </Routes>
       {/* <Footer /> */}
     </div>

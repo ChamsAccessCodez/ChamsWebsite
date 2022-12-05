@@ -33,7 +33,7 @@ import {
 } from "./CyberSecurityStyle";
 import Header from "../landingPage/header/Header";
 import Footer from "../landingPage/footer/Footer";
-import cyberHeroImage from "../../images/CyberImage1.png";
+import cyberHeroImage from "../../images/CyberImage1.svg";
 import management from "../../images/CyberManagement.png";
 import dataProtect from "../../images/DataProtectImage.png";
 import digitalRisk from "../../images/CyberDigitalRisk.png";
