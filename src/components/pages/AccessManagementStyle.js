@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import bg from "../../images/CyberIndustryWeServeBg.png";
 
 export const AccessManagementContainer = styled.div`
   //   background: red;
@@ -276,15 +277,374 @@ export const Name = styled.div`
   margin-right: 5px;
 `;
 export const AccessControlComponent = styled.div`
-background-color: #ffffff;
-width: 100vw;
-height: 800px;
-display: flex;
-justify-content: center;
-align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
-// export const AccessManagement = styled.div``;
-// export const AccessManagement = styled.div``;
-// export const AccessManagement = styled.div``;
-// export const AccessManagement = styled.div``;
-// export const AccessManagement = styled.div``;
+export const ControlDivider = styled.div`
+  // background: red;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const ControlLeft = styled.div`
+  // background: tomato;
+  width: 55%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  img {
+    width: 684px;
+    height: 546px;
+  }
+`;
+export const ControlRight = styled.div`
+  //   background: blue;
+  width: 40%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+`;
+export const C1 = styled.div`
+  width: 450px;
+  height: 72px;
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #101828;
+  margin-bottom: 23px;
+`;
+export const C2 = styled.div`
+  width: 508px;
+  height: 156px;
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
+`;
+export const AccessNav = styled.div`
+  //   background: red;
+  width: auto;
+  hight: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 23px;
+  cursor: pointer;
+
+  img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    text-align: center;
+    margin-top: 2px;
+    transition: margin 0.5s;
+  }
+
+  :hover img {
+    margin-left: 15px;
+  }
+`;
+export const AccessName = styled.div`
+  width: 82px;
+  height: 24px;
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #08783d;
+  margin-right: 5px;
+`;
+export const VisitorsManagementComponent = styled.div`
+  width: 100vw;
+  height: 800px;
+  background: linear-gradient(
+    0deg,
+    rgba(57, 147, 100, 0.25) 0%,
+    rgba(206, 228, 216, 0.25) 77.6%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const VisitorDivider = styled.div`
+  width: 90%;
+  //   background-color: green;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+export const VisitorLeft = styled.div`
+  //   background: blue;
+  width: 35%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+`;
+export const VisitorRight = styled.div`
+  //   background: tomato;
+  width: 60%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 704px;
+    height: 606px;
+    object-fit: contain;
+  }
+`;
+export const V1 = styled.div`
+  width: 508px;
+  height: 34px;
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #101828;
+  margin-bottom: 23px;
+`;
+export const V2 = styled.div`
+  width: 508px;
+  height: 90px;
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
+`;
+export const SurveillanceComponent = styled.div`
+  background: white;
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const SurveillanceDivider = styled.div`
+//   background: red;
+  width: 85%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const SurveillanceLeft = styled.div`
+//   background: blue;
+  width: 55%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  img {
+    width: 620px;
+    height: 545.24px;
+  }
+`;
+export const SurveillanceRight = styled.div`
+//   background: tomato;
+  width: 40%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+`;
+export const SurveillanceNav = styled.div`
+  //   background: red;
+  width: auto;
+  hight: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 23px;
+  cursor: pointer;
+
+  img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    text-align: center;
+    margin-top: 2px;
+    transition: margin 0.5s;
+  }
+
+  :hover img {
+    margin-left: 15px;
+  }
+`;
+export const SurveillanceName = styled.div`
+  width: 82px;
+  height: 24px;
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #08783d;
+  margin-right: 5px;
+`;
+export const S1 = styled.div`
+  width: 508px;
+  height: 38px;
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #101828;
+  margin-bottom: 23px;
+`;
+export const S2 = styled.div`
+  width: 508px;
+  height: 92px;
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
+`;
+export const IndustriesWeServe = styled.div`
+  position: relative;
+  width: 100vw;
+  height: 340px;
+  background-image: url(${bg});
+  background-image: url(${bg}),
+    linear-gradient(26.57deg, #022412 8.33%, #08783d 91.67%);
+  opacity: 0.8;
+`;
+export const Gradient = styled.div`
+  position: absolute;
+  width: inherit;
+  height: 340px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(26.57deg, #022412 8.33%, #08783d 91.67%);
+  opacity: 0.8;
+`;
+export const ServeContent = styled.div`
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const ServeLeft = styled.div`
+  //   background: red;
+  color: #ffffff;
+  z-index: 999;
+  width: 406px;
+  height: auto;
+  margin-left: 120px;
+  //   margin-top: 94px;
+`;
+
+export const L1 = styled.p`
+  width: 383px;
+  height: 44px;
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #ebf5f0;
+  margin-top: 0px;
+`;
+export const L2 = styled.p`
+  width: 406px;
+  height: 88px;
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ebf5f0;
+  margin-top: 0px;
+`;
+export const ServeRight = styled.div`
+  //   background: yellow;
+  color: #ffffff;
+  z-index: 999;
+  width: 406px;
+  height: auto;
+  margin-right: 120px;
+  //   margin-top: 94px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+`;
+export const R1 = styled.p`
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+  color: #ebf5f0;
+  margin-top: 0px;
+`;
+export const R2 = styled.p`
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+  color: #ebf5f0;
+  margin-top: 0px;
+`;
+export const R3 = styled.p`
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+  color: #ebf5f0;
+  margin-top: 0px;
+`;
+export const R4 = styled.p`
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+  color: #ebf5f0;
+  margin-top: 0px;
+`;
+export const R5 = styled.p`
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+  color: #ebf5f0;
+  margin-top: 0px;
+`;
