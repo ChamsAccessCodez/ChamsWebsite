@@ -127,7 +127,7 @@ export const VisitorCardHolder = styled.div`
 `;
 export const Powerful = styled.div`
   width: 100vw;
-  height: 1000px;
+  height: auto;
   background: linear-gradient(
     0deg,
     rgba(57, 147, 100, 0.25) 0%,
@@ -149,7 +149,7 @@ export const Powerful = styled.div`
     line-height: 38px;
     text-align: center;
     color: #101828;
-    margin-top: 0px;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
 `;
@@ -160,6 +160,7 @@ export const PowerfulFeaturesWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   gap: 60px;
+  padding-bottom: 50px;
 `;
 // export const VisitorContainer = styled.div``;
 // export const VisitorContainer = styled.div``;

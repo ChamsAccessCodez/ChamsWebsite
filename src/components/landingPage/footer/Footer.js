@@ -106,7 +106,9 @@ const Footer = () => {
             <Link to="/payment-solution" style={{ textDecoration: "none" }}>
               <p>Payments Solutions</p>
             </Link>
-            <p>Access Management Solutions</p>
+            <Link to="/access-management" style={{ textDecoration: "none" }}>
+              <p>Access Management Solutions</p>
+            </Link>
             <Link to="/custom-solution" style={{ textDecoration: "none" }}>
               <p>Custom Solutions</p>
             </Link>

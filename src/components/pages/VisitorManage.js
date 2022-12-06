@@ -21,12 +21,12 @@ import visitorImage from "../../images/VisitorImage1.png";
 import visitorHosting from "../../images/VisitorHosting.svg";
 import visitorImage2 from "../../images/VisitorImage2.svg";
 import visitorImage3 from "../../images/VisitorImage3.svg";
-import visitorPowerfulHand from "../../images/VisitorPowerfulHand.svg";
-import visitorAlert from "../../images/VisitorAlert.svg";
-import visitorAnalytic from "../../images/VisitorAnalytic.svg";
+import visitorPowerfulHand from "../../images/visitorPowerfulHand.gif";
+import visitorAlert from "../../images/visitorAlert.gif";
+import visitorAnalytic from "../../images/visitorAnalytic.gif";
 import visitorBadge from "../../images/VisitorBadge.svg";
-import visitorPhoto from "../../images/VisitorPhoto.svg";
-import visitorRegistration from "../../images/VisitorRegistration.svg";
+import visitorPhoto from "../../images/visitorPhoto.gif";
+import visitorRegistration from "../../images/visitorRegistration.gif";
 
 const VisitorManage = () => {
   useEffect(() => {

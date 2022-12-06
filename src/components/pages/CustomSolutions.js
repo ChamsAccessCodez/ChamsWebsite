@@ -22,7 +22,11 @@ import Header from "../landingPage/header/Header";
 import Footer from "../landingPage/footer/Footer";
 import teamImage from "../../images/TeamImage1.png";
 import CustomCard from "./CustomCard";
-import financeAndCustomImage from "../../images/FinanceAndPaymentIcon.png";
+import creditCard from "../../images/credit-card.gif";
+import meteorRain from "../../images/meteor-rain.gif";
+import briefcase from "../../images/briefcase.gif";
+import verified from "../../images/verified.gif";
+import camera from "../../images/camera.gif";
 
 const CustomSolutions = () => {
   useEffect(() => {
@@ -69,35 +73,35 @@ const CustomSolutions = () => {
         <p>Build your custom solution</p>
         <BuildingCardWrapper>
           <CustomCard
-            customSourceImage={financeAndCustomImage}
+            customSourceImage={creditCard}
             customTitle="Finance and Payments"
             customDescription="Bespoke Infrastructures for commercial banks, microfinance banks, neo
       banks, and digital banks."
           />
           <CustomCard
-            customSourceImage={financeAndCustomImage}
+            customSourceImage={camera}
             customTitle="Identity
             Management"
             customDescription="Eliminate uncertainty. Know your Customers and Know your Business."
           />
           <CustomCard
-            customSourceImage={financeAndCustomImage}
+            customSourceImage={meteorRain}
             customTitle="Intelligent
             Systems"
             customDescription="Build advanced computer systems that can gather, analyze and respond to computed or gathered data."
           />
           <CustomCard
-            customSourceImage={financeAndCustomImage}
+            customSourceImage={briefcase}
             customTitle="Workplace Management"
             customDescription="Enhanced employee relations, visitor management, and vicinity security."
           />
           <CustomCard
-            customSourceImage={financeAndCustomImage}
+            customSourceImage={verified}
             customTitle="Enrollment and Verification"
             customDescription="Multi-industrial applications to simplify registration and accreditation of your most valued assets - people."
           />
           <CustomCard
-            customSourceImage={financeAndCustomImage}
+            customSourceImage={camera}
             customTitle="Surveillance and Security"
             customDescription="Keep a close eye on important assets, onsite and remotely, and build access for safer communities."
           />
@@ -105,10 +109,6 @@ const CustomSolutions = () => {
       </BuildingSolution>
       <TextDiv>
         <Ready>Ready to build for the future?</Ready>
-        {/* <p>
-          Rely on our experience securing innovative hardware and software
-          solutions for the world's largest global corporations.
-        </p> */}
         <NavLink to="/career-form" style={{ textDecoration: "none" }}>
           <RequestButton>Request a callback</RequestButton>
         </NavLink>

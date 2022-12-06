@@ -207,7 +207,7 @@ export const SecureCard = styled.div`
   }
 `;
 export const SecureCardWrapper = styled.div`
-  background: red;
+  // background: red;
   width: 85%;
   height: auto;
   display: flex;

@@ -5,7 +5,7 @@ const SecureKidCard = ({ sourceImage, TitleHead, TitleHead2 }) => {
   return (
     <CardContainer>
       <img src={sourceImage} alt="source" />
-      <p>{TitleHead}</p>
+      <P1>{TitleHead}</P1>
       <P2>{TitleHead2}</P2>
     </CardContainer>
   );
@@ -18,7 +18,7 @@ const CardContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0px 0px 30px;
+  padding: 0px 0px 10px;
   width: 350px;
   height: 396px;
   background: #ffffff;
@@ -33,37 +33,35 @@ const CardContainer = styled.div`
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
   }
-
-  p {
-    background: blue;
-    margin-top: 34px;
-    width: 95%;
-    height: 120px;
-    font-family: "Roslindale Text";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 38px;
-    color: #101828;
-    margin-left: 30px;
-    text-align: left;
-    overflow-wrap: break-word;
-    display: flex;
-  }
 `;
-const P2 = styled.p`
-  background: red;
-  width: 200px;
+const P1 = styled.div`
+  // background: blue;
+  margin-top: 34px;
+  margin-bottom: 5px;
+  width: 250px;
+
   font-family: "Roslindale Text";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 38px;
   color: #101828;
-  margin-left: 30px;
-  margin-top: 0px;
+  padding-left: 30px;
   text-align: left;
-  // overflow-wrap: break-word;
+  display: flex;
+`;
+const P2 = styled.div`
+  // background: red;
+  width: 250px;
+
+  font-family: "Roslindale Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #101828;
+  padding-left: 30px;
+  text-align: left;
 `;
 // const CardContainer = styled.div``;
 // const CardContainer = styled.div``;

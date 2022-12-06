@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import financeAndCustomImage from "../../images/FinanceAndPaymentIcon.png";
 
 const CustomCard = ({ customSourceImage, customTitle, customDescription }) => {
   return (
@@ -32,6 +31,11 @@ const CustomCardContainer = styled.div`
   :hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
       rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
   }
 `;
 const J1 = styled.div`

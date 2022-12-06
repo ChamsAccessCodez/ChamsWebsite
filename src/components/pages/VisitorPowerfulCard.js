@@ -24,23 +24,28 @@ const PowerfulContainer = styled.div`
   flex-direction: column;
   align-items: flex-start;
   padding: 30px 40px;
-  gap: 20px;
   width: 360px;
   height: 332px;
   background: #ffffff;
   border: 1px solid #eaecf0;
   border-radius: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.4s;
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-bottom: 85px;
 
   img {
     width: 100px;
     height: 100px;
     // margin-bottom: 20px;
+  }
+
+  :hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   }
 `;
 const P1 = styled.div`

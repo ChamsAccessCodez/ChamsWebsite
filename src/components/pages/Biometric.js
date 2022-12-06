@@ -37,7 +37,7 @@ import Header from "../landingPage/header/Header";
 import Footer from "../landingPage/footer/Footer";
 import biometricImage from "../../images/BiometricBackgrond.png";
 import story1Image from "../../images/Story1Image.png";
-import story2Image from "../../images/Story2Background.png";
+import dermalogRegistration from "../../images/dermalog_Portable_Biometric_Registration.gif";
 import fingerPrintImage from "../../images/FingerPrintImage.png";
 import scannerSFI from "../../images/ScannerZFI.png";
 import IndustrailCard from "./IndustrailCard";
@@ -123,7 +123,7 @@ const Biometric = () => {
             </p>
           </Right2>
           <Left2>
-            <img src={story2Image} alt="story2" />
+            <img src={dermalogRegistration} alt="story2" />
           </Left2>
         </ImageAndText>
       </Story2>
