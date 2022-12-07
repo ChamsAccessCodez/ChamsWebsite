@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const WhoContainer = styled.div`
+export const SubsidiaryContainer = styled.div`
   box-sizing: border-box;
   display: flex;
   justify-content: flex-start;
@@ -8,10 +8,8 @@ export const WhoContainer = styled.div`
   align-items: flex-start;
   padding: 20px 20px 30px;
   position: absolute;
-//   position: relative;
-  // width: 770px;
+  //   position: relative;
   width: auto;
-  //   height: 374px;
   height: auto;
   background: #fcfcfd;
   border: 1px solid #eaecf0;
@@ -19,7 +17,7 @@ export const WhoContainer = styled.div`
     0px 4px 6px -2px rgba(16, 24, 40, 0.03);
   border-radius: 0px 0px 30px 30px;
   top: 80px;
-  // left: 10%;
+  //   left: 10%;
   z-index: 999;
 `;
 export const Left = styled.div`
@@ -31,7 +29,7 @@ export const Left = styled.div`
   height: auto;
   margin-right: 10px;
 `;
-export const About = styled.div`
+export const Pension = styled.div`
   //   background: red;
   display: flex;
   flex-direction: row;
@@ -87,60 +85,7 @@ export const P1 = styled.div`
   color: #101828;
   margin-bottom: 4px;
 `;
-export const Leadership = styled.div`
-  //   background: red;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
-
-  img {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  :hover {
-    background-color: #f1f1f1;
-  }
-`;
-export const OurImpact = styled.div`
-  //   background: red;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
-
-  img {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  :hover {
-    background-color: #f1f1f1;
-  }
-`;
-export const Right = styled.div`
-//   background: red;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  width: 360px;
-  height: auto;
-`;
-export const Career = styled.div`
+export const ArgonWorld = styled.div`
   //   background: red;
   display: flex;
   flex-direction: row;

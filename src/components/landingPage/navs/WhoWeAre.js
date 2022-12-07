@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   WhoContainer,
   Left,
@@ -8,12 +9,12 @@ import {
   OurImpact,
   Content,
   P1,
-  Career
+  Career,
 } from "./WhoWeAreStyles";
-import aboutIcon from "../../../images/AboutIcon.png";
-import leadershipIcon from "../../../images/LeadershipIcon.png";
-import impactIcon from "../../../images/ImpactIcon.png";
-import careerIcon from "../../../images/CareerIcon.png";
+import aboutIcon from "../../../images/AboutUsIcon.svg";
+import leadershipIcon from "../../../images/LeadershipIcon.svg";
+import impactIcon from "../../../images/OurImpactIcon.svg";
+import careerIcon from "../../../images/CareerIcon.svg";
 
 const WhoWeAre = () => {
   return (
@@ -21,17 +22,31 @@ const WhoWeAre = () => {
       <Left>
         <About>
           <img src={aboutIcon} alt="aboutIcon" />
-          <Content>
-            <P1>About Us</P1>
-            <p>Learn more about our culture</p>
-          </Content>
+          <Link
+            to="/about"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <Content>
+              <P1>About Us</P1>
+              <p>Learn more about our culture</p>
+            </Content>
+          </Link>
         </About>
         <Leadership>
           <img src={leadershipIcon} alt="aboutIcon" />
-          <Content>
-            <P1>Leadership/Management Team</P1>
-            <p>Our leadership at management and board levels</p>
-          </Content>
+          <Link
+            to="/management-team"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <Content>
+              <P1>Leadership/Management Team</P1>
+              <p>Our leadership at management and board levels</p>
+            </Content>
+          </Link>
         </Leadership>
         <OurImpact>
           <img src={impactIcon} alt="aboutIcon" />
@@ -44,10 +59,17 @@ const WhoWeAre = () => {
       <Right>
         <Career>
           <img src={careerIcon} alt="aboutIcon" />
-          <Content>
-            <P1>Career</P1>
-            <p>Join us in creating possibilities</p>
-          </Content>
+          <Link
+            to="/career-page"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <Content>
+              <P1>Career</P1>
+              <p>Join us in creating possibilities</p>
+            </Content>
+          </Link>
         </Career>
       </Right>
     </WhoContainer>

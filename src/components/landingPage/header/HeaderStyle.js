@@ -9,7 +9,7 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  border-bottom: 1px solid #F2F4F7;
+  border-bottom: 1px solid #f2f4f7;
   z-index: 999;
 
   @media screen and (max-width: 960px) {
@@ -296,3 +296,94 @@ export const Item = styled.div`
 // `;
 // export const LeftNav = styled.div`
 // `;
+export const Item3 = styled.div`
+  // background: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  //   justify-content: center;
+  align-items: center;
+  //   height: inherit;
+  height: 60%;
+  margin-left: 20px;
+  font-family: "Komet";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #667085;
+  cursor: pointer;
+  margin-top: 25px;
+  width: auto;
+
+  :after {
+    content: "";
+    background: linear-gradient(289.11deg, #04487f 7.4%, #a0c559 117.27%);
+    width: 40%;
+    height: 3px;
+    opacity: 0;
+    transition: all 650ms;
+    align-self: bottom;
+  }
+  :hover {
+    :after {
+      width: 65%;
+      opacity: 1;
+      cursor: pointer;
+      //   margin-top: 50px;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    // background: blue;
+    height: 20%;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+    margin-left: 0px;
+
+    :after {
+      content: "";
+      background: none;
+      width: 0%;
+      height: 0px;
+      opacity: 0;
+      transition: none;
+      align-self: none;
+    }
+
+    :hover {
+      outline: none;
+      border-radius: 5px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+  }
+`;
+export const ItemWrapper3 = styled.div`
+  // background: red;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-left: 40px;
+
+  @media screen and (max-width: 960px) {
+    // background: green;
+    justify-content: center;
+    align-items: flex-end;
+  }
+`;
+export const Text3 = styled.div`
+  // background: tomato;
+  display: flex;
+  text-align: center;
+  height: inherit;
+  width: auto;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+`;

@@ -138,7 +138,7 @@ export const SalesLeft = styled.div`
   width: 55%;
   height: inherit;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 `;
 export const SalesRight = styled.div`

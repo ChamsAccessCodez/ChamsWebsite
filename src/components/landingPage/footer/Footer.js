@@ -88,9 +88,9 @@ const Footer = () => {
             <Link to="/contact" style={{ textDecoration: "none" }}>
               <p>Impacts</p>
             </Link>
-            <Link to="/contact" style={{ textDecoration: "none" }}>
+            {/* <Link to="/contact" style={{ textDecoration: "none" }}>
               <p>FAQs</p>
-            </Link>
+            </Link> */}
             <Link to="/contact" style={{ textDecoration: "none" }}>
               <p>News and Insights</p>
             </Link>
@@ -127,9 +127,9 @@ const Footer = () => {
             <Link to="/contact" style={{ textDecoration: "none" }}>
               <p>Contact us</p>
             </Link>
-            <Link to="/contact" style={{ textDecoration: "none" }}>
+            {/* <Link to="/contact" style={{ textDecoration: "none" }}>
               <p>Support center</p>
-            </Link>
+            </Link> */}
             <Link to="/callback" style={{ textDecoration: "none" }}>
               <p>Request a callback</p>
             </Link>

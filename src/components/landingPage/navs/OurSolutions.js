@@ -1,56 +1,104 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
-  WhoContainer,
+  SolutionContainer,
   Left,
   Right,
   Biometric,
-  Leadership,
-  OurImpact,
+  Payment,
+  AccessManagement,
   Content,
   P1,
-  Career,
+  CyberSecurity,
+  CustomSolution,
 } from "./OurSolutionStyle.js";
-import aboutIcon from "../../../images/AboutIcon.png";
-import leadershipIcon from "../../../images/LeadershipIcon.png";
-import impactIcon from "../../../images/ImpactIcon.png";
-import careerIcon from "../../../images/CareerIcon.png";
+import biometricIcon from "../../../images/BiometricIcon.svg";
+import paymentSolution from "../../../images/PaymentSolution.svg";
+import cyberSecurityIcon from "../../../images/CybersecurityIcon.svg";
+import AccessManagementIcon from "../../../images/AccessManagementIcon.svg";
+import customSolutionIcon from "../../../images/CustomSolutionIcon.svg";
+// import AccessManagement from "../../pages/AccessManagement.js";
 
 const OurSolutions = () => {
   return (
-    <WhoContainer>
+    <SolutionContainer>
       <Left>
         <Biometric>
-          <img src={aboutIcon} alt="aboutIcon" />
-          <Content>
-            <P1>Biometrics Solutions</P1>
-            <p>Amet minim mollit non seru ulco est sit.</p>
-          </Content>
+          <img src={biometricIcon} alt="aboutIcon" />
+          <Link
+            to="/biometric"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <Content>
+              <P1>Biometrics Solutions</P1>
+              <p>
+                Hardware and software offerings for enrollment and verification
+              </p>
+            </Content>
+          </Link>
         </Biometric>
-        <Leadership>
-          <img src={leadershipIcon} alt="aboutIcon" />
-          <Content>
-            <P1>Leadership/Management Team</P1>
-            <p>Our leadership at management and board levels</p>
-          </Content>
-        </Leadership>
-        <OurImpact>
-          <img src={impactIcon} alt="aboutIcon" />
-          <Content>
-            <P1>Our Impact</P1>
-            <p>More about our sustained impact through the years</p>
-          </Content>
-        </OurImpact>
+        <Payment>
+          <img src={paymentSolution} alt="aboutIcon" />
+          <Link
+            to="/payment-solution"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <Content>
+              <P1>Payment Solutions</P1>
+              <p>Infrastructure and technologies for financial institutions</p>
+            </Content>
+          </Link>
+        </Payment>
+        <AccessManagement>
+          <img src={AccessManagementIcon} alt="aboutIcon" />
+          <Link
+            to="/access-management"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <Content>
+              <P1>Access Management Solutions</P1>
+              <p>Creating access for a safer world</p>
+            </Content>
+          </Link>
+        </AccessManagement>
       </Left>
       <Right>
-        <Career>
-          <img src={careerIcon} alt="aboutIcon" />
-          <Content>
-            <P1>Career</P1>
-            <p>Join us in creating possibilities</p>
-          </Content>
-        </Career>
+        <CyberSecurity>
+          <img src={cyberSecurityIcon} alt="aboutIcon" />
+          <Link
+            to="/cybersecurity"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <Content>
+              <P1>Access Management Solutions</P1>
+              <p>Creating access for a safer world</p>
+            </Content>
+          </Link>
+        </CyberSecurity>
+        <CustomSolution>
+          <img src={customSolutionIcon} alt="aboutIcon" />
+          <Link
+            to="/custom-solution"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <Content>
+              <P1>Custom Solutions</P1>
+              <p>Bespoke solutions for specific needs.</p>
+            </Content>
+          </Link>
+        </CustomSolution>
       </Right>
-    </WhoContainer>
+    </SolutionContainer>
   );
 };
 
