@@ -18,6 +18,7 @@ import VisitorManage from "./components/pages/VisitorManage";
 import Surveilance from "./components/pages/Surveilance";
 import AccessControl from "./components/pages/AccessControl";
 import AccessManagement from "./components/pages/AccessManagement";
+import Argone from "./components/pages/ArgonePage";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route exact path="/surveillance" element={<Surveilance />} />
         <Route exact path="/access-control" element={<AccessControl />} />
         <Route exact path="/access-management" element={<AccessManagement />} />
+        <Route exact path="/argone" element={<Argone />} />
       </Routes>
       {/* <Footer /> */}
     </div>

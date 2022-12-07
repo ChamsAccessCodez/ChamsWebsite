@@ -28,7 +28,7 @@ const Cybersecurity = () => {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
-          data-aos-once="false"
+          data-aos-once="true"
           //   data-aos-anchor-placement="top-center"
         />
       </CyberImage>
@@ -53,7 +53,7 @@ const Cybersecurity = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <ItemDesc
               data-aos="fade-left"
@@ -62,7 +62,7 @@ const Cybersecurity = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               All features and premium support
             </ItemDesc>
@@ -77,7 +77,7 @@ const Cybersecurity = () => {
               data-aos-duration="1200"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <ItemDesc
               data-aos="fade-left"
@@ -86,7 +86,7 @@ const Cybersecurity = () => {
               data-aos-duration="1700"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               All features and premium support
             </ItemDesc>
@@ -101,7 +101,7 @@ const Cybersecurity = () => {
               data-aos-duration="1900"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <ItemDesc
               data-aos="fade-left"
@@ -110,7 +110,7 @@ const Cybersecurity = () => {
               data-aos-duration="2400"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               All features and premium support
             </ItemDesc>

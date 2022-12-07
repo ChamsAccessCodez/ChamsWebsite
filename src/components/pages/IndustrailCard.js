@@ -3,10 +3,10 @@ import styled from "styled-components";
 import industrialBanking from "../../images/IndustrialBanking.svg";
 import bankingIcon from "../../images/BankingIcon.png";
 
-const IndustrailCard = ({sourceImage}) => {
+const IndustrailCard = ({cardHeader, sourceImage}) => {
   return (
     <IndustrialCardContainer>
-      <p>Banking and Finance</p>
+      <p>{cardHeader}</p>
       <img id="cardImage" src={sourceImage} alt="industrial-banking" />
       <IndustrialInfo id="cardDescription">
         <List>

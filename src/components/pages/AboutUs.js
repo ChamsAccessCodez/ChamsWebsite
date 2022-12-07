@@ -89,7 +89,7 @@ const AboutUs = () => {
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="false"
+            data-aos-once="true"
           />
           <Content1>
             <Cover>
@@ -108,7 +108,7 @@ const AboutUs = () => {
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="false"
+            data-aos-once="true"
           />
           <Content1>
             <Cover>
@@ -205,7 +205,7 @@ const AboutUs = () => {
           <img src={zkTeko} alt="zebra" />
         </PartnerLogo>
       </CorePartner>
-      <Footer/>
+      <Footer />
       <ScrollToTop smooth />
     </AboutUsContainer>
   );

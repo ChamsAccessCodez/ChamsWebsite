@@ -70,14 +70,25 @@ const PensionCentral = () => {
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            data-aos-once="false"
+            data-aos-once="true"
             data-aos-anchor-placement="top-center"
           />
         </HeroImage>
       </Hero1>
       <OurNumber>
         <YoImage>
-          <img src={yoBg} alt="yo" />
+          <img
+            src={yoBg}
+            alt="yo"
+            data-aos="fade-right"
+            data-aos-offset="50"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center"
+          />
         </YoImage>
         <YoText>
           <NumberButton>Our Numbers</NumberButton>
@@ -117,7 +128,7 @@ const PensionCentral = () => {
                 data-aos-duration="500"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-once="true"
               />
               <OptionDesc>Generate reports for anything at ease</OptionDesc>
             </OptionContainer>
@@ -131,7 +142,7 @@ const PensionCentral = () => {
                 data-aos-duration="700"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-once="true"
               />
               <OptionDesc>Unmatched technical and business support.</OptionDesc>
             </OptionContainer>
@@ -145,7 +156,7 @@ const PensionCentral = () => {
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-once="true"
               />
               <OptionDesc>
                 API Integration with HR and Payment platforms.
@@ -161,7 +172,7 @@ const PensionCentral = () => {
                 data-aos-duration="1200"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-once="true"
               />
               <OptionDesc>
                 Multiple Period, Single Schedule, Single Payment.
@@ -177,7 +188,7 @@ const PensionCentral = () => {
                 data-aos-duration="1400"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
-                data-aos-once="false"
+                data-aos-once="true"
               />
               <OptionDesc>
                 Electronic payment, and instant delivery of schedules

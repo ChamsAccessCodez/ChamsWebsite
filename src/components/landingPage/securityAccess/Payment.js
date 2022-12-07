@@ -56,7 +56,7 @@ const Payment = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <Desc
               data-aos="fade-up"
@@ -65,7 +65,7 @@ const Payment = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               <DescHead>
                 Financial Instant Card Issuance (FII) Solution{" "}
@@ -87,7 +87,7 @@ const Payment = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <Desc
               data-aos="fade-up"
@@ -96,7 +96,7 @@ const Payment = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               <DescHead>Self-Service Interactive Kiosks</DescHead>
               <DescBody>
@@ -115,7 +115,7 @@ const Payment = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <Desc
               data-aos="fade-up"
@@ -124,7 +124,7 @@ const Payment = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               <DescHead>Instant card printers</DescHead>
               <DescBody>
@@ -145,7 +145,7 @@ const Payment = () => {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
-          data-aos-once="false"
+          data-aos-once="true"
           //   data-aos-anchor-placement="top-center"
         />
       </PaymentImage>

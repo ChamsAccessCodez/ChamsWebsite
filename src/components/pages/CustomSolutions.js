@@ -23,6 +23,7 @@ import Footer from "../landingPage/footer/Footer";
 import teamImage from "../../images/TeamImage1.png";
 import CustomCard from "./CustomCard";
 import creditCard from "../../images/credit-card.gif";
+import badge from "../../images/badge.gif";
 import meteorRain from "../../images/meteor-rain.gif";
 import briefcase from "../../images/briefcase.gif";
 import verified from "../../images/verified.gif";
@@ -79,7 +80,7 @@ const CustomSolutions = () => {
       banks, and digital banks."
           />
           <CustomCard
-            customSourceImage={camera}
+            customSourceImage={badge}
             customTitle="Identity
             Management"
             customDescription="Eliminate uncertainty. Know your Customers and Know your Business."

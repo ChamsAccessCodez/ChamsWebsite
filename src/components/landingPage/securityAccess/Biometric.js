@@ -58,7 +58,7 @@ const Biometric = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <Desc
               data-aos="fade-up"
@@ -67,7 +67,7 @@ const Biometric = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               <DescHead>Verification</DescHead>
               <DescBody>
@@ -86,7 +86,7 @@ const Biometric = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <Desc
               data-aos="fade-up"
@@ -95,7 +95,7 @@ const Biometric = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               <DescHead>
                 Biometric enrollment and verification solution (BVN)
@@ -118,7 +118,7 @@ const Biometric = () => {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
-          data-aos-once="false"
+          data-aos-once="true"
           //   data-aos-anchor-placement="top-center"
         />
       </BiometricImage>

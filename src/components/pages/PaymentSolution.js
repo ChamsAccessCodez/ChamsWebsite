@@ -49,7 +49,7 @@ import Header from "../landingPage/header/Header";
 import Footer from "../landingPage/footer/Footer";
 import paymentCards from "../../images/ParymentCards.png";
 import financialInstant from "../../images/FinancialInstantImage.png";
-import financialInsuranceImage from "../../images/FinancialInsurancIcon.png";
+import financialInsuranceImage from "../../images/FinancialInsurranceIcon.svg";
 import ChamsRequiementImage from "../../images/ChamsRequiementImage.png";
 import DesignImage from "../../images/DesignImage.png";
 import selfService from "../../images/SelfServiceImage.png";

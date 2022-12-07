@@ -10,8 +10,8 @@ import accessIcon4 from "../../../images/AccessIcon4.png";
 import arrowRight from "../../../images/arrow-right.svg";
 
 import {
-    AccessWrapper,
-    AccessContent,
+  AccessWrapper,
+  AccessContent,
   AccessImage,
   Solutions,
   Options,
@@ -39,7 +39,7 @@ const Access = () => {
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
-          data-aos-once="false"
+          data-aos-once="true"
           //   data-aos-anchor-placement="top-center"
         />
       </AccessImage>
@@ -71,7 +71,7 @@ const Access = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <Desc
               data-aos="fade-up"
@@ -80,7 +80,7 @@ const Access = () => {
               data-aos-duration="500"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               <DescHead>Secure Kid solution for Schools</DescHead>
               <DescBody>
@@ -99,7 +99,7 @@ const Access = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <Desc
               data-aos="fade-up"
@@ -108,7 +108,7 @@ const Access = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               <DescHead>Access Control and Surveillance Solution</DescHead>
               <DescBody>
@@ -127,7 +127,7 @@ const Access = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             />
             <Desc
               data-aos="fade-up"
@@ -136,7 +136,7 @@ const Access = () => {
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
-              data-aos-once="false"
+              data-aos-once="true"
             >
               <DescHead>Visitor's management system</DescHead>
               <DescBody>

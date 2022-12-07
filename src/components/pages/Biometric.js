@@ -41,9 +41,9 @@ import dermalogRegistration from "../../images/dermalog_Portable_Biometric_Regis
 import fingerPrintImage from "../../images/FingerPrintImage.png";
 import scannerSFI from "../../images/ScannerZFI.png";
 import IndustrailCard from "./IndustrailCard";
-import govt from "../../images/GovtIcon.png";
-import enterprise from "../../images/EnterpriseIcon.png";
-import bank from "../../images/BankImage.png";
+import govt from "../../images/BiometricGovtImage.svg";
+import enterprise from "../../images/BiometricEnterpriseImage.svg";
+import bank from "../../images/BiometricBankImage.svg";
 
 const Biometric = () => {
   useEffect(() => {
@@ -182,9 +182,9 @@ const Biometric = () => {
       <IndustrialApplication>
         <p>Multi-Industrial Applications</p>
         <IndustrialCardWrapper>
-          <IndustrailCard sourceImage={bank} />
-          <IndustrailCard sourceImage={enterprise} />
-          <IndustrailCard sourceImage={govt} />
+          <IndustrailCard cardHeader="Banking and Finance" sourceImage={bank} />
+          <IndustrailCard cardHeader="Enterprise" sourceImage={enterprise} />
+          <IndustrailCard cardHeader="Government" sourceImage={govt} />
         </IndustrialCardWrapper>
       </IndustrialApplication>
       <Footer />

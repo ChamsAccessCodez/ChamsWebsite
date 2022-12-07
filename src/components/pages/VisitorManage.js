@@ -24,8 +24,8 @@ import visitorImage3 from "../../images/VisitorImage3.svg";
 import visitorPowerfulHand from "../../images/visitorPowerfulHand.gif";
 import visitorAlert from "../../images/visitorAlert.gif";
 import visitorAnalytic from "../../images/visitorAnalytic.gif";
-import visitorBadge from "../../images/VisitorBadge.svg";
 import visitorPhoto from "../../images/visitorPhoto.gif";
+import badge from "../../images/badge.gif";
 import visitorRegistration from "../../images/visitorRegistration.gif";
 
 const VisitorManage = () => {
@@ -108,7 +108,7 @@ const VisitorManage = () => {
             PowerfulDesc="Get insight into visitor volume,who hosts visitors,and more. Export information in a few clicks."
           />
           <VisitorPowerfulCard
-            visitorPowerfulSource={visitorBadge}
+            visitorPowerfulSource={badge}
             PowerfulHeading="Badge
             Printing"
             PowerfulDesc="Automatically print badges when visitors sign in. Create custom badges."

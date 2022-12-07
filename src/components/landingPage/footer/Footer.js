@@ -118,7 +118,9 @@ const Footer = () => {
             <Link to="/pc" style={{ textDecoration: "none" }}>
               <p>Pension Central</p>
             </Link>
-            <p>Argone World</p>
+            <Link to="/argone" style={{ textDecoration: "none" }}>
+              <p>Argone World</p>
+            </Link>
           </Navs>
           <Navs>
             <Head>Support</Head>
