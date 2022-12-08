@@ -78,8 +78,8 @@ const OurSolutions = () => {
             }}
           >
             <Content>
-              <P1>Access Management Solutions</P1>
-              <p>Creating access for a safer world</p>
+              <P1>Cybersecurity Solutions</P1>
+              <p>Endpoint protection and monitoring of critical IT assets</p>
             </Content>
           </Link>
         </CyberSecurity>
