@@ -44,7 +44,7 @@ export const LimitRight = styled.div`
 export const U1 = styled.div`
   width: 400px;
   height: 126px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -105,7 +105,7 @@ export const SolutionFeatures = styled.div`
     margin: 0px;
     width: 1000px;
     height: 82px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -142,7 +142,7 @@ export const Powerful = styled.div`
   p {
     width: 450px;
     height: 71px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;

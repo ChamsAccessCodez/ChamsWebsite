@@ -53,7 +53,7 @@ export const Deliver = styled.div`
   //   background: red;
   width: 603px;
   height: 180px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -108,7 +108,7 @@ export const Story1 = styled.div`
 export const StoryDescription = styled.div`
   width: 977px;
   height: 114px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -204,7 +204,7 @@ export const Story2 = styled.div`
 export const Right2Head = styled.div`
   width: 450px;
   height: 70px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -304,7 +304,7 @@ export const Right3Navs = styled.div`
 export const Right3Head = styled.div`
   width: 450px;
   height: 70px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -355,7 +355,7 @@ export const Right4Head = styled.div`
   //   background: green;
   width: 450px;
   height: 70px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -449,7 +449,7 @@ export const IndustrialApplication = styled.div`
     margin-bottom: 50px;
     width: 554px;
     height: 37px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;

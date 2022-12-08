@@ -45,7 +45,7 @@ export const HeroContent = styled.div`
 export const ContentHeader = styled.div`
   width: 460px;
   height: 192px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -122,7 +122,7 @@ export const AdvanceThreats = styled.div`
 export const A1 = styled.p`
   width: 800px;
   height: 73px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -160,7 +160,7 @@ export const CyberSolution = styled.div`
 export const S1 = styled.p`
   width: 891px;
   height: 40px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -241,7 +241,7 @@ export const ServeLeft = styled.div`
 export const L1 = styled.p`
   width: 383px;
   height: 44px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -274,7 +274,7 @@ export const ServeRight = styled.div`
   align-items: flex-end;
 `;
 export const R1 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -284,7 +284,7 @@ export const R1 = styled.p`
   margin-top: 0px;
 `;
 export const R2 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -294,7 +294,7 @@ export const R2 = styled.p`
   margin-top: 0px;
 `;
 export const R3 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -304,7 +304,7 @@ export const R3 = styled.p`
   margin-top: 0px;
 `;
 export const R4 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -314,7 +314,7 @@ export const R4 = styled.p`
   margin-top: 0px;
 `;
 export const R5 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -363,7 +363,7 @@ export const TextDiv = styled.div`
 export const Ready = styled.div`
   width: 1000px;
   height: 60px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;

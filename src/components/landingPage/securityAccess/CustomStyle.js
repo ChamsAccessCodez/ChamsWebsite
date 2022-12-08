@@ -63,7 +63,7 @@ export const CyberContent = styled.div`
   }
 `;
 export const CyberHeading = styled.div`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;

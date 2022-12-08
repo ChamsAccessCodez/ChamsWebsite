@@ -58,7 +58,7 @@ export const OurProduct = styled.div`
 `;
 export const Think = styled.div`
   width: 846px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;

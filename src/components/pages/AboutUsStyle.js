@@ -89,7 +89,7 @@ export const Contact = styled.div`
 export const Touch = styled.div`
   width: 1009px;
   height: 94px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -164,7 +164,7 @@ export const Cover = styled.div`
 export const Title = styled.div`
   width: 213px;
   height: 44px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -223,7 +223,7 @@ export const LeftTitle = styled.div`
   margin-bottom: 20px;
   width: 163px;
   height: 44px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -296,10 +296,10 @@ export const Headers = styled.div`
 `;
 export const HeadTitle = styled.div`
   margin-top: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   width: 598px;
   height: 35px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -341,7 +341,7 @@ export const CorePartner = styled.div`
     align-self: center;
     width: 226px;
     height: 44px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 36px;

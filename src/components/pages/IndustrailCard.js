@@ -70,7 +70,7 @@ const IndustrialCardContainer = styled.div`
   p {
     width: 183px;
     // height: 82px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;

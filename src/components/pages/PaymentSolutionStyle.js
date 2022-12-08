@@ -26,7 +26,7 @@ export const AdvanceThreats = styled.div`
 export const A1 = styled.p`
   width: 850px;
   height: 120px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -166,7 +166,7 @@ export const Right3Button = styled.div`
 export const Text1 = styled.div`
   width: 392px;
   height: 38px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -227,7 +227,7 @@ export const C1 = styled.p`
   //   background: red;
   width: 700px;
   height: 73px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -288,7 +288,7 @@ export const DesignInfo = styled.div`
 export const Text2 = styled.div`
   width: 500px;
   height: 76px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -417,7 +417,7 @@ export const SelfDescription = styled.div`
 export const SelfHeading = styled.div`
   width: 546px;
   height: 38px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -464,7 +464,7 @@ export const ServeLeft = styled.div`
 export const L1 = styled.p`
   width: 383px;
   height: 44px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -497,7 +497,7 @@ export const ServeRight = styled.div`
   align-items: flex-end;
 `;
 export const R1 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -507,7 +507,7 @@ export const R1 = styled.p`
   margin-top: 0px;
 `;
 export const R2 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -517,7 +517,7 @@ export const R2 = styled.p`
   margin-top: 0px;
 `;
 export const R3 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -527,7 +527,7 @@ export const R3 = styled.p`
   margin-top: 0px;
 `;
 export const R4 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -537,7 +537,7 @@ export const R4 = styled.p`
   margin-top: 0px;
 `;
 export const R5 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;

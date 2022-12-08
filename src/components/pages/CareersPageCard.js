@@ -53,7 +53,7 @@ const CardContainer = styled.div`
 const Text = styled.div`
   width: 301px;
   height: 75px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;

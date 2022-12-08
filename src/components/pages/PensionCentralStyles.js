@@ -45,7 +45,7 @@ export const HeroContent = styled.div`
 export const ContentHeader = styled.div`
   width: 500px;
   height: 192px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -153,7 +153,7 @@ export const NumberButton = styled.div`
 export const Desc = styled.div`
   width: 462px;
   height: 74px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -190,7 +190,7 @@ export const FeaturesInfo = styled.div`
   p {
     width: 462px;
     height: 113px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -287,7 +287,7 @@ export const TextDiv = styled.div`
 export const Ready = styled.div`
   width: 1000px;
   height: 59px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;

@@ -59,7 +59,7 @@ export const AboutButton = styled.div`
 `;
 export const Why = styled.div`
   width: 846px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;

@@ -32,7 +32,7 @@ const VisitorCardContainer = styled.div`
 const V1 = styled.div`
   width: 381px;
   height: 78px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;

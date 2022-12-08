@@ -95,7 +95,7 @@ const Div2 = styled.div`
 const Div3 = styled.div`
   width: 614px;
   height: 42px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;

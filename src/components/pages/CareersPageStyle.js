@@ -88,7 +88,7 @@ export const Contact = styled.div`
 export const Touch = styled.div`
   width: 533px;
   height: 60px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -169,7 +169,7 @@ export const PerkButton = styled.div`
 export const PerkHeader = styled.div`
   width: 456px;
   height: 44px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -296,7 +296,7 @@ export const DescWrapper = styled.div`
 export const DescText = styled.div`
   width: 172px;
   height: 32px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -366,7 +366,7 @@ export const TextDiv = styled.div`
 export const Ready = styled.div`
   width: 1000px;
   height: 59px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;

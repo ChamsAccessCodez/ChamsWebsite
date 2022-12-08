@@ -90,7 +90,7 @@ export const Contact = styled.div`
 export const Touch = styled.div`
   width: 278px;
   height: 60px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -143,7 +143,7 @@ export const FormWrapper = styled.div`
 export const FormHead = styled.div`
   width: 376px;
   height: 29px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;

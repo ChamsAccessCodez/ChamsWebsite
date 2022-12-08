@@ -43,7 +43,7 @@ export const P1 = styled.p`
   margin-top: 0px;
   width: 900px;
   height: 120px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -135,7 +135,7 @@ export const Right1 = styled.div`
   p {
     width: 500px;
     height: 189px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -155,7 +155,7 @@ export const BuildingSolution = styled.div`
   p {
     width: 1232px;
     height: 40px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -213,7 +213,7 @@ export const TextDiv = styled.div`
 export const Ready = styled.div`
   width: 1000px;
   height: 60px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;

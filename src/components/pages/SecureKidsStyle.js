@@ -37,7 +37,7 @@ export const Left2 = styled.div`
 export const K1 = styled.div`
   width: 490px;
   height: 120px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -142,7 +142,7 @@ export const W2 = styled.div`
 export const W21 = styled.div`
   width: 537px;
   height: 37px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -195,7 +195,7 @@ export const SecureCard = styled.div`
   p {
     width: 554px;
     height: 37px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -207,7 +207,7 @@ export const SecureCard = styled.div`
   }
 `;
 export const SecureCardWrapper = styled.div`
-  // background: red;
+  background: red;
   width: 85%;
   height: auto;
   display: flex;
@@ -247,7 +247,7 @@ export const TextDiv = styled.div`
 export const Ready = styled.div`
   width: 900px;
   height: 113px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;

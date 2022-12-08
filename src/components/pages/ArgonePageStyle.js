@@ -50,7 +50,7 @@ export const ArgonLeft = styled.div`
 export const ArgoneHead = styled.div`
   width: 500px;
   height: 120px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -153,7 +153,7 @@ export const SalesRight = styled.div`
 export const D1 = styled.div`
   width: 422px;
   height: 34px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -239,7 +239,7 @@ export const DeviceRight = styled.div`
 export const L1 = styled.div`
   width: 422px;
   height: 34px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -325,7 +325,7 @@ export const TrainingRight = styled.div`
 export const T1 = styled.div`
   width: 422px;
   height: 34px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -411,7 +411,7 @@ export const FinanceRight = styled.div`
 export const F1 = styled.div`
   width: 422px;
   height: 34px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -497,7 +497,7 @@ export const SwapRight = styled.div`
 export const S1 = styled.div`
   width: 422px;
   height: 34px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -589,7 +589,7 @@ export const TextDiv = styled.div`
 export const Ready = styled.div`
   //   background: red;
   width: 900px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;

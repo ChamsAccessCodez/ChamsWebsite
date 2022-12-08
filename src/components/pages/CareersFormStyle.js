@@ -20,7 +20,7 @@ export const Left = styled.div`
   p {
     width: 378px;
     height: 226px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -75,7 +75,7 @@ export const FormContent = styled.div`
 export const Heading = styled.div`
   width: 565px;
   height: 36px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;

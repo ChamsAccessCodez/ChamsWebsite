@@ -52,7 +52,7 @@ export const Solutions = styled.div`
   }
 `;
 export const Two = styled.div`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;

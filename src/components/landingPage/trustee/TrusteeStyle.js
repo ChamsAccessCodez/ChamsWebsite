@@ -32,7 +32,7 @@ export const Text = styled.div`
   height: 32px;
   left: 433px;
   top: 66px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -104,7 +104,7 @@ export const TextDiv = styled.div`
 export const Ready = styled.div`
   width: 1000px;
   height: 59px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;

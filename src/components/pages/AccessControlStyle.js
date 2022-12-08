@@ -46,7 +46,7 @@ export const AccessRight = styled.div`
 export const A1 = styled.div`
   width: 457px;
   height: 120px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -139,7 +139,7 @@ export const DividerRight = styled.div`
 export const C1 = styled.div`
   width: 500px;
   height: 37px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -235,7 +235,7 @@ export const TimeRight = styled.div`
 export const T1 = styled.div`
   width: 576px;
   height: 38px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -321,7 +321,7 @@ export const TextDiv = styled.div`
 export const Ready = styled.div`
   //   background: red;
   width: 900px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;

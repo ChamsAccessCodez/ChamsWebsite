@@ -107,7 +107,7 @@ const CardInfo = styled.div`
 const CardHeading = styled.div`
   //   width: 80%;
   width: 280px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;

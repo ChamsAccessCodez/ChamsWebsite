@@ -41,7 +41,7 @@ const CustomCardContainer = styled.div`
 const J1 = styled.div`
   width: 200px;
   height: 64px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;

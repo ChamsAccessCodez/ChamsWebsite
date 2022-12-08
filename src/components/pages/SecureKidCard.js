@@ -40,7 +40,7 @@ const P1 = styled.div`
   margin-bottom: 5px;
   width: 250px;
 
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -54,7 +54,7 @@ const P2 = styled.div`
   // background: red;
   width: 250px;
 
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;

@@ -68,7 +68,7 @@ export const HeroContent = styled.div`
 export const ContentHeader = styled.div`
   width: 543px;
   height: 174px;
-  font-family: Roslindale Text;
+  font-family: amster;
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -248,7 +248,7 @@ export const Impact = styled.div`
   }
 `;
 export const Imp1 = styled.div`
-  font-family: Roslindale Text;
+  font-family: amster;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -260,7 +260,7 @@ export const Imp1 = styled.div`
   }
 `;
 export const Imp2 = styled.div`
-  font-family: Roslindale Text;
+  font-family: amster;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -336,7 +336,7 @@ export const Financial = styled.div`
   }
 `;
 export const Sub1 = styled.div`
-  font-family: Roslindale Text;
+  font-family: amster;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;

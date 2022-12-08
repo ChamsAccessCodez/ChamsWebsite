@@ -45,7 +45,7 @@ export const Div2 = styled.div`
 export const M1 = styled.div`
   width: 455px;
   height: 126px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -139,7 +139,7 @@ export const ManagementRight = styled.div`
 export const TextHeader = styled.div`
   width: 454px;
   height: 154px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -193,7 +193,7 @@ export const K1 = styled.div`
   //   background: blue;
   width: 450px;
   height: 29px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -317,7 +317,7 @@ export const ControlRight = styled.div`
 export const C1 = styled.div`
   width: 450px;
   height: 72px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -416,7 +416,7 @@ export const VisitorRight = styled.div`
 export const V1 = styled.div`
   width: 508px;
   height: 34px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -509,7 +509,7 @@ export const SurveillanceName = styled.div`
 export const S1 = styled.div`
   width: 508px;
   height: 38px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -566,7 +566,7 @@ export const ServeLeft = styled.div`
 export const L1 = styled.p`
   width: 383px;
   height: 44px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -599,7 +599,7 @@ export const ServeRight = styled.div`
   align-items: flex-end;
 `;
 export const R1 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -609,7 +609,7 @@ export const R1 = styled.p`
   margin-top: 0px;
 `;
 export const R2 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -619,7 +619,7 @@ export const R2 = styled.p`
   margin-top: 0px;
 `;
 export const R3 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -629,7 +629,7 @@ export const R3 = styled.p`
   margin-top: 0px;
 `;
 export const R4 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -639,7 +639,7 @@ export const R4 = styled.p`
   margin-top: 0px;
 `;
 export const R5 = styled.p`
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;

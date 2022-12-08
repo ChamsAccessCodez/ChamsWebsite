@@ -20,6 +20,8 @@ import AccessControl from "./components/pages/AccessControl";
 import AccessManagement from "./components/pages/AccessManagement";
 import Argone from "./components/pages/ArgonePage";
 import ManagementTeam from "./components/pages/ManagementTeam";
+import Dumebi from "./components/subPages/DumebiObodo";
+import Olayemi from "./components/subPages/Olayemi";
 
 function App() {
   return (
@@ -44,6 +46,8 @@ function App() {
         <Route exact path="/access-management" element={<AccessManagement />} />
         <Route exact path="/argone" element={<Argone />} />
         <Route exact path="/management-team" element={<ManagementTeam />} />
+        <Route exact path="/dumebi" element={<Dumebi />} />
+        <Route exact path="/olayemi" element={<Olayemi />} />
       </Routes>
       {/* <Footer /> */}
     </div>

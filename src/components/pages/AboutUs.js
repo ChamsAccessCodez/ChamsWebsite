@@ -71,7 +71,7 @@ const AboutUs = () => {
           </Link>
 
           <Touch>
-            Ready for Possibilities?
+            Driving Impact through
             <br />
             <span>Simplified Technology Solutions.</span>
           </Touch>

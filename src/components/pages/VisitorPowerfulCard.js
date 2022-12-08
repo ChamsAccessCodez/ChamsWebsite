@@ -51,7 +51,7 @@ const PowerfulContainer = styled.div`
 const P1 = styled.div`
   width: 150px;
   height: 64px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;

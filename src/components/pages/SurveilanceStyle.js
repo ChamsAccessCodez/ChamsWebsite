@@ -24,7 +24,7 @@ export const SurveilanceMaster = styled.div`
 export const S1 = styled.div`
   width: 600px;
   height: 126px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -100,7 +100,7 @@ export const WriteLeft = styled.div`
   p {
     width: 418px;
     height: 128px;
-    font-family: "Roslindale Text";
+    font-family: "amster";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -165,7 +165,7 @@ export const VideoRight = styled.div`
 export const P1 = styled.div`
   width: 500px;
   height: 76px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -233,7 +233,7 @@ export const IntrusionLeft = styled.div`
 export const I1 = styled.div`
   width: 500px;
   height: 38px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -302,7 +302,7 @@ export const TextDiv = styled.div`
 export const Ready = styled.div`
   //   background: red;
   width: 900px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;

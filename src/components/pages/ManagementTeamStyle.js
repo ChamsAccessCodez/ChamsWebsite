@@ -88,7 +88,7 @@ export const Contact = styled.div`
 export const Touch = styled.div`
   width: 700px;
   height: 60px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -114,7 +114,7 @@ export const BoardOfDirectors = styled.div`
 export const Caption = styled.div`
   width: 311px;
   height: 44px;
-  font-family: "Roslindale Text";
+  font-family: "amster";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -148,7 +148,7 @@ export const MgtTeam = styled.div`
 // export const Caption = styled.div`
 //   width: 311px;
 //   height: 44px;
-//   font-family: "Roslindale Text";
+//   font-family: "amster";
 //   font-style: normal;
 //   font-weight: 700;
 //   font-size: 36px;
