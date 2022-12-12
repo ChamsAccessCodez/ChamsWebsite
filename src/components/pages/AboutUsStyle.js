@@ -8,7 +8,7 @@ export const GetInTouch = styled.div`
   flex-wrap: wrap;
   width: inherit;
   margin-top: 80px;
-  height: 600px;
+  height: 500px;
   background: url(${dotedComplete}),
     linear-gradient(
       0deg,
@@ -16,6 +16,7 @@ export const GetInTouch = styled.div`
       rgba(206, 228, 216, 0.25) 77.6%
     );
   background-repeat: no-repeat;
+  background-position: center;
   background-size: 100%;
   display: flex;
   // justify-content: space-between;
@@ -295,10 +296,11 @@ export const Headers = styled.div`
   }
 `;
 export const HeadTitle = styled.div`
-  margin-top: 100px;
+  // background: red;
+  margin-top: 50px;
   margin-bottom: 30px;
   width: 598px;
-  height: 35px;
+  height: auto;
   font-family: "amster";
   font-style: normal;
   font-weight: 700;

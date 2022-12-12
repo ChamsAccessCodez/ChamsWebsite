@@ -132,6 +132,18 @@ export const Input = styled.input`
     margin-left: 8px;
     outline: none;
   }
+  ::placeholder {
+    width: auto;
+    height: 16px;
+    font-family: "Komet";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #98a2b3;
+  }
 
   @media screen and (max-width: 960px) {
     width: 90%;

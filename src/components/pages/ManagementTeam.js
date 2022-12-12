@@ -139,7 +139,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            mgtPage="/olayemi"
           />
           <ManagementTeamCard
             cardImage={gbenga}
@@ -148,7 +148,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            mgtPage="/gbenga"
           />
           <ManagementTeamCard
             cardImage={dami}
@@ -157,7 +157,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            mgtPage="/dami"
           />
           <ManagementTeamCard
             cardImage={uche}
@@ -166,7 +166,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            mgtPage="/uche"
           />
           <ManagementTeamCard
             cardImage={seun}
@@ -175,7 +175,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            mgtPage="/seun"
           />
         </ManagementCardWrapper>
       </MgtTeam>

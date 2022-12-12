@@ -88,7 +88,9 @@ const AccessManagement = () => {
             Powerful, Scalable Solutions to protect your people, workplace and
             IT assets.
           </M2>
+          <Link to="/callback" style={{ textDecoration: "none" }}>
           <AccessManagementButton>Request a callback</AccessManagementButton>
+          </Link>
         </Div1>
         <Div2>
           <img src={accessManagementImage1} alt="div" />

@@ -17,8 +17,10 @@ import {
 import requestImage from "../../images/RequestImage.png";
 import cancelIcon from "../../images/CancelIcon.png";
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 const RequestCallback = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     window.scroll({
       top: 0,
@@ -33,15 +35,14 @@ const RequestCallback = () => {
         <img src={requestImage} alt="seyi" />
       </Left>
       <Right>
-        <Link
-          to="/"
+        <div
           style={{
-            textDecoration: "none",
-            justifySelf: "flex-end",
-            alignSelf: "right",
-            // backgroundColor: "red",
             display: "flex",
             justifyContent: "flex-end",
+            cursor: "pointer"
+          }}
+          onClick={()=>{
+            navigate(-1);
           }}
         >
           <img
@@ -54,9 +55,11 @@ const RequestCallback = () => {
               marginTop: "40px",
               marginRight: "40px",
               marginBottom: "80px",
+              display: "flex",
+              alignText: "flex-end",
             }}
           />
-        </Link>
+        </div>
         <FormContainer>
           <FormContent>
             <Heading>Request a callback</Heading>

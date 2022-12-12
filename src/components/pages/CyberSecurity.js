@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import {
   CyberContainer,
   Hero1,
@@ -64,7 +64,9 @@ const CyberSecurity = () => {
             From endpoint protection to 24/7 monitoring of your most critical
             technology assets
           </ContentDescription>
-          <ContentButton>Request a callback</ContentButton>
+          <Link to="/callback" style={{ textDecoration: "none" }}>
+            <ContentButton>Request a callback</ContentButton>
+          </Link>
         </HeroContent>
         <HeroImage>
           <img

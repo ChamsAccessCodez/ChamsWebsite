@@ -54,7 +54,7 @@ const Footer = () => {
           <Form>
             <InputWrapper>
               <img src={mail} alt="placeholder" />
-              <Input placeholder="" />
+              <Input placeholder="Enter email address to subscribe" />
             </InputWrapper>
             <Button type="submit">Subscribe</Button>
           </Form>

@@ -44,7 +44,6 @@ const DumebiObodo = () => {
         mgtDescPosition="MD/CEO"
         mgtDesc={desc}
       />
-      {/* <MgtTeamProps /> */}
     </DumebiContainer>
   );
 };

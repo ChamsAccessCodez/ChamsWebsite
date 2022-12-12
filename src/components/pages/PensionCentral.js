@@ -35,6 +35,19 @@ import Header from "../landingPage/header/Header";
 import Footer from "../landingPage/footer/Footer";
 
 const PensionCentral = () => {
+  const dollarMan = (
+    <html>
+      <span
+        style={{
+          fontFamily: "Roboto",
+          fontSize: "30px",
+        }}
+      >
+        &#36;
+      </span>
+      7m+
+    </html>
+  );
   useEffect(() => {
     window.scroll({
       top: 0,
@@ -58,7 +71,16 @@ const PensionCentral = () => {
             pension contributions in seconds to desired Pension fund
             administrators and custodians.
           </ContentDescription>
-          <ContentButton>Get started for free</ContentButton>
+          <a
+            href="https://pensioncentral.ng/"
+            target="_blank"
+            style={{
+              textDecoration: "none",
+              color: "#ffffff",
+            }}
+          >
+            <ContentButton>Get started for free</ContentButton>
+          </a>
         </HeroContent>
         <HeroImage>
           <img
@@ -98,7 +120,10 @@ const PensionCentral = () => {
               intValue="21+"
               intDescription="PFAs Supported"
             />
-            <PensionCentralCard intValue="$7m+" intDescription="Transactions" />
+            <PensionCentralCard
+              intValue={dollarMan}
+              intDescription="Transactions"
+            />
             <PensionCentralCard
               intValue="200k+"
               intDescription="Employees credited"
@@ -206,7 +231,16 @@ const PensionCentral = () => {
           Join hundreds of organizations who use Pension Central to fulfill
           their obligatory statutory pension remittances
         </p>
-        <RequestButton>Learn more</RequestButton>
+        <a
+          href="https://pensioncentral.ng/"
+          target="_blank"
+          style={{
+            textDecoration: "none",
+            color: "#ffffff",
+          }}
+        >
+          <RequestButton>Learn more</RequestButton>
+        </a>
       </TextDiv>
       <Footer />
     </PenContainer>

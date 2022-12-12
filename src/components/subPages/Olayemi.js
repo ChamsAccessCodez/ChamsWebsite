@@ -1,7 +1,7 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import MgtTeamProps from "./MgtTeamProps";
-import dumebi from "../../images/Dumebi.png";
+import olayemi from "../../images/Olayemi.png";
 
 const Olayemi = () => {
   useEffect(() => {
@@ -13,25 +13,30 @@ const Olayemi = () => {
   }, []);
   var desc = (
     <div>
-      Dumebi Obodo is the Managing Director of ChamsAccess Limited. His many
-      years of experience in various roles have given him a strong first-hand
-      perspective of the ChamsAccess business and the market's influence of
-      customers’ perception of the ChamsAccess brand. <br />
+      Olayemi Odufeso is the Group Head, Corporate Services & Planning for
+      ChamsAccess Limited. She has over 18 years’ experience in Transaction
+      Management, Leadership, People Management, Strategy, Finance Management,
+      Performance Management, Administration & Corporate Planning. <br />
+      <br />A Fellow Member of the Institute of Management Consultants (IMC
+      Nigeria), Certified Professional in Enterprise Management, Associate
+      Member in the Chartered Institute of Personnel Management of Nigeria
+      (CIPM), Emotional Intelligence Certified Performer (EICP) & Member Global
+      Corporate Finance Society. <br />
       <br />
-      Under his stewardship, ChamsAccess has remarkably diversified its
-      business, expanded into new markets and transitioned from a hardware based
-      business to a solutions outfit, while delivering on revenue growth and
-      profits. <br />
+      She holds a Bachelor of Science Degree in Statistics from University of
+      Ilorin. Post Graduate Diploma in Leadership from Redeemers’ International
+      Leadership Academy and awarded Honorary Doctorate Degree in Executive
+      Leadership and Management from Geofidel Institute for Leadership &
+      Management UK & Stratford University USA. <br />
       <br />
-      Dumebi gained his Bachelor’s degree from Imo State University, Owerri
-      where he studied Microbiology, graduating with a Second Class Upper
-      honours division. He obtained an MBA from Lagos Business School (Pan
-      Atlantic University) and is a certified ITIL practitioner.
+      She has attended various trainings in top institutions & training Schools
+      like Lagos Business School, Business School of Netherlands, Geofidel
+      Executive Education, Corporate Finance Institute & Proten International to
+      mention a few. <br />
       <br />
-      <br />
-      Combining his expertise in business strategy and management and his knack
-      for exploring new ideas, Dumebi spends his time involved in providing
-      superior leadership to the ChamsAccess business as a whole.
+      She is passionate in giving back to the society by her involvement in some
+      charity works which include the Prison Welfare Initiative & feeding the
+      homeless.
     </div>
   );
   return (
@@ -39,7 +44,7 @@ const Olayemi = () => {
       <MgtTeamProps
         mgtName="Olayemi Odufeso"
         mgtPosition="Group Head, Corporate Services & Planning"
-        mgtPhoto={dumebi}
+        mgtPhoto={olayemi}
         mgtDescName="Olayemi Odufeso"
         mgtDescPosition="Group Head, Corporate Services & Planning"
         mgtDesc={desc}

@@ -40,6 +40,7 @@ import CasEngineers from "../../images/CasEngineers.png";
 import BosEngineer from "../../images/BosEngineer.png";
 import Hr from "../../images/HrTeam.png";
 import FinancialTeam from "../../images/FinancialTeam.png";
+import RandomPics from "../../images/RandomPics.png";
 import RoleCard from "./RoleCard";
 import RoleClock from "../../images/RoleClock.png";
 import CarouselCard from "./CarouselCard";
@@ -130,7 +131,7 @@ const CareersPage = () => {
           <img src={FinancialTeam} alt="engineers" />
         </Image2>
         <Image3>
-          <img src={CasEngineers} alt="engineers" />
+          <img src={RandomPics} alt="engineers" />
         </Image3>
       </ImageZone>
       <Roles>

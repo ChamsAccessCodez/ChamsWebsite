@@ -22,6 +22,10 @@ import Argone from "./components/pages/ArgonePage";
 import ManagementTeam from "./components/pages/ManagementTeam";
 import Dumebi from "./components/subPages/DumebiObodo";
 import Olayemi from "./components/subPages/Olayemi";
+import Gbenga from "./components/subPages/Gbenga";
+import Dami from "./components/subPages/Dami";
+import Uche from "./components/subPages/Uche";
+import Seun from "./components/subPages/Seun";
 
 function App() {
   return (
@@ -48,6 +52,10 @@ function App() {
         <Route exact path="/management-team" element={<ManagementTeam />} />
         <Route exact path="/dumebi" element={<Dumebi />} />
         <Route exact path="/olayemi" element={<Olayemi />} />
+        <Route exact path="/gbenga" element={<Gbenga />} />
+        <Route exact path="/dami" element={<Dami />} />
+        <Route exact path="/uche" element={<Uche />} />
+        <Route exact path="/seun" element={<Seun />} />
       </Routes>
       {/* <Footer /> */}
     </div>

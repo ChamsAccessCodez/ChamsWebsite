@@ -92,7 +92,17 @@ const Hero = () => {
           <Sub3>Through instant issuance solution for commercial banks</Sub3>
         </Issues>
         <Transactions>
-          <Sub1>$6m+</Sub1>
+          <Sub1>
+            <span
+              style={{
+                fontFamily: "Roboto",
+                fontSize: "30px",
+              }}
+            >
+              $
+            </span>
+            6m+
+          </Sub1>
           <Sub2>Transactions processed</Sub2>
           <Sub3>Pensions remittances routed through our gateway</Sub3>
         </Transactions>

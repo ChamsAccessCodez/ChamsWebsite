@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import {
   CustomSolutionsContainer,
   Customizable,
@@ -52,7 +52,9 @@ const CustomSolutions = () => {
               some of the biggest challenges faced across the industries we
               serve.
             </P2>
+            <Link to="/callback" style={{ textDecoration: "none" }}>
             <CustomButton>Request a callback</CustomButton>
+            </Link>
           </ContentWrapper>
         </CustomBanner>
       </Customizable>

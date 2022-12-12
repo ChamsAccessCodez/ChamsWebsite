@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const LineHistoryWrapper = styled.div`
-  //   background: white;
+    // background: red;
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  height: 110px;
+  // height: 110px;
   cursor: pointer;
   transition: transform 1.5s;
 

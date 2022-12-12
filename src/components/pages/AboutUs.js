@@ -128,32 +128,32 @@ const AboutUs = () => {
             <LeftDesc>Follow our story as told through milestones</LeftDesc>
             <LeftHistory>
               <AboutUsCard
-                year="2011"
-                yearDesc="Successful deployment of ATMs across several commercial banks"
-              />
-              <AboutUsCard
-                year="2012"
-                yearDesc="Successful deployment of financial instant card solution across several commercial banks"
-              />
-              <AboutUsCard
-                year="2014"
-                yearDesc="Implementation of Bank Verification Number exercise in all branches of commercial banks nationwide"
-              />
-              <AboutUsCard
-                year="2016"
-                yearDesc="Data capture and Ghost worker elimination in over 10 states of the Federation."
-              />
-              <AboutUsCard
-                year="2017"
-                yearDesc="Internally Generated Revenue (IGR) drivers for 5 States in Nigeria"
-              />
-              <AboutUsCard
-                year="2017"
-                yearDesc="Successfully deployed 10,000 devices to NIBBS for financial inclusion project"
-              />
-              <AboutUsCard
                 year="2020"
                 yearDesc="Deployment of Financial Instant Card Issuance solution across all Commercial Bank and MFB"
+              />
+                <AboutUsCard
+                  year="2019"
+                  yearDesc="Successfully deployed 10,000 devices to NIBBS for financial inclusion project"
+                />
+                <AboutUsCard
+                  year="2017"
+                  yearDesc="Internally Generated Revenue (IGR) drivers for 5 States in Nigeria"
+                />
+                <AboutUsCard
+                  year="2016"
+                  yearDesc="Data capture and Ghost worker elimination in over 10 states of the Federation."
+                />
+                <AboutUsCard
+                  year="2014"
+                  yearDesc="Implementation of Bank Verification Number exercise in all branches of commercial banks nationwide"
+                />
+                <AboutUsCard
+                  year="2012"
+                  yearDesc="Successful deployment of financial instant card solution across several commercial banks"
+                />
+              <AboutUsCard
+                year="2011"
+                yearDesc="Successful deployment of ATMs across several commercial banks"
               />
             </LeftHistory>
           </LeftWrapper>

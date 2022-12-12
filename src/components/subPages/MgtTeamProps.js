@@ -52,26 +52,31 @@ const MgtTeamProps = ({
             mgtImageSmall={olayemiSmall}
             mgtNameSmall="Olayemi Odufeso"
             mgtPositionSmall="Group Head, Corporate Services & Planning"
+            personalNav="/olayemi"
           />
           <ImageProps
             mgtImageSmall={gbengaSmall}
             mgtNameSmall="Gbenga Oshinoiki"
             mgtPositionSmall="Head, Emerging Markets and New Sectors"
+            personalNav="/gbenga"
           />
           <ImageProps
             mgtImageSmall={damiSmall}
             mgtNameSmall="Dami Adegbulu"
             mgtPositionSmall="Head, Sales"
+            personalNav="/dami"
           />
           <ImageProps
             mgtImageSmall={ucheSmall}
             mgtNameSmall="Uche Okorie"
             mgtPositionSmall="Head, Business Operations Support"
+            personalNav="/uche"
           />
           <ImageProps
             mgtImageSmall={seunSmall}
             mgtNameSmall="Uche Okorie"
             mgtPositionSmall="Head, Business Operations Support"
+            personalNav="/seun"
           />
         </PropsCover>
       </MgtNavs>
@@ -151,7 +156,7 @@ export const Touch = styled.div`
 const MgtBio = styled.div`
   background: #ffffff;
   width: 100vw;
-  height: 850px;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -165,13 +170,14 @@ const BioDivider = styled.div`
   height: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  // align-items: center;
   margin-top: 80px;
   margin-bottom: 80px;
   padding-bottom: 80px;
 `;
 const MgtLeft = styled.div`
-  //   background: blue;
+  // background: blue;
   width: 50%;
   height: 100%;
   display: flex;
@@ -185,17 +191,17 @@ const MgtLeft = styled.div`
   }
 `;
 const MgtRight = styled.div`
-  //   background: green;
+  // background: green;
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-top: 80px;
+  // padding-top: 80px;
 `;
 const D1 = styled.div`
-  width: 225px;
+  width: 100%;
   height: 38px;
   font-family: "amster";
   font-style: normal;

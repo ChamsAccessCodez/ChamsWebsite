@@ -15,7 +15,7 @@ export const GetInTouch = styled.div`
   flex-wrap: wrap;
   width: inherit;
   margin-top: 80px;
-  height: 600px;
+  height: 500px;
   background: url(${dotedComplete}),
     linear-gradient(
       0deg,
@@ -23,6 +23,8 @@ export const GetInTouch = styled.div`
       rgba(206, 228, 216, 0.25) 77.6%
     );
   background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: 100%;
   display: flex;
   // justify-content: space-between;

@@ -51,7 +51,7 @@ import {
   SwapList,
   TextDiv,
   Ready,
-  RequestButton
+  RequestButton,
 } from "./ArgonePageStyle";
 import Header from "../landingPage/header/Header";
 import Footer from "../landingPage/footer/Footer";
@@ -88,7 +88,19 @@ const ArgonePage = () => {
               experience in sales and post-sales support of phones, laptops,
               accessories, and gadgets.
             </ArgoneDesc>
-            <ArgoneButton>Shop with Argone</ArgoneButton>
+
+            <ArgoneButton>
+              <a
+                href="https://argone.ng/"
+                target="_blank"
+                style={{
+                  textDecoration: "none",
+                  color: "#ffffff"
+                }}
+              >
+                Shop with Argone
+              </a>
+            </ArgoneButton>
           </ArgonLeft>
           <ArgonRight>
             <img src={argonHeroImage} alt="argonHero" />
@@ -226,7 +238,8 @@ const ArgonePage = () => {
           <SwapRight>
             <S1>Trade-in/Device swap</S1>
             <S2>
-            Our Trade-in service offers you the opportunity to swap your used device for a new device.{" "}
+              Our Trade-in service offers you the opportunity to swap your used
+              device for a new device.{" "}
             </S2>
             <SwapControl>
               <SwapList>

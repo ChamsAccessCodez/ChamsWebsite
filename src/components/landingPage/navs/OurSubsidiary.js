@@ -8,42 +8,44 @@ import {
   Content,
   P1,
 } from "./OurSubsidiaryStyle.js";
-import biometricIcon from "../../../images/BiometricIcon.svg";
-import paymentSolution from "../../../images/PaymentSolution.svg";
+import pensionCentralIcon from "../../../images/PensionCentralIcon.svg";
+import argonIcon from "../../../images/ArgonIcon.svg";
 
 const OurSubsidiary = () => {
   return (
     <SubsidiaryContainer>
       <Left>
         <Pension>
-          <img src={biometricIcon} alt="aboutIcon" />
-          <Link
-            to="/pc"
+          <img src={pensionCentralIcon} alt="aboutIcon" />
+          <a
+            href="https://pensioncentral.ng/"
+            target="_blank"
             style={{
               textDecoration: "none",
+              color: "#ffffff",
             }}
           >
             <Content>
-              <P1>Biometrics Solutions</P1>
-              <p>
-                Hardware and software offerings for enrollment and verification
-              </p>
+              <P1>Pension Central</P1>
+              <p>Pension Remittance Gateway</p>
             </Content>
-          </Link>
+            </a>
         </Pension>
         <ArgonWorld>
-          <img src={paymentSolution} alt="aboutIcon" />
-          <Link
-            to="/argone"
+          <img src={argonIcon} alt="aboutIcon" />
+          <a
+            href="https://argone.ng/"
+            target="_blank"
             style={{
               textDecoration: "none",
+              color: "#ffffff",
             }}
           >
             <Content>
-              <P1>Payment Solutions</P1>
-              <p>Infrastructure and technologies for financial institutions</p>
+              <P1>Argone World</P1>
+              <p>Providing best-in-class retail experience</p>
             </Content>
-          </Link>
+          </a>
         </ArgonWorld>
       </Left>
     </SubsidiaryContainer>
