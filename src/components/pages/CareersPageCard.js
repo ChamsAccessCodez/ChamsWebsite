@@ -23,13 +23,13 @@ const CardContainer = styled.div`
   background: #f9fafb;
   border-radius: 10px;
   // margin-left: 40px;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  // margin-top: 60px;
+  // margin-bottom: 20px;
   // margin-right: 40px;
   cursor: pointer;
   transition: transform 1s;
 
-  :hover{
+  :hover {
     transform: scale(0.9);
   }
 

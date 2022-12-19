@@ -103,8 +103,9 @@ export const AboutImages = styled.div`
   padding: 0px;
   width: 90%;
   // width: 1203px;
-  height: 925px;
-  gap: 80px;
+  // height: 925px;
+  height: auto;
+  gap: 60px;
 
   @media screen and (max-width: 960px) {
     // background: yellow;

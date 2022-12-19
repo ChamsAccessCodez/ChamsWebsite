@@ -145,8 +145,10 @@ export const Right1 = styled.div`
   }
 `;
 export const BuildingSolution = styled.div`
+  // background-color: red;
   width: 100vw;
   height: 1000px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,13 +164,13 @@ export const BuildingSolution = styled.div`
     line-height: 38px;
     text-align: center;
     color: #101828;
-    // margin-top: 80px;
+    margin-top: 60px;
   }
 `;
 export const BuildingCardWrapper = styled.div`
   width: 85%;
   height: 749px;
-//   background: tomato;
+  //   background: tomato;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -177,7 +179,7 @@ export const TextDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: inherit;
+  width: 100vw;
   height: 300px;
   //   height: auto;
   background: url(${trusteeImage}),
@@ -187,18 +189,18 @@ export const TextDiv = styled.div`
       rgba(206, 228, 216, 0.25) 77.6%
     );
 
-//   p {
-//     width: 800px;
-//     height: 55px;
-//     font-family: "Komet";
-//     font-style: normal;
-//     font-weight: 500;
-//     font-size: 18px;
-//     line-height: 28px;
-//     text-align: center;
-//     color: #475467;
-//     margin-top: 0px;
-//   }
+  //   p {
+  //     width: 800px;
+  //     height: 55px;
+  //     font-family: "Komet";
+  //     font-style: normal;
+  //     font-weight: 500;
+  //     font-size: 18px;
+  //     line-height: 28px;
+  //     text-align: center;
+  //     color: #475467;
+  //     margin-top: 0px;
+  //   }
 
   @media screen and (max-width: 960px) {
     width: 100vw;

@@ -71,7 +71,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            // mgtPage="/pc"
           />
           <ManagementTeamCard
             cardImage={obodo}
@@ -80,7 +80,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            // mgtPage="/pc"
           />
           <ManagementTeamCard
             cardImage={kayode}
@@ -89,7 +89,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            // mgtPage="/pc"
           />
           <ManagementTeamCard
             cardImage={chikwue}
@@ -98,7 +98,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            // mgtPage="/pc"
           />
           <ManagementTeamCard
             cardImage={adetomi}
@@ -107,7 +107,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            // mgtPage="/pc"
           />
           <ManagementTeamCard
             cardImage={gavin}
@@ -116,7 +116,7 @@ const ManagementTeam = () => {
             description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
-            mgtPage="/pc"
+            // mgtPage="/pc"
           />
         </ManagementCardWrapper>
       </BoardOfDirectors>

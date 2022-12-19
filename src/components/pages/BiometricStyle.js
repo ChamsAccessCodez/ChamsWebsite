@@ -432,6 +432,7 @@ export const Right4 = styled.div`
   }
 `;
 export const IndustrialApplication = styled.div`
+  background: red;
   width: 100vw;
   height: auto;
   background: linear-gradient(
@@ -445,7 +446,7 @@ export const IndustrialApplication = styled.div`
   // justify-content: center;
 
   p {
-    margin-top: 107px;
+    margin-top: 80px;
     margin-bottom: 50px;
     width: 554px;
     height: 37px;

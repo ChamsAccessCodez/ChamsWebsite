@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import Modal from "../../components/subPages/modal/Modal";
 
 const ManagementTeamCard = (props) => {
+  const [showModal, setShowModal] = useState(false);
+  const openModal = () => {
+    setShowModal(true);
+  };
   return (
     <CardWrapper>
       <img src={props.cardImage} alt="business Integrity" />
@@ -16,12 +21,25 @@ const ManagementTeamCard = (props) => {
             textDecoration: "none",
           }}
         >
-          <ManagementNav>
-            <P1>{props.fullProfile}</P1>
-            <img src={props.arrowIcon} alt="sourceMgt" />
-          </ManagementNav>
+        <ManagementNav onClick={openModal}>
+          <P1>{props.fullProfile}</P1>
+          <img src={props.arrowIcon} alt="sourceMgt" />
+        </ManagementNav>
         </Link>
       </CardInfo>
+      <div
+        style={{
+          width: "987px",
+          height: "609px",
+          top: "0%",
+          left: "-100%",
+          bottom: "0%",
+          right: "100%",
+          position: "fixed",
+        }}
+      >
+        {showModal ? <Modal setShowModal={setShowModal} /> : null}
+      </div>
     </CardWrapper>
   );
 };

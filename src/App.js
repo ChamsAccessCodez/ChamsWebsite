@@ -26,6 +26,7 @@ import Gbenga from "./components/subPages/Gbenga";
 import Dami from "./components/subPages/Dami";
 import Uche from "./components/subPages/Uche";
 import Seun from "./components/subPages/Seun";
+import Modal from "./components/subPages/modal/Modal";
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
         <Route exact path="/dami" element={<Dami />} />
         <Route exact path="/uche" element={<Uche />} />
         <Route exact path="/seun" element={<Seun />} />
+        <Route exact path="/modal" element={<Modal />} />
       </Routes>
       {/* <Footer /> */}
     </div>

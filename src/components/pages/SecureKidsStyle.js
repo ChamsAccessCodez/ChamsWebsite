@@ -187,6 +187,7 @@ export const Options = styled.div`
 export const SecureCard = styled.div`
   width: 100vw;
   height: 700px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,14 +208,14 @@ export const SecureCard = styled.div`
   }
 `;
 export const SecureCardWrapper = styled.div`
-  background: red;
+  // background: red;
   width: 85%;
   height: auto;
   display: flex;
   justify-content: space-between;
   //   justify-content: center;
   flex-wrap: wrap;
-  padding: 20px;
+  // padding: 20px;
 `;
 // export const SecureKidsContainer = styled.div``;
 // export const SecureKidsContainer = styled.div``;

@@ -45,8 +45,149 @@ import RoleCard from "./RoleCard";
 import RoleClock from "../../images/RoleClock.png";
 import CarouselCard from "./CarouselCard";
 import apostrophe from "../../images/Staffs/apostrophe.png";
+import CarouselThelma from "../../images/CarouselThelma.png";
+import CarouselDavid from "../../images/CarouselDavid.png";
+import CarouselMaria from "../../images/CarouselMaria.png";
+import CarouselSeyi from "../../images/CarouselSeyi.png";
+import CarouselQozim from "../../images/CarouselQozim.png";
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from "pure-react-carousel";
 
 const CareersPage = () => {
+  const thelmaBodyText = (
+    <html>
+      Joined ChamsAccess 2 years ago as a fresh graduate, confused and knowing
+      the company is technology-based, my work experience has been fantastic and
+      awesome. <br />
+      <br />
+      Chamsaccess indeed is a company that enhances growth and development and
+      they are always there to support.
+      <br />
+      <br />{" "}
+      <span
+        style={{
+          marginTop: "20px",
+          width: "614px",
+          height: "42px",
+          fontFamily: "Amster",
+          fontStyle: "normal",
+          fontWeight: "700",
+          fontSize: "30px",
+          lineHeight: "38px",
+          color: "#FFFFFF",
+        }}
+      >
+        Thelma
+      </span>
+    </html>
+  );
+  const davidBodyText = (
+    <html>
+      My journey in ChamsAccess started over two years ago and it has been such
+      an amazing experience as the organization did not just avail me the
+      opportunity to grow in my career but also equipped and supported me in the
+      process. <br />I am particularly thrilled by the company’s core values and
+      open-door policy and I have no regret working with this organization.
+      <br />
+      <br />{" "}
+      <span
+        style={{
+          marginTop: "20px",
+          width: "614px",
+          height: "42px",
+          fontFamily: "Amster",
+          fontStyle: "normal",
+          fontWeight: "700",
+          fontSize: "30px",
+          lineHeight: "38px",
+          color: "#FFFFFF",
+        }}
+      >
+        David
+      </span>
+    </html>
+  );
+  const mariaBodyText = (
+    <html>
+      At first, I wasn't sure if I would fit in well or even do great on the
+      job, I was the perfect definition of a rooky. It's been 13 months and the
+      journey has been incredible. Thank you for giving me the opportunity to
+      learn, grow and be more.
+      <br />
+      <br />{" "}
+      <span
+        style={{
+          marginTop: "20px",
+          width: "614px",
+          height: "42px",
+          fontFamily: "Amster",
+          fontStyle: "normal",
+          fontWeight: "700",
+          fontSize: "30px",
+          lineHeight: "38px",
+          color: "#FFFFFF",
+        }}
+      >
+        Maria
+      </span>
+    </html>
+  );
+  const seyiBodyText = (
+    <html>
+      My work experience has been fantastic and friendly, and in terms of
+      growth, it has been awesome. I came in as a customer service officer,
+      however, I am now the lead technical support, and it is evolving by the
+      day.
+      <br />
+      <br />{" "}
+      <span
+        style={{
+          marginTop: "20px",
+          width: "614px",
+          height: "42px",
+          fontFamily: "Amster",
+          fontStyle: "normal",
+          fontWeight: "700",
+          fontSize: "30px",
+          lineHeight: "38px",
+          color: "#FFFFFF",
+        }}
+      >
+        Seyi
+      </span>
+    </html>
+  );
+  const qozimBodyText = (
+    <html>
+      I joined ChamsAccess in 2016, during the time I worked as a Technician
+      with fewer skills but with great guidance and support, I was able to
+      gather the major skills required for being an engineer. Being a
+      goal-getter and agile staff, I got the nickname "CHIEF ENGINEER.
+      <br />
+      <br />{" "}
+      <span
+        style={{
+          marginTop: "20px",
+          width: "614px",
+          height: "42px",
+          fontFamily: "Amster",
+          fontStyle: "normal",
+          fontWeight: "700",
+          fontSize: "30px",
+          lineHeight: "38px",
+          color: "#FFFFFF",
+        }}
+      >
+        Qozim
+      </span>
+    </html>
+  );
+
   useEffect(() => {
     window.scroll({
       top: 0,
@@ -185,16 +326,76 @@ const CareersPage = () => {
           </CardWrapper2>
         </RoleWrapper>
       </Roles>
-      <CarouselWrapper>
-        <CarouselCard
-          carouselImage={apostrophe}
-          carouselBody="Joined ChamsAccess 2 years ago as a fresh graduate, confused and knowing the company is technology-based, my work experience has been fantastic and awesome
-          Chamsaccess indeed is a company that enhances growth and development and they are always there to support
-          "
-          carouselName="Thelma"
-          CarouselRole="HR/Procurements"
-        />
-      </CarouselWrapper>
+      {/* <CarouselWrapper> */}
+      {/* <CarouselCard
+            carouselImage={apostrophe}
+            carouselBody={thelmaBodyText}
+            sourceImage={CarouselThelma}
+          />
+          <CarouselCard
+            carouselImage={apostrophe}
+            carouselBody={davidBodyText}
+            sourceImage={CarouselDavid}
+          />
+          <CarouselCard
+            carouselImage={apostrophe}
+            carouselBody={mariaBodyText}
+            sourceImage={CarouselMaria}
+          />
+          <CarouselCard
+            carouselImage={apostrophe}
+            carouselBody={seyiBodyText}
+            sourceImage={CarouselSeyi}
+          />
+          <CarouselCard
+            carouselImage={apostrophe}
+            carouselBody={qozimBodyText}
+            sourceImage={CarouselQozim}
+          /> */}
+      <CarouselProvider
+        naturalSlideWidth={100}
+        naturalSlideHeight={20}
+        totalSlides={5}
+      >
+        <Slider isPlaying={true} naturalSlideHeight={false} orientation={'horizontal'}>
+          <Slide index={0}>
+            <CarouselCard
+              carouselImage={apostrophe}
+              carouselBody={qozimBodyText}
+              sourceImage={CarouselQozim}
+            />
+          </Slide>
+          <Slide index={1}>
+            <CarouselCard
+              carouselImage={apostrophe}
+              carouselBody={seyiBodyText}
+              sourceImage={CarouselSeyi}
+            />
+          </Slide>
+          <Slide index={2}>
+            <CarouselCard
+              carouselImage={apostrophe}
+              carouselBody={mariaBodyText}
+              sourceImage={CarouselMaria}
+            />
+          </Slide>
+          <Slide index={3}>
+            <CarouselCard
+              carouselImage={apostrophe}
+              carouselBody={davidBodyText}
+              sourceImage={CarouselDavid}
+            />
+          </Slide>
+          <Slide index={3}>
+            <CarouselCard
+              carouselImage={apostrophe}
+              carouselBody={thelmaBodyText}
+              sourceImage={CarouselThelma}
+            />
+          </Slide>
+        </Slider>
+      </CarouselProvider>
+      {/* </CarouselWrapper> */}
       <TextDiv>
         <Ready>Have a dream job?</Ready>
         <p>
