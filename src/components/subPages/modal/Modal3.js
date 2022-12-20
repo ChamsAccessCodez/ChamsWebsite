@@ -1,14 +1,14 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
-import dumebiModal from "../../../images/dumebiModal.png";
+import kayodeModal from "../../../images/kayodeModal.png";
 import cancelIcon from "../../../images/CancelIcon.svg";
 
-const Modal = ({ setShowModal }) => {
+const Modal3 = ({ setShowModal3 }) => {
   // close the modal when clicking outside the modal.
   const modalRef = useRef();
   const closeModal = (e) => {
     if (e.target === modalRef.current) {
-      setShowModal(false);
+      setShowModal3(false);
     }
   };
   return (
@@ -32,39 +32,47 @@ const Modal = ({ setShowModal }) => {
     >
       <ModalContainer>
         <ModalWrapper>
-          <img src={dumebiModal} alt="sourceFile" />
+          <img src={kayodeModal} alt="sourceFile" />
           <ModalContent>
             <Tops>
               <Lefts>
-                <Name>Dumebi Obodo</Name>
-                <Position>MD/CEO</Position>
+                <Name>Mr. Kayode Ayeni</Name>
+                <Position>Director</Position>
               </Lefts>
-              <Rights onClick={() => setShowModal(false)}>
+              <Rights onClick={() => setShowModal3(false)}>
                 <img src={cancelIcon} alt="cancel" />
               </Rights>
             </Tops>
             <Buttoms>
-              Dumebi Obodo is the Managing Director of ChamsAccess Limited. His
-              many years of experience in various roles have given him a strong
-              first-hand perspective of the ChamsAccess business and the
-              market's influence of customers’ perception of the ChamsAccess
-              brand. <br />
+              Mr. Kayode Ayeni is a serial entrepreneur and an investor whose
+              business interests span several industries. He is currently the
+              Chief Executive officer of Zillenium—an integrated, end-to-end
+              property Development Company. <br />
               <br />
-              Under his stewardship, ChamsAccess has remarkably diversified its
-              business, expanded into new markets and transitioned from a
-              hardware based business to a solutions outfit, while delivering on
-              revenue growth and profits. <br />
+              Kayode also has interests in Oil and Gas and is a Director and
+              co-founder of Crestar Integrated Natural Resources Limited. <br />
+              <br />A Nigerian exploration and production company that has
+              acquired Shell Petroleum Development Company’s interests in OML
+              25. He is also a Director with James Bay Energy Nigeria Limited.
+              He is also the founder of 5K Gas and Power which specializes in
+              the provision of clean energy solutions to housing estates and
+              renewable energy solutions in general. He sits on the boards of
+              Oakwood Park Hotel, ChamsAccess limited, and AfriDev capital
+              partners, amongst others. <br />
               <br />
-              Dumebi gained his Bachelor’s degree from Imo State University,
-              Owerri where he studied Microbiology, graduating with a Second
-              Class Upper honours division. He obtained an MBA from Lagos
-              Business School (Pan Atlantic University) and is a certified ITIL
-              practitioner. <br />
+              In his past professional life, he was the pioneer Managing
+              Director of First Funds, the then Venture Capital/Private Equity
+              arm of the First Bank Group, now FBN Capital Ltd. Earlier in his
+              career, he was a World Bank/USAID adviser to the federal
+              government privatization program at the Bureau of public
+              enterprises. <br />
               <br />
-              Combining his expertise in business strategy and management and
-              his knack for exploring new ideas, Dumebi spends his time involved
-              in providing superior leadership to the ChamsAccess business as a
-              whole.
+              He devotes his spare time to mentoring would-be entrepreneurs and
+              has seeded numerous ventures as an angel investor. He is currently
+              building a not-for-profit organization to support small and medium
+              enterprises in their fundraising efforts. Mr. Ayeni is an aspiring
+              golfer and keen swimmer and is also an enthusiast of motorsport.
+              He is married with kids.
             </Buttoms>
           </ModalContent>
         </ModalWrapper>
@@ -73,7 +81,7 @@ const Modal = ({ setShowModal }) => {
   );
 };
 
-export default Modal;
+export default Modal3;
 
 const ModalContainer = styled.div`
   display: flex;

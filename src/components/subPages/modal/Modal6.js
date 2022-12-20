@@ -1,14 +1,14 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
-import dumebiModal from "../../../images/dumebiModal.png";
+import gavinModal from "../../../images/gavinModal.png";
 import cancelIcon from "../../../images/CancelIcon.svg";
 
-const Modal = ({ setShowModal }) => {
+const Modal = ({ setShowModal6 }) => {
   // close the modal when clicking outside the modal.
   const modalRef = useRef();
   const closeModal = (e) => {
     if (e.target === modalRef.current) {
-      setShowModal(false);
+      setShowModal6(false);
     }
   };
   return (
@@ -32,39 +32,54 @@ const Modal = ({ setShowModal }) => {
     >
       <ModalContainer>
         <ModalWrapper>
-          <img src={dumebiModal} alt="sourceFile" />
+          <img src={gavinModal} alt="sourceFile" />
           <ModalContent>
             <Tops>
               <Lefts>
-                <Name>Dumebi Obodo</Name>
-                <Position>MD/CEO</Position>
+                <Name>Mr. Gavin Young</Name>
+                <Position>Director</Position>
               </Lefts>
-              <Rights onClick={() => setShowModal(false)}>
+              <Rights onClick={() => setShowModal6(false)}>
                 <img src={cancelIcon} alt="cancel" />
               </Rights>
             </Tops>
             <Buttoms>
-              Dumebi Obodo is the Managing Director of ChamsAccess Limited. His
-              many years of experience in various roles have given him a strong
-              first-hand perspective of the ChamsAccess business and the
-              market's influence of customers’ perception of the ChamsAccess
-              brand. <br />
+              Gavin is a seasoned Fintech professional with a proven track
+              record in managing companies, subsidiaries of listed companies,
+              and geographical areas (Africa) with a specific focus on all areas
+              of Electronic Banking and Fintech; Issuing, acquiring, switching,
+              etc. Primary areas of specialization include; payment switching
+              and processing, developing and managing payment card schemes,
+              terminal and other electronic infrastructure management,
+              transaction processing, transaction acquiring systems, and mobile
+              payments. <br />
               <br />
-              Under his stewardship, ChamsAccess has remarkably diversified its
-              business, expanded into new markets and transitioned from a
-              hardware based business to a solutions outfit, while delivering on
-              revenue growth and profits. <br />
+              His career has entailed; 20 years at First National Bank of South
+              Africa where he implemented most electronic banking and card
+              systems and infrastructure; 7 years at Visa as Country Manager,
+              sub-Saharan Africa (South Africa, UK, and Nigeria) where, after
+              developing the Visa CEMEA strategy for Nigeria, volunteered to
+              reside in Nigeria in order to work with all payment entities to
+              implement Visa cards and payments across all banks in Nigeria.{" "}
               <br />
-              Dumebi gained his Bachelor’s degree from Imo State University,
-              Owerri where he studied Microbiology, graduating with a Second
-              Class Upper honours division. He obtained an MBA from Lagos
-              Business School (Pan Atlantic University) and is a certified ITIL
-              practitioner. <br />
               <br />
-              Combining his expertise in business strategy and management and
-              his knack for exploring new ideas, Dumebi spends his time involved
-              in providing superior leadership to the ChamsAccess business as a
-              whole.
+              He also grew the number of Visa issuing banks in sub-Saharan
+              Africa, from 22 to over 120 in 4 years. In 2007 he joined UBA as
+              Senior General Manager of Cards and issued over 5 million Visa
+              payment cards in under 12 months. Since 2009, he has worked (on a
+              full-time and part-time basis) with the Chams PLC Group of
+              companies as MD of ChamsSwitch and Deputy MD of Chams Mobile,
+              amongst other roles. <br />
+              <br />
+              He is entrepreneurial and skilled at building organizations,
+              partnerships, and alliances, formulating business strategies, and
+              negotiating business agreements. <br />
+              <br />
+              Gavin was the Group Managing Director of Chams Plc. Chams PLC has
+              a strong brand and extensive history, having delivered integrated
+              identity management and intelligent business solutions for over 30
+              years. Today, Chams continues to deliver innovative solutions
+              which enrich and improve lives.
             </Buttoms>
           </ModalContent>
         </ModalWrapper>

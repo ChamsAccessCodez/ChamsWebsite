@@ -17,35 +17,25 @@ const OurSubsidiary = () => {
       <Left>
         <Pension>
           <img src={pensionCentralIcon} alt="aboutIcon" />
-          <a
-            href="https://pensioncentral.ng/"
-            target="_blank"
-            style={{
-              textDecoration: "none",
-              color: "#ffffff",
-            }}
-          >
+          <Link to="/pc" style={{
+            textDecoration: "none",
+          }}>
             <Content>
               <P1>Pension Central</P1>
               <p>Pension Remittance Gateway</p>
             </Content>
-            </a>
+            </Link>
         </Pension>
         <ArgonWorld>
           <img src={argonIcon} alt="aboutIcon" />
-          <a
-            href="https://argone.ng/"
-            target="_blank"
-            style={{
-              textDecoration: "none",
-              color: "#ffffff",
-            }}
-          >
+          <Link to="/argone" style={{
+            textDecoration: "none",
+          }}>
             <Content>
               <P1>Argone World</P1>
               <p>Providing best-in-class retail experience</p>
             </Content>
-          </a>
+            </Link>
         </ArgonWorld>
       </Left>
     </SubsidiaryContainer>

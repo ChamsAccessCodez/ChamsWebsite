@@ -1,14 +1,14 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
-import dumebiModal from "../../../images/dumebiModal.png";
+import chikweModal from "../../../images/chikweModal.png";
 import cancelIcon from "../../../images/CancelIcon.svg";
 
-const Modal = ({ setShowModal }) => {
+const Modal = ({ setShowModal4 }) => {
   // close the modal when clicking outside the modal.
   const modalRef = useRef();
   const closeModal = (e) => {
     if (e.target === modalRef.current) {
-      setShowModal(false);
+      setShowModal4(false);
     }
   };
   return (
@@ -32,39 +32,30 @@ const Modal = ({ setShowModal }) => {
     >
       <ModalContainer>
         <ModalWrapper>
-          <img src={dumebiModal} alt="sourceFile" />
+          <img src={chikweModal} alt="sourceFile" />
           <ModalContent>
             <Tops>
               <Lefts>
-                <Name>Dumebi Obodo</Name>
-                <Position>MD/CEO</Position>
+                <Name>Lady Chikwue Ochiaga</Name>
+                <Position>Director</Position>
               </Lefts>
-              <Rights onClick={() => setShowModal(false)}>
+              <Rights onClick={() => setShowModal4(false)}>
                 <img src={cancelIcon} alt="cancel" />
               </Rights>
             </Tops>
             <Buttoms>
-              Dumebi Obodo is the Managing Director of ChamsAccess Limited. His
-              many years of experience in various roles have given him a strong
-              first-hand perspective of the ChamsAccess business and the
-              market's influence of customers’ perception of the ChamsAccess
-              brand. <br />
-              <br />
-              Under his stewardship, ChamsAccess has remarkably diversified its
-              business, expanded into new markets and transitioned from a
-              hardware based business to a solutions outfit, while delivering on
-              revenue growth and profits. <br />
-              <br />
-              Dumebi gained his Bachelor’s degree from Imo State University,
-              Owerri where he studied Microbiology, graduating with a Second
-              Class Upper honours division. He obtained an MBA from Lagos
-              Business School (Pan Atlantic University) and is a certified ITIL
-              practitioner. <br />
-              <br />
-              Combining his expertise in business strategy and management and
-              his knack for exploring new ideas, Dumebi spends his time involved
-              in providing superior leadership to the ChamsAccess business as a
-              whole.
+              Lady Chikwue Ochiaga holds a B.L from Ahmadu Bello University, an
+              LLB (Hons.), and is a lawyer by profession. She started her career
+              as a Counsel in Onyeabo Obi and Co, until she established her own
+              law Firm. <br/><br/>She is the Principal Counsel, at T. Chikwue Ochiagha &
+              Co, a position she still currently holds. Her career spans civil
+              litigation, Commercial Law Practice, and Public Law. She is a
+              member and a secretary of the Nigerian Bar Association,
+              International Federation of Women Lawyers (FIDA), the captain, 8th
+              Mainland Company of Brigade Nigeria, Secretary of Church of
+              Nigeria (Anglican Communion) Trust Fund, Registrar, Diocese of
+              Lagos Mainland, Member of the Lagos Anglican Schools Management
+              Board and a Director, JUNOT Construction Limited.
             </Buttoms>
           </ModalContent>
         </ModalWrapper>

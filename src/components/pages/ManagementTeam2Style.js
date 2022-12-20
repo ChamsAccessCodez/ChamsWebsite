@@ -2,13 +2,14 @@ import styled from "styled-components";
 import dotedComplete from "../../images/DotedComplete.png";
 
 export const ManagementTeamContainer = styled.div`
-  background: #ffffff;
+  background: blue;
+  // background: #ffffff;
   width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  // margin-top: 80px;
+  overflow-x: hidden;
 `;
 export const GetInTouch = styled.div`
   flex-wrap: wrap;
@@ -38,7 +39,7 @@ export const Content = styled.div`
   align-items: center;
   //   width: 909px;
   width: auto;
-  // height: 190px;
+  //   height: 184px;
   height: auto;
 
   p {
@@ -66,7 +67,9 @@ export const Contact = styled.div`
   background: #f6eaeb;
   border-radius: 97px;
   cursor: pointer;
-  margin-top: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   margin-bottom: 20px;
   transition: background 1s;
 
@@ -90,7 +93,7 @@ export const Touch = styled.div`
   font-family: "amster";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 48px;
   line-height: 60px;
   text-align: center;
   letter-spacing: -0.02em;
@@ -125,6 +128,7 @@ export const Caption = styled.div`
   margin-bottom: 50px;
 `;
 export const ManagementCardWrapper = styled.div`
+  // position: relative;
   // background: red;
   width: 90%;
   height: auto;
@@ -132,43 +136,5 @@ export const ManagementCardWrapper = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
 `;
-// export const ManagementTeamContainer = styled.div``;
-// export const ManagementTeamContainer = styled.div``;
-
-export const MgtTeam = styled.div`
-  background: #ffffff;
-  width: 100vw;
-  height: 1100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-`;
-// export const Caption = styled.div`
-//   width: 311px;
-//   height: 44px;
-//   font-family: "amster";
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: 36px;
-//   line-height: 44px;
-//   text-align: center;
-//   letter-spacing: -0.02em;
-//   color: #1d2939;
-//   margin-top: 50px;
-//   margin-bottom: 50px;
-// `;
-// export const ManagementCardWrapper = styled.div`
-//   // background: red;
-//   width: 90%;
-//   height: auto;
-//   display: flex;
-//   justify-content: space-between;
-//   flex-wrap: wrap;
-// `;
-// export const ManagementTeamContainer = styled.div``;
-// export const ManagementTeamContainer = styled.div``;
-// export const ManagementTeamContainer = styled.div``;
-// export const ManagementTeamContainer = styled.div``;
 // export const ManagementTeamContainer = styled.div``;
 // export const ManagementTeamContainer = styled.div``;
