@@ -97,8 +97,3 @@ const Div2 = styled.div`
   // top: -60px;
   top: -40px;
 `;
-// const CarouselContainer = styled.div``;
-// const CarouselContainer = styled.div``;
-// const CarouselContainer = styled.div``;
-// const CarouselContainer = styled.div``;
-// const CarouselContainer = styled.div``;

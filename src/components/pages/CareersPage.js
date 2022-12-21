@@ -50,15 +50,25 @@ import CarouselDavid from "../../images/CarouselDavid.png";
 import CarouselMaria from "../../images/CarouselMaria.png";
 import CarouselSeyi from "../../images/CarouselSeyi.png";
 import CarouselQozim from "../../images/CarouselQozim.png";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-} from "pure-react-carousel";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const CareersPage = () => {
+  // slider settings
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 5000,
+    centerMode: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    // nextArrow: <SampleNextArrow />,
+    // prevArrow: <SamplePrevArrow />,
+  };
   const thelmaBodyText = (
     <html>
       Joined ChamsAccess 2 years ago as a fresh graduate, confused and knowing
@@ -316,86 +326,49 @@ const CareersPage = () => {
               cardImage={RoleClock}
               workSite="Fill-time"
             />
-            <RoleCard
-              roleTitle="Role Tittle"
-              roleDescription="Lörem ipsum nåst san antin. Best opredade, och pektig morotsmobb i
-          lude. Huktig oliga setuck lalohet telingar."
-              cardImage={RoleClock}
-              workSite="Fill-time"
-            />
           </CardWrapper2>
         </RoleWrapper>
       </Roles>
-      {/* <CarouselWrapper> */}
-      {/* <CarouselCard
-            carouselImage={apostrophe}
-            carouselBody={thelmaBodyText}
-            sourceImage={CarouselThelma}
-          />
-          <CarouselCard
-            carouselImage={apostrophe}
-            carouselBody={davidBodyText}
-            sourceImage={CarouselDavid}
-          />
-          <CarouselCard
-            carouselImage={apostrophe}
-            carouselBody={mariaBodyText}
-            sourceImage={CarouselMaria}
-          />
-          <CarouselCard
-            carouselImage={apostrophe}
-            carouselBody={seyiBodyText}
-            sourceImage={CarouselSeyi}
-          />
-          <CarouselCard
-            carouselImage={apostrophe}
-            carouselBody={qozimBodyText}
-            sourceImage={CarouselQozim}
-          /> */}
-      <CarouselProvider
-        naturalSlideWidth={100}
-        naturalSlideHeight={20}
-        totalSlides={5}
-      >
-        <Slider isPlaying={true} naturalSlideHeight={false} orientation={'horizontal'}>
-          <Slide index={0}>
+      <CarouselWrapper>
+        <Slider {...settings}>
+          <div>
             <CarouselCard
               carouselImage={apostrophe}
               carouselBody={qozimBodyText}
               sourceImage={CarouselQozim}
             />
-          </Slide>
-          <Slide index={1}>
+          </div>
+          <div>
             <CarouselCard
               carouselImage={apostrophe}
               carouselBody={seyiBodyText}
               sourceImage={CarouselSeyi}
             />
-          </Slide>
-          <Slide index={2}>
+          </div>
+          <div>
+            {" "}
             <CarouselCard
               carouselImage={apostrophe}
               carouselBody={mariaBodyText}
               sourceImage={CarouselMaria}
             />
-          </Slide>
-          <Slide index={3}>
+          </div>
+          <div>
             <CarouselCard
               carouselImage={apostrophe}
               carouselBody={davidBodyText}
               sourceImage={CarouselDavid}
             />
-          </Slide>
-          <Slide index={3}>
+          </div>
+          <div>
             <CarouselCard
               carouselImage={apostrophe}
               carouselBody={thelmaBodyText}
               sourceImage={CarouselThelma}
             />
-          </Slide>
+          </div>
         </Slider>
-      </CarouselProvider>
-      {/* </CarouselWrapper> */}
+      </CarouselWrapper>
       <TextDiv>
         <Ready>Have a dream job?</Ready>
         <p>

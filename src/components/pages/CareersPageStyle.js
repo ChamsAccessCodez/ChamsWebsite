@@ -322,12 +322,16 @@ export const CardWrapper2 = styled.div`
 
 export const CarouselWrapper = styled.div`
   width: 100vw;
-  height: 609px;
+  // height: 609px;
+  height: auto;
+  padding-top: 103px;
+  padding-bottom: 103px;
   background: #f9fafb;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  // align-items: center;
+  // margin-bottom: 60px;
 `;
 
 export const TextDiv = styled.div`
