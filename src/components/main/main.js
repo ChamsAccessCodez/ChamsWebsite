@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+// import SEO from "../SEO/Seo";
 import Hero from "../landingPage/hero/Hero";
 import SecurityAccess from "../landingPage/securityAccess/SecurityAccess";
 import About from "../landingPage/about/About";
@@ -17,15 +18,23 @@ const Main = () => {
     });
   }, []);
   return (
-    <MainWrapper>
-      {/* <OurSolutions /> */}
-      <Header />
-      <Hero />
-      <SecurityAccess />
-      <About />
-      <Testimonial />
-      <Footer />
-    </MainWrapper>
+    <div>
+      {/* <SEO
+        title="ChamsAccess Limited"
+        description="A technology industry."
+        name="ChamsAccess Limited"
+        type="article"
+      /> */}
+      <MainWrapper>
+        {/* <OurSolutions /> */}
+        <Header />
+        <Hero />
+        <SecurityAccess />
+        <About />
+        <Testimonial />
+        <Footer />
+      </MainWrapper>
+    </div>
   );
 };
 

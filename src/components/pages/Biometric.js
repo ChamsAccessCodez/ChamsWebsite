@@ -63,17 +63,31 @@ const Biometric = () => {
         </BiometricBg>
         <BiometricTransparentCard>
           <Deliver>
-            Delivering the most <br />
-            <span>reliable</span> identity <br />
-            <span>assurance</span>
+            Delivering the most
+            <span> reliable</span> identity
+            <span> assurance</span>
           </Deliver>
           <p>
             Realizing a safe and secure world with digital technology through
             biometric authentication & verification.
           </p>
-          <Link to="/callback" style={{ textDecoration: "none" }}>
-            <BiometricButton>Request a callback</BiometricButton>
-          </Link>
+          <div
+            style={{
+              // backgroundColor: "red",
+              width: "205px",
+              marginLeft: "56px",
+            }}
+          >
+            <Link to="/request-a-callback" style={{ textDecoration: "none" }}>
+              <BiometricButton>Request a callback</BiometricButton>
+            </Link>
+          </div>
+
+          {/* <BiometricButton>
+            <Link to="/request-a-callback" style={{ textDecoration: "none" }}>
+              Request a callback
+            </Link>
+          </BiometricButton> */}
         </BiometricTransparentCard>
       </BiometricWrapper>
       <Story1>

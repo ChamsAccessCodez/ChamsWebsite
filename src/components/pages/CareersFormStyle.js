@@ -9,7 +9,7 @@ export const CareerContainer = styled.div`
   overflow-x: hidden;
 `;
 export const Left = styled.div`
-  background: green;
+  background: #08783d;
   width: 35%;
   height: inherit;
   display: flex;

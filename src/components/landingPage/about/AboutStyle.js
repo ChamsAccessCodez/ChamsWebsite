@@ -5,13 +5,13 @@ export const AboutWrapper = styled.div`
   width: 100vw;
   height: 1350px;
   // height: auto;
+  // background: green;
+  // background-image: url(${aboutBackground});
   background: linear-gradient(
     0deg,
     rgba(57, 147, 100, 0.25) -74.19%,
     rgba(206, 228, 216, 0.25) 60.99%
-  );
-  // background: green;
-  background-image: url(${aboutBackground});
+  ), url(${aboutBackground});
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: inherit 777.84px;

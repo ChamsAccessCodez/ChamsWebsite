@@ -23,6 +23,7 @@ import {
   Imp1,
   Imp2,
   Imp3,
+  WhiteSpace
 } from "./heroStyle";
 
 const Hero = () => {
@@ -68,6 +69,7 @@ const Hero = () => {
           />
         </HeroImage>
       </Hero1>
+      <WhiteSpace></WhiteSpace>
       <Hero2>
         <Impact>
           <Imp1>our impact</Imp1>

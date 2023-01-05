@@ -18,7 +18,7 @@ import {
   InputRow,
 } from "./CareersFormStyle.js";
 import careerImage from "../../images/CareerImage.png";
-import cancelIcon from "../../images/CancelIcon.png";
+import cancelIcon from "../../images/CancelIcon.svg";
 import uploadIcon from "../../images/uploadIcon.svg";
 import { Link } from "react-router-dom";
 

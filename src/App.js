@@ -34,23 +34,23 @@ function App() {
       {/* <Header /> */}
       <Routes>
         <Route exact path="/" element={<Chams />} />
-        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/contact-us" element={<Contact />} />
         <Route exact path="/about" element={<About />} />
-        <Route exact path="/pc" element={<PC />} />
-        <Route exact path="/callback" element={<RequestCallback />} />
+        <Route exact path="/pension-central" element={<PC />} />
+        <Route exact path="/request-a-callback" element={<RequestCallback />} />
         <Route exact path="/career-form" element={<Careers />} />
         <Route exact path="/career-page" element={<CareersPage />} />
-        <Route exact path="/biometric" element={<Biometric />} />
-        <Route exact path="/cybersecurity" element={<CyberSecurity />} />
-        <Route exact path="/payment-solution" element={<PaymentSolution />} />
-        <Route exact path="/custom-solution" element={<CustomSolution />} />
-        <Route exact path="/secure-kids" element={<SecureKids />} />
-        <Route exact path="/visitor" element={<VisitorManage />} />
-        <Route exact path="/surveillance" element={<Surveilance />} />
-        <Route exact path="/access-control" element={<AccessControl />} />
-        <Route exact path="/access-management" element={<AccessManagement />} />
-        <Route exact path="/argone" element={<Argone />} />
-        <Route exact path="/management-team" element={<ManagementTeam />} />
+        <Route exact path="/biometric-solutions" element={<Biometric />} />
+        <Route exact path="/cybersecurity-solutions" element={<CyberSecurity />} />
+        <Route exact path="/payment-solutions" element={<PaymentSolution />} />
+        <Route exact path="/customized-solutions" element={<CustomSolution />} />
+        <Route exact path="/secure-kid" element={<SecureKids />} />
+        <Route exact path="/visitors-management-solutions" element={<VisitorManage />} />
+        <Route exact path="/surveillance-and-security" element={<Surveilance />} />
+        <Route exact path="/access-control-solutions" element={<AccessControl />} />
+        <Route exact path="/access-and-identity-solutions" element={<AccessManagement />} />
+        <Route exact path="/argone-world" element={<Argone />} />
+        <Route exact path="/leadership-team" element={<ManagementTeam />} />
         <Route exact path="/dumebi" element={<Dumebi />} />
         <Route exact path="/olayemi" element={<Olayemi />} />
         <Route exact path="/gbenga" element={<Gbenga />} />

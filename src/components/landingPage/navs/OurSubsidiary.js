@@ -28,7 +28,7 @@ const OurSubsidiary = () => {
         </Pension>
         <ArgonWorld>
           <img src={argonIcon} alt="aboutIcon" />
-          <Link to="/argone" style={{
+          <Link to="/argone-world" style={{
             textDecoration: "none",
           }}>
             <Content>

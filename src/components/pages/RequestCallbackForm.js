@@ -15,7 +15,7 @@ import {
   Button,
 } from "./RequestCallbackFormStyle";
 import requestImage from "../../images/RequestImage.png";
-import cancelIcon from "../../images/CancelIcon.png";
+import cancelIcon from "../../images/CancelIcon.svg";
 import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 

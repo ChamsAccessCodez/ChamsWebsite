@@ -9,6 +9,7 @@ export const BiometricContainer = styled.div`
   flex-direction: column;
 `;
 export const BiometricWrapper = styled.div`
+  position: relative;
   //   background: blue;
   width: 100%;
   height: 700px;
@@ -26,9 +27,13 @@ export const BiometricTransparentCard = styled.div`
   height: 400px;
   left: 120px;
   top: 150px;
+  top: 180px;
   background: rgba(243, 243, 243, 0.6);
   backdrop-filter: blur(4px);
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   p {
     margin-top: 20px;
@@ -50,9 +55,9 @@ export const BiometricTransparentCard = styled.div`
   }
 `;
 export const Deliver = styled.div`
-  //   background: red;
+  // background: red;
   width: 603px;
-  height: 180px;
+  height: 120px;
   font-family: "amster";
   font-style: normal;
   font-weight: 700;
@@ -70,13 +75,12 @@ export const BiometricButton = styled.div`
   justify-content: center;
   align-items: center;
   padding: 10px;
-  gap: 8px;
-  width: 183px;
+  width: inherit;
   height: 44px;
   background: #08783d;
   border-radius: 8px;
-  margin-left: 56px;
-  margin-right: 41px;
+  // margin-left: 56px;
+  // margin-right: 41px;
   cursor: pointer;
 
   font-family: "Komet";

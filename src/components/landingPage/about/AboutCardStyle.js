@@ -38,7 +38,8 @@ export const CardInfo = styled.div`
   //   width: 100%;
   height: 110px;
   background: linear-gradient(330.33deg, #101828 14.68%, #475467 98.42%);
-  opacity: 0.6;
+  // opacity: 0.6;
+  opacity: 0.8;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   cursor: pointer;
@@ -46,11 +47,11 @@ export const CardInfo = styled.div`
   transition: height 1s;
 
   // :hover {
-  //   height: 240px;
-  //   opacity: 0.95;
-  //   p {
-  //     visibility: visible;
-  //   }
+    // height: 240px;
+    // opacity: 1;
+    // p {
+    //   visibility: visible;
+    // }
   // }
 
   p {

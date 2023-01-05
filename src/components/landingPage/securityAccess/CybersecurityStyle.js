@@ -97,6 +97,7 @@ export const CyberFeatures = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-left: 20px;
 
   @media screen and (max-width: 960px) {
     // background: yellow;
@@ -108,7 +109,7 @@ export const Items = styled.div`
   // background: purple;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 17px;
 
   @media screen and (max-width: 960px) {
@@ -125,13 +126,15 @@ export const Items = styled.div`
   }
 `;
 export const ItemDesc = styled.div`
-  margin-left: 10px;
+  margin-left: 20px;
   font-family: "Komet";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #667085;
+  display: flex;
+  flex-direction: column;
 
   @media screen and (max-width: 960px) {
     // background: red;

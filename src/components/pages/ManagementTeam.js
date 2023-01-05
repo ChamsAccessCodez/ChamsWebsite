@@ -70,7 +70,10 @@ const ManagementTeam = () => {
             cardImage={obodo}
             heading="Dumebi Obodo"
             post="MD/CEO"
-            description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
+            description="Dumebi Obodo is the Managing Director of ChamsAccess Limited. His many
+            years of experience in various roles have given him a strong first-hand
+            perspective of the ChamsAccess business and the market's influence of
+            customers’ perception of the ChamsAccess brand."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
             mgtPage="/dumebi"

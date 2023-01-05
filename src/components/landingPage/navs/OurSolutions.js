@@ -26,7 +26,7 @@ const OurSolutions = () => {
         <Biometric>
           <img src={biometricIcon} alt="aboutIcon" />
           <Link
-            to="/biometric"
+            to="/biometric-solutions"
             style={{
               textDecoration: "none",
             }}
@@ -42,7 +42,7 @@ const OurSolutions = () => {
         <Payment>
           <img src={paymentSolution} alt="aboutIcon" />
           <Link
-            to="/payment-solution"
+            to="/payment-solutions"
             style={{
               textDecoration: "none",
             }}
@@ -56,7 +56,7 @@ const OurSolutions = () => {
         <AccessManagement>
           <img src={AccessManagementIcon} alt="aboutIcon" />
           <Link
-            to="/access-management"
+            to="/access-and-identity-solutions"
             style={{
               textDecoration: "none",
             }}
@@ -72,7 +72,7 @@ const OurSolutions = () => {
         <CyberSecurity>
           <img src={cyberSecurityIcon} alt="aboutIcon" />
           <Link
-            to="/cybersecurity"
+            to="/cybersecurity-solutions"
             style={{
               textDecoration: "none",
             }}
@@ -86,7 +86,7 @@ const OurSolutions = () => {
         <CustomSolution>
           <img src={customSolutionIcon} alt="aboutIcon" />
           <Link
-            to="/custom-solution"
+            to="/customized-solutions"
             style={{
               textDecoration: "none",
             }}

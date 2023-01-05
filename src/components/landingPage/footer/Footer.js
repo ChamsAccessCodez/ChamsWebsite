@@ -38,7 +38,7 @@ const Footer = () => {
       behavior: "smooth",
     });
     setCurrentYear(year);
-  }, []);
+  }, [year]);
 
   return (
     <FooterWrapper>
@@ -71,10 +71,34 @@ const Footer = () => {
             <p>081 347 99582 | 000 000 00000</p>
             <p>info@chamsaccess.com</p>
             <SocialMedia>
-              <img src={twitter} alt="twitter" />
-              <img src={linkedIn} alt="linkedin" />
-              <img src={facebook} alt="facebook" />
-              <img src={Instagram} alt="instagram" />
+              <a
+                href="https://www.instagram.com/chamsaccessltd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={Instagram} alt="instagram" />
+              </a>
+              <a
+                href="https://www.twitter.com/chamsaccess"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={twitter} alt="twitter" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/chamsaccessltd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={linkedIn} alt="linkedin" />
+              </a>
+              <a
+                href="https://www.facebook.com/chamsaccess"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={facebook} alt="facebook" />
+              </a>
             </SocialMedia>
           </ChamsAccess>
           <Navs>
@@ -85,52 +109,55 @@ const Footer = () => {
             <Link to="/career-page" style={{ textDecoration: "none" }}>
               <p>Careers</p>
             </Link>
-            <Link to="/contact" style={{ textDecoration: "none" }}>
+            <Link to="/contact-us" style={{ textDecoration: "none" }}>
               <p>Impacts</p>
             </Link>
             {/* <Link to="/contact" style={{ textDecoration: "none" }}>
               <p>FAQs</p>
             </Link> */}
-            <Link to="/contact" style={{ textDecoration: "none" }}>
+            <Link to="/contact-us" style={{ textDecoration: "none" }}>
               <p>News and Insights</p>
             </Link>
           </Navs>
           <Navs>
             <Head>Our Solutions</Head>
-            <Link to="/biometric" style={{ textDecoration: "none" }}>
+            <Link to="/biometric-solutions" style={{ textDecoration: "none" }}>
               <p>Biometrics Solutions</p>
             </Link>
-            <Link to="/cybersecurity" style={{ textDecoration: "none" }}>
+            <Link
+              to="/cybersecurity-solutions"
+              style={{ textDecoration: "none" }}
+            >
               <p>Cybersecurity Solutions</p>
             </Link>
-            <Link to="/payment-solution" style={{ textDecoration: "none" }}>
+            <Link to="/payment-solutions" style={{ textDecoration: "none" }}>
               <p>Payments Solutions</p>
             </Link>
             <Link to="/access-management" style={{ textDecoration: "none" }}>
               <p>Access Management Solutions</p>
             </Link>
-            <Link to="/custom-solution" style={{ textDecoration: "none" }}>
+            <Link to="/customized-solutions" style={{ textDecoration: "none" }}>
               <p>Custom Solutions</p>
             </Link>
           </Navs>
           <Navs>
             <Head>Our Subsidiaries</Head>
-            <Link to="/pc" style={{ textDecoration: "none" }}>
+            <Link to="/pension-central" style={{ textDecoration: "none" }}>
               <p>Pension Central</p>
             </Link>
-            <Link to="/argone" style={{ textDecoration: "none" }}>
+            <Link to="/argone-world" style={{ textDecoration: "none" }}>
               <p>Argone World</p>
             </Link>
           </Navs>
           <Navs>
             <Head>Support</Head>
-            <Link to="/contact" style={{ textDecoration: "none" }}>
+            <Link to="/contact-us" style={{ textDecoration: "none" }}>
               <p>Contact us</p>
             </Link>
             {/* <Link to="/contact" style={{ textDecoration: "none" }}>
               <p>Support center</p>
             </Link> */}
-            <Link to="/callback" style={{ textDecoration: "none" }}>
+            <Link to="/request-a-callback" style={{ textDecoration: "none" }}>
               <p>Request a callback</p>
             </Link>
           </Navs>
@@ -143,10 +170,34 @@ const Footer = () => {
             <p>081 347 99582 | 000 000 00000</p>
             <p>info@chamsaccess.com</p>
             <SocialMedia>
-              <img src={twitter} alt="twitter" />
-              <img src={linkedIn} alt="linkedin" />
-              <img src={facebook} alt="facebook" />
-              <img src={Instagram} alt="instagram" />
+              <a
+                href="https://www.instagram.com/chamsaccessltd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={Instagram} alt="instagram" />
+              </a>
+              <a
+                href="https://www.twitter.com/chamsaccess"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={twitter} alt="twitter" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/chamsaccessltd"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={linkedIn} alt="linkedin" />
+              </a>
+              <a
+                href="https://www.facebook.com/chamsaccess"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={facebook} alt="facebook" />
+              </a>
             </SocialMedia>
           </ChamsAccess2>
         </FooterContainer>

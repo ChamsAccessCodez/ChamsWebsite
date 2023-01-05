@@ -149,7 +149,7 @@ const AccessManagement = () => {
                 </p>
               </OptList>
             </KidOption>
-            <Link to="/secure-kids" style={{ textDecoration: "none" }}>
+            <Link to="/secure-kid" style={{ textDecoration: "none" }}>
               <KidNav>
                 <Name>Learn more</Name>
                 <img src={kidArrow} alt="kidArrow" />
@@ -175,7 +175,7 @@ const AccessManagement = () => {
               offers and world-class support on high-quality products and
               systems.
             </C2>
-            <Link to="/access-control" style={{ textDecoration: "none" }}>
+            <Link to="/access-control-solutions" style={{ textDecoration: "none" }}>
               <AccessNav>
                 <AccessName>Learn more</AccessName>
                 <img src={AccessArrow} alt="AccessArrow" />
@@ -192,7 +192,7 @@ const AccessManagement = () => {
               Welcome guests with the intuitive visitor management system that
               safeguards your workplace and supercharges your front desk.
             </V2>
-            <Link to="/visitor" style={{ textDecoration: "none" }}>
+            <Link to="/visitors-management-solutions" style={{ textDecoration: "none" }}>
               <AccessNav>
                 <AccessName>Learn more</AccessName>
                 <img src={AccessArrow} alt="AccessArrow" />
@@ -215,7 +215,7 @@ const AccessManagement = () => {
               Protect your business from theft, vandalism and intruders with our
               comprehensive video surveillance systems and CCTV systems.
             </S2>
-            <Link to="/surveillance" style={{ textDecoration: "none" }}>
+            <Link to="/surveillance-and-security" style={{ textDecoration: "none" }}>
               <SurveillanceNav>
                 <SurveillanceName>Learn more</SurveillanceName>
                 <img src={AccessArrow} alt="AccessArrow" />

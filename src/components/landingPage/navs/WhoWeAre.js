@@ -37,7 +37,7 @@ const WhoWeAre = () => {
         <Leadership>
           <img src={leadershipIcon} alt="aboutIcon" />
           <Link
-            to="/management-team"
+            to="/leadership-team"
             style={{
               textDecoration: "none",
             }}

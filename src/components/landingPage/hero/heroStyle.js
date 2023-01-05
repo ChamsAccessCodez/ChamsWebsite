@@ -4,8 +4,10 @@ import heroBackground from "../../../images/hero-background.svg";
 export const HeroWrapper = styled.div`
   position: relative;
   background: #ffffff;
+  // background: red;
   width: 100vw;
-  height: 800px;
+  // height: 800px;
+  height: 965px;
   // height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,8 +29,8 @@ export const Hero1 = styled.div`
     rgba(206, 228, 216, 0.25) 60.99%
   );
   width: inherit;
-  height: 85%;
-  // height: 742px;
+  // height: 85%;
+  height: inherit;
   display: flex;
   justify-content: center;
 
@@ -44,12 +46,11 @@ export const HeroContent = styled.div`
   // background: red;
   width: 50%;
   //   width: inherit%;
-  height: 100%;
+  height: 85%;
   display: flex;
   flex-direction: column;
-  // margin-left: 80px;
+  justify-content: center;
   margin-left: 120px;
-  // padding-left: 100px;
 
   @media screen and (max-width: 960px) {
     // background: blue;
@@ -75,7 +76,7 @@ export const ContentHeader = styled.div`
   line-height: 90px;
   letter-spacing: -0.02em;
   color: #101828;
-  margin-top: 80px;
+  // margin-top: 80px;
 
   span {
     color: #08783d;
@@ -144,14 +145,14 @@ export const HeroImage = styled.div`
   // background: purple;
   background-image: url(${heroBackground});
   // height: 500px;
-  background-position: center;
+  background-position: bottom right;
   background-repeat: no-repeat;
-  // background-size: contain;
+  background-size: contain;
   width: 50%;
-  height: 100%;
+  height: 85%;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
   margin-right: 120px;
 
   img {
@@ -180,7 +181,8 @@ export const Hero2 = styled.div`
   //   width: 1200px;
   position: absolute;
   height: 180px;
-  top: 550px;
+  top: 690px;
+  // top: 550px;
   background: #ffffff;
   box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
     0px 8px 8px -4px rgba(16, 24, 40, 0.03);
@@ -189,8 +191,8 @@ export const Hero2 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-left: 99px;
   padding-right: 99px;
 
@@ -440,7 +442,11 @@ export const Transactions = styled.div`
     }
   }
 `;
-// export const HeroWrapper = styled.div``;
+export const WhiteSpace = styled.div`
+  width: inherit;
+  height: 200px;
+  background: #ffffff;
+`;
 // export const HeroWrapper = styled.div``;
 // export const HeroWrapper = styled.div``;
 // export const HeroWrapper = styled.div``;
