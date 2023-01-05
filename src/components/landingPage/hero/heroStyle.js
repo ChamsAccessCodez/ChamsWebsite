@@ -142,12 +142,15 @@ export const ContentButton = styled.div`
   }
 `;
 export const HeroImage = styled.div`
+  position: relative;
   // background: purple;
   background-image: url(${heroBackground});
   // height: 500px;
-  background-position: bottom right;
+  background-position: bottom bottom;
+  // background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  // background-size: contain;
+  background-size: 650px 700px;
   width: 50%;
   height: 85%;
   display: flex;
@@ -172,6 +175,279 @@ export const HeroImage = styled.div`
     img {
       width: 353.99px;
       height: 332px;
+    }
+  }
+`;
+export const AnimatedIcons = styled.div`
+  position: absolute;
+  // background: green;
+  width: 100%;
+  height: 85%;
+  // opacity: 0.4;
+  display: flex;
+  justify-content: space-around;
+`;
+export const HeroIconConSec1 = styled.div`
+  position: absolute;
+  background-color: #f6eaeb;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid #eed5d6 10px;
+  width: 1rem;
+  height: 1rem;
+  -webkit-animation: border-change-sec 3s cubic-bezier(0.11, 0.49, 0.87, 0.43)
+    0s infinite forwards;
+  animation: border-change-sec 3s cubic-bezier(0.11, 0.49, 0.87, 0.43) 0s
+    infinite forwards;
+  top: 520px;
+  right: 60px;
+
+  img {
+    height: 25px;
+    width: 25px;
+  }
+
+  @-webkit-keyframes border-change-sec {
+    from {
+      border: solid #eed5d6 10px;
+      background-color: #f6eaeb;
+    }
+    to {
+      border: solid #eed5d6 0px;
+      background-color: #eed5d6;
+    }
+  }
+
+  @keyframes border-change-sec {
+    from {
+      border: solid #eed5d6 10px;
+      background-color: #f6eaeb;
+    }
+    to {
+      border: solid #eed5d6 0px;
+      background-color: #eed5d6;
+    }
+  }
+`;
+export const HeroIconConSec2 = styled.div`
+  position: absolute;
+  background-color: #f6eaeb;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid #eed5d6 10px;
+  width: 1rem;
+  height: 1rem;
+  -webkit-animation: border-change-sec 3s cubic-bezier(0.11, 0.49, 0.87, 0.43)
+    0s infinite forwards;
+  animation: border-change-sec 3s cubic-bezier(0.11, 0.49, 0.87, 0.43) 0s
+    infinite forwards;
+  top: 20px;
+  right: 100px;
+
+  img {
+    height: 25px;
+    width: 25px;
+  }
+
+  @-webkit-keyframes border-change-sec {
+    from {
+      border: solid #eed5d6 10px;
+      background-color: #f6eaeb;
+    }
+    to {
+      border: solid #eed5d6 0px;
+      background-color: #eed5d6;
+    }
+  }
+
+  @keyframes border-change-sec {
+    from {
+      border: solid #eed5d6 10px;
+      background-color: #f6eaeb;
+    }
+    to {
+      border: solid #eed5d6 0px;
+      background-color: #eed5d6;
+    }
+  }
+`;
+export const HeroIconConSec3 = styled.div`
+  position: absolute;
+  background-color: #f6eaeb;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid #eed5d6 10px;
+  width: 1rem;
+  height: 1rem;
+  -webkit-animation: border-change-sec 3s cubic-bezier(0.11, 0.49, 0.87, 0.43)
+    0s infinite forwards;
+  animation: border-change-sec 3s cubic-bezier(0.11, 0.49, 0.87, 0.43) 0s
+    infinite forwards;
+  top: 100px;
+  right: 450px;
+
+  img {
+    height: 25px;
+    width: 25px;
+  }
+
+  @-webkit-keyframes border-change-sec {
+    from {
+      border: solid #eed5d6 10px;
+      background-color: #f6eaeb;
+    }
+    to {
+      border: solid #eed5d6 0px;
+      background-color: #eed5d6;
+    }
+  }
+
+  @keyframes border-change-sec {
+    from {
+      border: solid #eed5d6 10px;
+      background-color: #f6eaeb;
+    }
+    to {
+      border: solid #eed5d6 0px;
+      background-color: #eed5d6;
+    }
+  }
+`;
+export const HeroIconConPri1 = styled.div`
+  position: absolute;
+  background-color: #ebf5f0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid #cee4d8 10px;
+  width: 1rem;
+  height: 1rem;
+  -webkit-animation: border-change-pri 2s cubic-bezier(0.06, 0.93, 0.73, 0.12)
+    0s infinite forwards;
+  animation: border-change-pri 2s cubic-bezier(0.06, 0.93, 0.73, 0.12) 0s
+    infinite forwards;
+  top: 270px;
+  right: 10px;
+
+  img {
+    height: 25px;
+    width: 25px;
+  }
+  @-webkit-keyframes border-change-pri {
+    from {
+      border: solid #cee4d8 10px;
+      background-color: #ebf5f0;
+    }
+    to {
+      border: solid #cee4d8 0px;
+      background-color: #cee4d8;
+    }
+  }
+  @keyframes border-change-pri {
+    from {
+      border: solid #cee4d8 10px;
+      background-color: #ebf5f0;
+    }
+    to {
+      border: solid #cee4d8 0px;
+      background-color: #cee4d8;
+    }
+  }
+`;
+export const HeroIconConPri2 = styled.div`
+  position: absolute;
+  background-color: #ebf5f0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid #cee4d8 10px;
+  width: 1rem;
+  height: 1rem;
+  -webkit-animation: border-change-pri 2s cubic-bezier(0.06, 0.93, 0.73, 0.12)
+    0s infinite forwards;
+  animation: border-change-pri 2s cubic-bezier(0.06, 0.93, 0.73, 0.12) 0s
+    infinite forwards;
+  top: -30px;
+  right: 400px;
+
+  img {
+    height: 25px;
+    width: 25px;
+  }
+  @-webkit-keyframes border-change-pri {
+    from {
+      border: solid #cee4d8 10px;
+      background-color: #ebf5f0;
+    }
+    to {
+      border: solid #cee4d8 0px;
+      background-color: #cee4d8;
+    }
+  }
+  @keyframes border-change-pri {
+    from {
+      border: solid #cee4d8 10px;
+      background-color: #ebf5f0;
+    }
+    to {
+      border: solid #cee4d8 0px;
+      background-color: #cee4d8;
+    }
+  }
+`;
+export const HeroIconConPri3 = styled.div`
+  position: absolute;
+  background-color: #ebf5f0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: solid #cee4d8 10px;
+  width: 1rem;
+  height: 1rem;
+  -webkit-animation: border-change-pri 2s cubic-bezier(0.06, 0.93, 0.73, 0.12)
+    0s infinite forwards;
+  animation: border-change-pri 2s cubic-bezier(0.06, 0.93, 0.73, 0.12) 0s
+    infinite forwards;
+  top: 400px;
+  right: 550px;
+
+  img {
+    height: 25px;
+    width: 25px;
+  }
+  @-webkit-keyframes border-change-pri {
+    from {
+      border: solid #cee4d8 10px;
+      background-color: #ebf5f0;
+    }
+    to {
+      border: solid #cee4d8 0px;
+      background-color: #cee4d8;
+    }
+  }
+  @keyframes border-change-pri {
+    from {
+      border: solid #cee4d8 10px;
+      background-color: #ebf5f0;
+    }
+    to {
+      border: solid #cee4d8 0px;
+      background-color: #cee4d8;
     }
   }
 `;

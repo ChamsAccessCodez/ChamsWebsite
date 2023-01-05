@@ -13,20 +13,19 @@ const Uche = () => {
   }, []);
   var desc = (
     <div>
-      Dumebi Obodo is the Managing Director of ChamsAccess Limited. His many
-      years of experience in various roles have given him a strong first-hand
-      perspective of the ChamsAccess business and the market's influence of
-      customers’ perception of the ChamsAccess brand.<br/><br/> Under his stewardship,
-      ChamsAccess has remarkably diversified its business, expanded into new
-      markets and transitioned from a hardware based business to a solutions
-      outfit, while delivering on revenue growth and profits. <br/><br/>Dumebi gained his
-      Bachelor’s degree from Imo State University, Owerri where he studied
-      Microbiology, graduating with a Second Class Upper honours division. He
-      obtained an MBA from Lagos Business School (Pan Atlantic University) and
-      is a certified ITIL practitioner. <br/><br/>Combining his expertise in business
-      strategy and management and his knack for exploring new ideas, Dumebi
-      spends his time involved in providing superior leadership to the
-      ChamsAccess business as a whole.
+      Focused on improving the Business and Operations Unit of the ChamsAccess
+      brand, Uche Okorie spent over 13 years honing his skills in Operations
+      Management, Solutions Business, Projects, and Service Delivery. He holds a
+      B.Eng. in Electrical/Electronic Engineering from the Federal University of
+      Technology Owerri and an MBA from Ladoke Akintola University of
+      Technology, Oyo State both in Nigeria in 2000 and 2012 respectively. <br /><br />He
+      started his postgraduate career with V-Mobile Nigeria (Now Airtel Nigeria)
+      in 2003 as a Network Controller. Uche later joined Multi-links Telkom and
+      was the Manager in charge of Business Solutions and Pre-Sales until his
+      appointment at ChamsAccess as Head, Business Operations and Support. He is
+      a Certified COREN Engineer and a member of the Nigeria Society of
+      Engineers (NSE) and the Institute of Electrical and Electronics Engineers
+      (IEEE).
     </div>
   );
   return (

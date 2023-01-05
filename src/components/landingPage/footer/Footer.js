@@ -68,7 +68,7 @@ const Footer = () => {
             </Link>
 
             <p>8, Louis Solomon Close, Victoria Island, Lagos.</p>
-            <p>081 347 99582 | 000 000 00000</p>
+            <p>081 347 99582</p>
             <p>info@chamsaccess.com</p>
             <SocialMedia>
               <a
@@ -167,7 +167,7 @@ const Footer = () => {
             </Link>
 
             <p>8, Louis Solomon Close, Victoria Island, Lagos.</p>
-            <p>081 347 99582 | 000 000 00000</p>
+            <p>081 347 99582</p>
             <p>info@chamsaccess.com</p>
             <SocialMedia>
               <a

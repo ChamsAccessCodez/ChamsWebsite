@@ -30,7 +30,12 @@ const ManagementTeam = () => {
             cardImage={ayobola}
             heading="Sir Ayobola Abiola"
             post="Chairman of Board"
-            description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
+            description="Sir Ayobola is an economics, finance, and banking expert with
+            three decades of banking experience spanning investment,
+            commercial, and development banking in leading financial
+            institutions. He is currently the Founder & CEO of Fullhouse
+            Advisory Partners, an investment and financial advisory services
+            firm."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
           />
@@ -38,7 +43,11 @@ const ManagementTeam = () => {
             cardImage={obodo}
             heading="Dumebi Obodo"
             post="MD/CEO"
-            description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
+            description="Dumebi Obodo is the Managing Director of ChamsAccess Limited. His
+            many years of experience in various roles have given him a strong
+            first-hand perspective of the ChamsAccess business and the
+            market's influence of customers’ perception of the ChamsAccess
+            brand."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
           />
@@ -46,7 +55,10 @@ const ManagementTeam = () => {
             cardImage={kayode}
             heading="Mr Kayode Ayeni"
             post="Director"
-            description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
+            description="Mr. Kayode Ayeni is a serial entrepreneur and an investor whose
+            business interests span several industries. He is currently the
+            Chief Executive officer of Zillenium—an integrated, end-to-end
+            property Development Company. "
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
           />
@@ -54,7 +66,11 @@ const ManagementTeam = () => {
             cardImage={chikwue}
             heading="Lady Chikwue Ochiaga"
             post="Director"
-            description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
+            description="Lady Chikwue Ochiaga holds a B.L from Ahmadu Bello University, an
+            LLB (Hons.), and is a lawyer by profession. She started her career
+            as a Counsel in Onyeabo Obi and Co, until she established her own
+            law Firm. She is the Principal Counsel, at T. Chikwue Ochiagha &
+            Co, a position she still currently holds. "
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
             // mgtPage="/pc"
@@ -63,7 +79,12 @@ const ManagementTeam = () => {
             cardImage={adetomi}
             heading="Adetomi Imoteda"
             post="Director"
-            description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
+            description="Adetomi Imoteda Aladekomo is a Cordon Bleu-trained chef. She is
+            the host of two TV shows – Heels in the Kitchen and Urban Kitchen,
+            as well as the Head Chef at Heels in the Kitchen. She
+            conceptualized and created Heels in the Kitchen while exercising
+            her vast creative abilities in the make-up and entertainment
+            industries."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
           />
@@ -71,7 +92,11 @@ const ManagementTeam = () => {
             cardImage={gavin}
             heading="Gavin Young"
             post="Director"
-            description="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud vvnnnamet. Exercitation veniam consequat sunt nostrud amet."
+            description="Gavin is a seasoned Fintech professional with a proven track
+            record in managing companies, subsidiaries of listed companies,
+            and geographical areas (Africa) with a specific focus on all areas
+            of Electronic Banking and Fintech; Issuing, acquiring, switching,
+            etc."
             fullProfile="View full profile"
             arrowIcon={mgtArrow}
           />

@@ -84,6 +84,7 @@ const CardInfo = styled.div`
   p {
     // width: 90%;
     width: 300px;
+    height: 55%;
     font-family: "Komet";
     font-style: normal;
     font-size: 18px;
@@ -94,6 +95,10 @@ const CardInfo = styled.div`
     margin-right: 24px;
     margin-bottom: 10px;
     visibility: hidden;
+
+    // white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   @media screen and (max-width: 960px) {
