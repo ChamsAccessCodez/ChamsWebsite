@@ -19,7 +19,7 @@ const About = () => {
   return (
     <AboutWrapper>
       <Link to="/about" style={{ textDecoration: "none" }}>
-        <AboutButton>About us</AboutButton>
+        <AboutButton>Our Impact</AboutButton>
       </Link>
       <Why>Why we are different</Why>
       <AboutDesc>

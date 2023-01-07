@@ -17,7 +17,7 @@ const OurSubsidiary = () => {
       <Left>
         <Pension>
           <img src={pensionCentralIcon} alt="aboutIcon" />
-          <Link to="/pc" style={{
+          <Link to="/pension-central" style={{
             textDecoration: "none",
           }}>
             <Content>

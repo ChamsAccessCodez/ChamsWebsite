@@ -92,9 +92,9 @@ const ManagementTeam = () => {
           />
           <ManagementTeamCard
             cardImage={gbenga}
-            heading="Gbenga"
+            heading="Gbenga Oshinoiki"
             post="Head, Emerging Markets and New Sectors"
-            description="Gbenga is the Divisional Head of Emerging Market & New Sectors of
+            description="Gbenga Oshinoiki is the Divisional Head of Emerging Market & New Sectors of
             ChamsAccess Limited where he focuses on new products & solutions and
             delivers them into Emerging and New Sectors in order to grow the Company.
             Prior to his current employment, he was Head of ISP, Govt & Education for

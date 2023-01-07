@@ -45,10 +45,9 @@ const Footer = () => {
       <FooterTop>
         <Wrapper>
           <Desc>
-            <Desc1>Stay in the loop</Desc1>
+            <Desc1>Join our newsletter</Desc1>
             <Desc2>
-              Subscribe to be the first to know about news, updates, and
-              industry insights.
+            Stay in the loop
             </Desc2>
           </Desc>
           <Form>

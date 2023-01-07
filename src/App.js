@@ -9,6 +9,7 @@ import PC from "./components/pages/PensionCentral";
 import RequestCallback from "./components/pages/RequestCallbackForm";
 import Careers from "./components/pages/CareersForm";
 import CareersPage from "./components/pages/CareersPage";
+import ImpactPage from "./components/pages/Impact";
 import Biometric from "./components/pages/Biometric";
 import CyberSecurity from "./components/pages/CyberSecurity";
 import PaymentSolution from "./components/pages/PaymentSolution";
@@ -40,6 +41,7 @@ function App() {
         <Route exact path="/request-a-callback" element={<RequestCallback />} />
         <Route exact path="/career-form" element={<Careers />} />
         <Route exact path="/career-page" element={<CareersPage />} />
+        <Route exact path="/our-impact" element={<ImpactPage />} />
         <Route exact path="/biometric-solutions" element={<Biometric />} />
         <Route exact path="/cybersecurity-solutions" element={<CyberSecurity />} />
         <Route exact path="/payment-solutions" element={<PaymentSolution />} />

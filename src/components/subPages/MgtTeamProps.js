@@ -74,7 +74,7 @@ const MgtTeamProps = ({
           />
           <ImageProps
             mgtImageSmall={seunSmall}
-            mgtNameSmall="Uche Okorie"
+            mgtNameSmall="Seun Olayinka"
             mgtPositionSmall="Head, Business Operations Support"
             personalNav="/seun"
           />

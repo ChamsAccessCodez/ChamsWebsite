@@ -49,11 +49,18 @@ const WhoWeAre = () => {
           </Link>
         </Leadership>
         <OurImpact>
-          <img src={impactIcon} alt="aboutIcon" />
-          <Content>
-            <P1>Our Impact</P1>
-            <p>More about our sustained impact through the years</p>
-          </Content>
+          <img src={impactIcon} alt="our-impact" />
+          <Link
+            to="/our-impact"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <Content>
+              <P1>Our Impact</P1>
+              <p>More about our sustained impact through the years</p>
+            </Content>
+          </Link>
         </OurImpact>
       </Left>
       <Right>

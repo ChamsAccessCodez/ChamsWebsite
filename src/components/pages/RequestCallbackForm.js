@@ -64,8 +64,7 @@ const RequestCallback = () => {
           <FormContent>
             <Heading>Request a callback</Heading>
             <p>
-              Thanks for your interest in our services. Let us know how we can
-              reach out to discuss your project in more detail.
+            We appreciate your interest in our services and solutions. Do let us know how we can reach out to discuss your project in details.
             </p>
           </FormContent>
           <FormWrapper>

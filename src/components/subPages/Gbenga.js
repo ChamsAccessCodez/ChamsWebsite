@@ -13,7 +13,7 @@ const Gbenga = () => {
   }, []);
   var desc = (
     <div>
-      Gbenga is the Divisional Head of Emerging Market & New Sectors of
+      Gbenga Oshinoiki is the Divisional Head of Emerging Market & New Sectors of
       ChamsAccess Limited where he focuses on new products & solutions and
       delivers them into Emerging and New Sectors in order to grow the Company.
       Prior to his current employment, he was Head of ISP, Govt & Education for
