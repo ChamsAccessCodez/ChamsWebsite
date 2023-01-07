@@ -37,12 +37,19 @@ const Payment = () => {
             Neo banks.
           </Three>
           <Four>
-            <p>
-              learn more
-              <span>
-                <img src={arrowRight} alt="rightArrow" />
-              </span>
-            </p>
+            <Link
+              to="/payment-solutions"
+              style={{
+                textDecoration: "none",
+              }}
+            >
+              <p>
+                learn more
+                <span>
+                  <img src={arrowRight} alt="rightArrow" />
+                </span>
+              </p>
+            </Link>
           </Four>
         </Solutions>
         <Options>

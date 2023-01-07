@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import accessImage1 from "../../../images/AccessImage1.png";
 import accessIcon1 from "../../../images/AccessIcon01.svg";
 import arrowRight from "../../../images/arrow-right.svg";
@@ -25,12 +26,19 @@ const Custom = () => {
           tailored to maximize the precise outcome you desire.
         </CyberInfo>
         <CyberNav>
-          <p>
-            Build your solution here
-            <span>
-              <img src={arrowRightWhite} alt="rightArrow" />
-            </span>
-          </p>
+          <Link
+            to="/customized-solutions"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <p>
+              Build your solution here
+              <span>
+                <img src={arrowRightWhite} alt="rightArrow" />
+              </span>
+            </p>
+          </Link>
         </CyberNav>
       </CyberContent>
       <CyberImage>

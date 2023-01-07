@@ -52,12 +52,19 @@ const Access = () => {
             of people move through a safer, more open world with ease
           </Three>
           <Four>
+          <Link
+            to="/access-and-identity-solutions"
+            style={{
+              textDecoration: "none",
+            }}
+          >
             <p>
               learn more
               <span>
                 <img src={arrowRight} alt="rightArrow" />
               </span>
             </p>
+            </Link>
           </Four>
         </Solutions>
         <Options>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import cyberSecurityImage from "../../../images/CybersecurityImage.png";
 import cyberIcon from "../../../images/CyberIcon.svg";
 import arrowRight from "../../../images/arrow-right.svg";
@@ -44,12 +45,19 @@ const Cybersecurity = () => {
           types of cyber attacks they launch against organizations.
         </CyberInfo>
         <CyberNav>
+        <Link
+            to="/cybersecurity-solutions"
+            style={{
+              textDecoration: "none",
+            }}
+          >
           <p>
             learn more
             <span>
               <img src={arrowRight} alt="rightArrow" />
             </span>
           </p>
+          </Link>
         </CyberNav>
         <CyberFeatures>
           <Items>

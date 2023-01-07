@@ -39,12 +39,19 @@ const Biometric = () => {
             fingerprint, face, and iris recognition and authentication
           </Three>
           <Four>
-            <p>
-              learn more
-              <span>
-                <img src={arrowRight} alt="rightArrow" />
-              </span>
-            </p>
+            <Link
+              to="/biometric-solutions"
+              style={{
+                textDecoration: "none",
+              }}
+            >
+              <p>
+                learn more
+                <span>
+                  <img src={arrowRight} alt="rightArrow" />
+                </span>
+              </p>
+            </Link>
           </Four>
         </Solutions>
         <Options>
